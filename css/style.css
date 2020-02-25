@@ -1,0 +1,14 @@
+body {
+  overflow: hidden; }
+
+.nav-black-bar {
+  background-color: #272a31; }
+  .nav-black-bar ul {
+    border: 1px solid #ec5242; }
+    .nav-black-bar ul li {
+      display: inline;
+      color: #fff;
+      line-height: 30px;
+      padding: 10px 0 11px 0; }
+
+/*# sourceMappingURL=style.css.map */
