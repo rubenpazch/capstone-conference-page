@@ -12,8 +12,10 @@ body {
 
 .nav-black-bar {
   background-color: $color-dark;
+
   ul {
     border: 1px solid $color-orange;
+
     li {
       display: inline;
       color: $color-white;
@@ -22,4 +24,3 @@ body {
     }
   }
 }
-
