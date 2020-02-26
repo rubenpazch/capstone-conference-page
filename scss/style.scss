@@ -1,0 +1,36 @@
+@import '../scss/colors.scss';
+@import '../scss/navbar.scss';
+@import '../scss/fonts.scss';
+
+$tipografia-general: arial, verdana, sans-serif;
+$tipografia-alternativa: 'Times New Roman', Times, serif;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cocogoose", sans-serif;
+}
+
+.container-cover {
+  background-color: red;
+  width: 100%;
+  height: 83vh;
+  padding: 0 15vh;
+}
+
+.container-program {
+  background-color: blue;
+}
+
+.container-featured {
+  background-color: yellow;
+}
+
+.fullscreen {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  padding: 40vh;
+}

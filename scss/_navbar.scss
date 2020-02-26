@@ -1,0 +1,48 @@
+@import '../scss/colors.scss';
+@import '../scss/fonts.scss';
+
+.nav-black-bar {
+  border: 1px solid $color-gray;
+  background-color: $color-dark;
+  font-family: "lato";
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding: 0 15vh;
+  height: 5vh;
+
+  ul {
+    border: 1px solid $color-orange;
+    display: flex;
+    flex-flow: row;
+    justify-content: end;
+
+    li {
+      display: inline;
+      color: $color-white;
+      line-height: 20px;
+      padding: 5px 10px 5px 10px;
+    }
+  }
+}
+
+.nav-white-bar {
+  border: 1px solid $color-orange;
+  background-color: $color-white;
+  display: flex;
+  flex-flow: row;
+  font-family: "lato";
+  justify-content: space-between;
+  padding: 0 15vh;
+  height: 12vh;
+
+  ul {
+    border: 1px solid $color-orange;
+
+    li {
+      display: inline;
+      color: $color-white;
+      line-height: 30px;
+      padding: 10px 1px 11px 1px;
+    }
+  }
+}
