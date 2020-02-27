@@ -1,36 +1,154 @@
 @import '../scss/colors.scss';
 @import '../scss/navbar.scss';
 @import '../scss/fonts.scss';
-
-$tipografia-general: arial, verdana, sans-serif;
-$tipografia-alternativa: 'Times New Roman', Times, serif;
+@import '../scss/mainprogram.scss';
+@import '../scss/featuredspeakers.scss';
+@import '../scss/partner.scss';
+@import '../scss/footer.scss';
+@import '../scss/footer-dark.scss';
+@import '../scss/about.scss';
+@import '../scss/tickets.scss';
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Cocogoose", sans-serif;
 }
 
+.bg-cover {
+  display: block;
+  position: relative;
+}
+
+.bg-cover::after {
+  background-image: url(../img/bg-main.png);
+  background-size: cover;
+  opacity: 0.1;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+}
+
 .container-cover {
-  background-color: red;
-  width: 100%;
-  height: 83vh;
-  padding: 0 15vh;
-}
-
-.container-program {
-  background-color: blue;
-}
-
-.container-featured {
-  background-color: yellow;
-}
-
-.fullscreen {
+  z-index: 5;
   width: 100%;
   height: 100vh;
-  color: white;
-  padding: 40vh;
+  padding: 0 10vh;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  h1 {
+    font-family: "Cocogoose";
+    font-weight: 500;
+    font-size: 5.3vw;
+    color: $color-orange;
+    text-transform: uppercase;
+    padding-bottom: 4vh;
+    background-image: url(../img/bg-text.jpg);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  h2 {
+    font-family: "lato";
+    font-weight: 100;
+    font-size: 3vw;
+    color: $color-orange;
+    padding-bottom: 4vh;
+  }
+
+  p {
+    border: 2px solid $color-gray;
+    width: 50vw;
+    padding: 3vh;
+    font-family: "lato";
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 1.2vw;
+    background-color: $color-white;
+  }
+
+  h3 {
+    font-family: "Cocogoose";
+    color: $color-dark;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    padding-top: 4vh;
+  }
+
+  h4 {
+    font-family: "lato";
+    font-weight: 500;
+    font-size: 2vw;
+    padding-top: 4vh;
+  }
+}
+
+@media (max-width: 991px) {
+  .container-cover {
+    p {
+      width: 60vw;
+      font-size: 2vw;
+    }
+
+    h3 {
+      font-size: 3vw;
+      padding-top: 4vh;
+    }
+
+    h4 {
+      font-size: 2.1vw;
+      padding-top: 4vh;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .container-cover {
+    p {
+      width: 85vw;
+      font-size: 2.3vw;
+    }
+
+    h3 {
+      font-size: 3vw;
+      padding-top: 4vh;
+    }
+
+    h4 {
+      font-size: 2.1vw;
+      padding-top: 4vh;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .container-cover {
+    p {
+      font-size: 2.5vw;
+    }
+
+    h3 {
+      font-size: 3vw;
+      padding-top: 4vh;
+    }
+
+    h4 {
+      font-size: 2.1vw;
+      padding-top: 4vh;
+    }
+  }
 }

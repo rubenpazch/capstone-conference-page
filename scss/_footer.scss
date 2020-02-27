@@ -1,0 +1,38 @@
+@import '../scss/colors.scss';
+@import '../scss/fonts.scss';
+
+.footer-container {
+  width: 100%;
+  height: 40vh;
+  background-color: $color-white;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10vw;
+}
+
+.content-footer {
+  padding-left: 4vw;
+
+  h2 {
+    padding-bottom: 1vw;
+    font-family: "lato";
+    font-weight: bold;
+  }
+
+  p {
+    font-family: "lato";
+    line-height: 20px;
+
+    a {
+      font-weight: bold;
+      text-decoration: none;
+      color: $color-dark;
+    }
+  }
+}
+
+.img-footer {
+  width: 250px;
+}

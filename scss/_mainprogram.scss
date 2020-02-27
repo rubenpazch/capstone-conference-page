@@ -1,0 +1,142 @@
+.container-program {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/bg-text.jpg);
+
+  h2 {
+    font-family: "lato";
+    color: white;
+    font-size: 2vw;
+  }
+
+  span {
+    height: 1px;
+    padding: 1px;
+    background-color: yellow;
+    content: "";
+    display: block;
+    width: 5vw;
+    margin: 2vw 0;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    font-family: "lato";
+    padding-top: 3vw;
+
+    a {
+      color: white;
+    }
+  }
+}
+
+.program-activities {
+  display: flex;
+  flex-flow: row;
+
+  article {
+    width: 17vw;
+    height: 40vh;
+    margin-right: 3px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+
+    img {
+      height: 50px;
+      z-index: 999;
+    }
+
+    header {
+      padding: 15px 0;
+
+      h2 {
+        font-family: "lato";
+        font-weight: 900;
+        color: $color-orange-light;
+      }
+    }
+
+    p {
+      color: white;
+      padding: 0 15px;
+      font-family: "lato";
+      line-height: 25px;
+      font-weight: 600;
+    }
+  }
+
+  article::after {
+    background-color: white;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+  }
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+  .container-program {
+    height: 100%;
+    background-size: cover;
+
+    h2 {
+      padding-top: 5vh;
+      font-size: 3vw;
+    }
+
+    span {
+      width: 5vw;
+      margin: 7vh 0;
+    }
+  }
+
+  .program-activities {
+    display: flex;
+    flex-flow: column;
+
+    article {
+      width: 95vw;
+      margin-top: 10px;
+      height: 32vh;
+      flex-flow: row;
+
+      img {
+        height: 60px;
+        padding: 0 3.5vw;
+      }
+
+      header {
+        padding: 0 2vw;
+        min-width: 20vw;
+      }
+
+      p {
+        padding: 0 6vw;
+        line-height: 25px;
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  
+}

@@ -1,0 +1,268 @@
+@import '../scss/colors.scss';
+@import '../scss/fonts.scss';
+
+.bg-cover-about {
+  display: block;
+  position: relative;
+}
+
+.bg-cover-about::after {
+  background-image: url(../img/bg-main.png);
+  background-size: cover;
+  opacity: 0.1;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+}
+
+.container-cover-about {
+  z-index: 5;
+  width: 100%;
+  height: 85vh;
+  padding: 5vh 10vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: start;
+
+  h1 {
+    font-family: "Cocogoose";
+    font-weight: 500;
+    font-size: 4.3vw;
+    color: $color-orange;
+    text-transform: uppercase;
+    padding-bottom: 3vh;
+    background-image: url(../img/bg-text.jpg);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    width: 50vw;
+  }
+
+  span {
+    height: 1px;
+    padding: 1px;
+    background-color: $color-orange;
+    content: "";
+    display: block;
+    width: 5vw;
+    margin-bottom: 2vw;
+  }
+
+  h2 {
+    font-family: "lato";
+    font-weight: 100;
+    font-size: 3vw;
+    color: $color-orange;
+    padding-bottom: 4vh;
+  }
+
+  p {
+    background-color: $color-white;
+    border: 2px solid $color-white;
+    width: 70vw;
+    padding: 3vh 3vw;
+    font-family: "lato";
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 1.1vw;
+    -webkit-box-shadow: 0px 0px 8px 4px #efefef;
+    -moz-box-shadow: 0px 0px 8px 4px #efefef;
+    box-shadow: 0px 0px 8px 4px #efefef;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: "lato";
+    color: $color-dark;
+    font-size: 1.1vw;
+    text-transform: initial;
+    padding-top: 4vh;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-family: "lato";
+    color: $color-dark;
+    font-size: 1.1vw;
+    text-transform: initial;
+    padding-top: 4vh;
+    font-weight: 700;
+
+    a {
+      text-decoration: underline;
+      color: inherit;
+      line-height: 20px;
+    }
+  }
+}
+
+.container-creative-comm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6vw 0;
+  border-top: 1px solid $color-gray;
+
+  h2 {
+    font-family: "lato";
+    color: black;
+    font-size: 2vw;
+    padding-bottom: 5vh;
+  }
+
+  span {
+    height: 1px;
+    padding: 1px;
+    background-color: orange;
+    content: "";
+    display: block;
+    width: 3vw;
+    margin-bottom: 3vh;
+  }
+
+  p {
+    background-color: $color-white;
+    border: 2px solid $color-white;
+    width: 70vw;
+    padding: 3vh 3vw;
+    font-family: "lato";
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 1.1vw;
+    text-align: center;
+  }
+}
+
+.img-logo-creative {
+  border: 1px solid $color-gray;
+  margin-top: 4vh;
+  padding: 3vh 3vw;
+  -webkit-box-shadow: 0px 0px 8px 4px #efefef;
+  -moz-box-shadow: 0px 0px 8px 4px #efefef;
+  box-shadow: 0px 0px 8px 4px #efefef;
+}
+
+.container-past-events {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6vw 0;
+  border-top: 1px solid $color-gray;
+
+  h2 {
+    font-family: "lato";
+    color: black;
+    font-size: 2vw;
+    padding-bottom: 5vh;
+  }
+
+  span {
+    height: 1px;
+    padding: 1px;
+    background-color: orange;
+    content: "";
+    display: block;
+    width: 3vw;
+    margin-bottom: 3vh;
+  }
+
+  p {
+    background-color: $color-white;
+    border: 2px solid $color-white;
+    width: 70vw;
+    padding: 0 3vw;
+    font-family: "lato";
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 1.1vw;
+    text-align: center;
+  }
+}
+
+.list-past-pictures {
+  padding-top: 3vh;
+  display: flex;
+  flex-flow: row;
+}
+
+.past-event-1 {
+  margin-left: 1vw;
+  background-image: url(../img/conf2018.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 28vw;
+  height: 32vh;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    display: block;
+    background-color: red;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  h2 {
+    color: $color-white;
+    z-index: 998;
+  }
+
+  h3 {
+    color: $color-white;
+    z-index: 998;
+  }
+}
+
+.past-event-2 {
+  margin-left: 1vw;
+  background-image: url(../img/conf2019.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 28vw;
+  height: 32vh;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    display: block;
+    background-color: red;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  h2 {
+    color: $color-white;
+    z-index: 998;
+  }
+
+  h3 {
+    color: $color-white;
+    z-index: 998;
+  }
+}
