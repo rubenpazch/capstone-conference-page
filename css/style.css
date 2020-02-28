@@ -237,22 +237,6 @@
   color: #fff;
 }
 
-.nav-black-bar ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav-white-bar ul li a {
-  text-decoration: none;
-  color: #272a31;
-}
-
-.nav-bar-root ul li a {
-  font-family: "lato", sans-serif;
-  text-decoration: none;
-  color: inherit;
-}
-
 .container-program button {
   background-color: #ffca4c;
   padding: 3vh 4vw;
@@ -358,13 +342,6 @@
   width: 10vw;
 }
 
-.program-activities article img {
-  height: 4vw;
-  z-index: 999;
-  margin-top: 35px;
-  margin-bottom: 15px;
-}
-
 .card-content {
   display: flex;
   flex-flow: column;
@@ -372,13 +349,6 @@
   justify-content: start;
   padding-left: 1.3vw;
   padding-right: 4.3vw;
-}
-
-.card-content header h2 {
-  font-family: "lato", sans-serif;
-  text-transform: capitalize;
-  font-size: 1.8vw;
-  font-weight: bolder;
 }
 
 .card-content h3 {
@@ -403,15 +373,6 @@
   line-height: 20px;
   font-family: "lato", sans-serif;
   font-size: 0.8rem;
-}
-
-.program-activities article p {
-  color: #fff;
-  padding: 0 10px;
-  font-family: "lato", sans-serif;
-  line-height: 25px;
-  font-weight: 300;
-  font-size: 1.2vw;
 }
 
 .picture-back-png {
@@ -439,14 +400,6 @@
   font-size: 2vw;
 }
 
-.program-activities article header h2 {
-  font-family: "lato", sans-serif;
-  font-size: 1.4vw;
-  font-weight: 600;
-  color: #ffca4c;
-  margin-bottom: 10px;
-}
-
 .container-partner span {
   height: 1px;
   padding: 1px;
@@ -469,6 +422,13 @@
 .list-sponsor-logo img {
   width: 150px;
   margin: 5vh 3vw;
+}
+
+.program-activities article img {
+  height: 4vw;
+  z-index: 999;
+  margin-top: 35px;
+  margin-bottom: 15px;
 }
 
 .footer-container {
@@ -529,6 +489,21 @@
   color: #fff;
 }
 
+.card-content header h2 {
+  font-family: "lato", sans-serif;
+  text-transform: capitalize;
+  font-size: 1.8vw;
+  font-weight: bolder;
+}
+
+.program-activities article header h2 {
+  font-family: "lato", sans-serif;
+  font-size: 1.4vw;
+  font-weight: 600;
+  color: #ffca4c;
+  margin-bottom: 10px;
+}
+
 .content-footer-dark p {
   font-family: "lato", sans-serif;
   line-height: 20px;
@@ -541,6 +516,15 @@
   color: #fff;
 }
 
+.program-activities article p {
+  color: #fff;
+  padding: 0 10px;
+  font-family: "lato", sans-serif;
+  line-height: 25px;
+  font-weight: 300;
+  font-size: 1.2vw;
+}
+
 .img-footer {
   width: 20vw;
 }
@@ -548,6 +532,22 @@
 .bg-cover-about {
   display: block;
   position: relative;
+}
+
+.nav-black-bar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-white-bar ul li a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.nav-bar-root ul li a {
+  font-family: "lato", sans-serif;
+  text-decoration: none;
+  color: inherit;
 }
 
 .bg-cover-about::after {
