@@ -38,3 +38,36 @@
 .img-footer {
   width: 20vw;
 }
+
+@media (max-width: 767px) {
+  .footer-container-dark {
+    height: 100%;
+    padding: 10vh 5vw;
+  }
+
+  .content-footer-dark {
+    padding: 0;
+
+    h2 {
+      padding-top: 3vh;
+      text-align: center;
+      padding-bottom: 3vh;
+    }
+
+    p {
+      padding: 0;
+      text-align: center;
+      padding: 0 6vw;
+
+      a {
+        font-weight: bold;
+        text-decoration: none;
+        color: $color-white;
+      }
+    }
+  }
+
+  .img-footer {
+    width: 40vw;
+  }
+}

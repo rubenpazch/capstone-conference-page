@@ -13,7 +13,7 @@
 
   h2 {
     font-family: "lato";
-    color: black;
+    color: $color-black;
     font-size: 2vw;
     padding-bottom: 5vh;
   }
@@ -21,7 +21,7 @@
   span {
     height: 1px;
     padding: 1px;
-    background-color: orange;
+    background-color: $color-orange-light;
     content: "";
     display: block;
     width: 3vw;
@@ -44,20 +44,62 @@
 .step1 {
   display: flex;
   flex-flow: row;
-  border: 1px solid black;
+  border: 1px solid $color-black;
   border-radius: 25px;
   padding: 3vh 2vw;
   border: 1px solid $color-gray;
+
+  h3 {
+    color: $color-orange;
+    font-weight: 600;
+    font-family: "lato";
+    padding-right: 2vw;
+    padding-left: 1vw;
+    font-size: 1vw;
+  }
+
+  h4 {
+    color: $color-dark;
+    font-weight: 500;
+    font-family: "lato";
+    font-size: 1vw;
+  }
+
+  img {
+    width: 0.8vw;
+    padding-right: 0;
+  }
 }
 
 .step2 {
   display: flex;
   flex-flow: row;
-  border: 1px solid black;
+  border: 1px solid $color-black;
   border-radius: 25px;
   padding: 3vh 2vw;
   margin-bottom: 7vh;
   border: 1px solid $color-gray;
+
+  h3 {
+    color: $color-orange;
+    font-weight: 600;
+    font-family: "lato";
+    padding-right: 2vw;
+    padding-left: 1vw;
+    font-size: 1vw;
+  }
+
+  h4 {
+    color: $color-dark;
+    font-weight: 500;
+    font-family: "lato";
+    font-size: 1vw;
+  }
+
+  img {
+    width: 0.8vw;
+    padding-right: 0;
+  }
 }
 
 .table-prices {
@@ -65,6 +107,7 @@
   font-family: "lato";
   font-size: 0.8rem;
   line-height: 25px;
+  width: 60vw;
 
   td {
     border: 1px solid $color-gray;
@@ -79,7 +122,7 @@
 }
 
 .table-prices-container {
-  border: 5px solid pink;
+  border: 5px solid $color-pink;
   border-image-source: url(../img/hearts-border-image-1.png);
   border-image-slice: 15 18;
   border-image-repeat: repeat;
@@ -98,7 +141,7 @@
 
   h2 {
     font-family: "lato";
-    color: black;
+    color: $color-black;
     font-size: 2vw;
     padding-bottom: 5vh;
   }
@@ -106,7 +149,7 @@
   span {
     height: 1px;
     padding: 1px;
-    background-color: orange;
+    background-color: $color-orange-light;
     content: "";
     display: block;
     width: 3vw;
@@ -124,14 +167,6 @@
     font-size: 1.1vw;
     text-align: center;
   }
-
-  button {
-    background-color: $color-orange;
-    padding: 3vh 4vw;
-    border-radius: 3px;
-    border: 0;
-    color: $color-white;
-  }
 }
 
 .table-lunch-options {
@@ -146,6 +181,10 @@
     background-color: $color-gray-1;
   }
 
+  tbody {
+    border: 1px solid $color-gray;
+  }
+
   td {
     border: 1px solid $color-gray;
     padding: 1vw 1vh;
@@ -155,5 +194,136 @@
   th {
     border: 1px solid $color-gray;
     padding: 2vh 4vw;
+  }
+
+  td {
+    border: 0;
+  }
+}
+
+.sendoptionsbtn {
+  background-color: $color-orange;
+  padding: 3vh 4vw;
+  border-radius: 3px;
+  border: 0;
+  color: $color-white;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .container-tickets-main {
+    h2 {
+      font-size: 2.3vw;
+    }
+  }
+
+  .step1 {
+    h4 {
+      font-size: 1.4vw;
+    }
+
+    h3 {
+      font-size: 1.4vw;
+    }
+  }
+
+  .container-lunch-options {
+    h2 {
+      font-size: 2.3vw;
+    }
+  }
+
+  .step2 {
+    h4 {
+      font-size: 1.4vw;
+    }
+
+    h3 {
+      font-size: 1.4vw;
+    }
+  }
+
+  .table-prices {
+    width: 80vw;
+  }
+
+  .table-lunch-options {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-tickets-main {
+    h2 {
+      font-size: 3.5vw;
+    }
+  }
+
+  .container-lunch-options {
+    h2 {
+      font-size: 3.5vw;
+    }
+  }
+
+  .step1 {
+    h4 {
+      font-size: 1.7vw;
+    }
+
+    h3 {
+      font-size: 1.7vw;
+    }
+  }
+
+  .step2 {
+    h4 {
+      font-size: 1.7vw;
+    }
+
+    h3 {
+      font-size: 1.7vw;
+    }
+  }
+
+  .table-prices {
+    width: 90vw;
+  }
+
+  .table-lunch-options {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-tickets-main {
+    h2 {
+      font-size: 3.2vw;
+    }
+  }
+
+  .step1 {
+    h4 {
+      font-size: 2.2vw;
+    }
+
+    h3 {
+      font-size: 2.2vw;
+    }
+  }
+
+  .container-lunch-options {
+    h2 {
+      font-size: 3.2vw;
+    }
+  }
+
+  .step2 {
+    h4 {
+      font-size: 2.2vw;
+    }
+
+    h3 {
+      font-size: 2.2vw;
+    }
   }
 }

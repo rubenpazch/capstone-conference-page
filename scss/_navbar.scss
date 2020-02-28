@@ -48,9 +48,9 @@
   align-items: center;
   padding: 0 10vh;
   height: 12vh;
-  -webkit-box-shadow: 0px 4px 4px 0px #efefef;
-  -moz-box-shadow: 0px 4px 4px 0px #efefef;
-  box-shadow: 0px 4px 4px 0px #efefef;
+  -webkit-box-shadow: 0 4px 4px 0 $color-gray-2;
+  -moz-box-shadow: 0 4px 4px 0 $color-gray-2;
+  box-shadow: 0 4px 4px 0 $color-gray-2;
   z-index: 996;
 
   ul {
@@ -85,6 +85,7 @@
   flex-flow: row;
   justify-content: flex-end;
   align-items: center;
+  background-color: $color-gray-1;
 
   ul {
     display: flex;
