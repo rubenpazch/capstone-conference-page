@@ -208,24 +208,8 @@
   text-align: center;
 }
 
-.program-activities article img {
-  height: 4vw;
-  z-index: 999;
-  margin-top: 35px;
-  margin-bottom: 15px;
-}
-
 .program-activities article header {
   padding: 0 0;
-}
-
-.program-activities article p {
-  color: #fff;
-  padding: 0 10px;
-  font-family: "lato", sans-serif;
-  line-height: 25px;
-  font-weight: 300;
-  font-size: 1.2vw;
 }
 
 .program-activities article::after {
@@ -284,13 +268,6 @@
     margin-top: 5px;
     height: 25vh;
     flex-flow: row;
-  }
-
-  .program-activities article img {
-    height: 10vw;
-    width: 15vw;
-    padding: 0 3.5vw;
-    margin-top: 15px;
   }
 
   .program-activities article header {
@@ -408,6 +385,13 @@
   width: 10vw;
 }
 
+.program-activities article img {
+  height: 4vw;
+  z-index: 999;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
 .card-content {
   display: flex;
   flex-flow: column;
@@ -415,13 +399,6 @@
   justify-content: start;
   padding-left: 1.3vw;
   padding-right: 4.3vw;
-}
-
-.card-content header h2 {
-  font-family: "lato", sans-serif;
-  text-transform: capitalize;
-  font-size: 1.8vw;
-  font-weight: bolder;
 }
 
 .card-content h3 {
@@ -456,6 +433,16 @@
   z-index: -1;
 }
 
+.program-activities article p {
+  color: #fff;
+  padding: 0 10px;
+  font-family: "lato", sans-serif;
+  line-height: 25px;
+  font-weight: 300;
+  font-size: 1.2vw;
+}
+
+
 @media (max-width: 767px) {
   .container-featured {
     padding: 4vh 0;
@@ -488,11 +475,6 @@
     padding-right: 1.5vw;
   }
 
-  .card-content header h2 {
-    font-size: 2.8vw;
-    padding-bottom: 1vh;
-  }
-
   .card-content span {
     padding: 1px;
     margin: 4px;
@@ -514,6 +496,11 @@
   font-family: "lato", sans-serif;
   color: #d3d3d3;
   font-size: 2vw;
+}
+
+.card-content header h2 {
+  font-size: 2.8vw;
+  padding-bottom: 1vh;
 }
 
 .container-partner span {
@@ -538,6 +525,20 @@
 .list-sponsor-logo img {
   width: 150px;
   margin: 5vh 3vw;
+}
+
+.program-activities article img {
+  height: 10vw;
+  width: 15vw;
+  padding: 0 3.5vw;
+  margin-top: 15px;
+}
+
+.card-content header h2 {
+  font-family: "lato", sans-serif;
+  text-transform: capitalize;
+  font-size: 1.8vw;
+  font-weight: bolder;
 }
 
 @media (max-width: 767px) {
