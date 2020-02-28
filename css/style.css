@@ -121,11 +121,6 @@
   padding: 5px 10px 5px 10px;
 }
 
-.nav-black-bar ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
 .nav-black-bar ul li a i {
   width: 16px;
   height: 16px;
@@ -156,11 +151,6 @@
   padding-right: 3.5vw;
 }
 
-.nav-white-bar ul li a {
-  text-decoration: none;
-  color: #272a31;
-}
-
 .nav-bar-root {
   padding: 0 10vh;
   width: 100%;
@@ -181,12 +171,6 @@
 
 .nav-bar-root ul li {
   padding: 0 1vw;
-}
-
-.nav-bar-root ul li a {
-  font-family: "lato", sans-serif;
-  text-decoration: none;
-  color: inherit;
 }
 
 .nav-bar-root ul li a i {
@@ -253,6 +237,22 @@
   color: #fff;
 }
 
+.nav-black-bar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-white-bar ul li a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.nav-bar-root ul li a {
+  font-family: "lato", sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
 .container-program button {
   background-color: #ffca4c;
   padding: 3vh 4vw;
@@ -280,32 +280,8 @@
   text-align: center;
 }
 
-.program-activities article img {
-  height: 4vw;
-  z-index: 999;
-  margin-top: 35px;
-  margin-bottom: 15px;
-}
-
 .program-activities article header {
   padding: 0 0;
-}
-
-.program-activities article header h2 {
-  font-family: "lato", sans-serif;
-  font-size: 1.4vw;
-  font-weight: 600;
-  color: #ffca4c;
-  margin-bottom: 10px;
-}
-
-.program-activities article p {
-  color: #fff;
-  padding: 0 10px;
-  font-family: "lato", sans-serif;
-  line-height: 25px;
-  font-weight: 300;
-  font-size: 1.2vw;
 }
 
 .program-activities article::after {
@@ -320,10 +296,6 @@
   content: "";
 }
 
-.program-activities article:hover {
-  border: 3px solid #fff;
-}
-
 #SeeWholeProgram {
   display: initial;
 }
@@ -331,7 +303,6 @@
 #btnJoinWorkshop {
   display: none;
 }
-
 
 .container-featured {
   width: 100%;
@@ -375,12 +346,23 @@
   padding-top: 3vw;
 }
 
+.program-activities article:hover {
+  border: 3px solid #fff;
+}
+
 .card-picture {
   position: relative;
 }
 
 .card-picture img {
   width: 10vw;
+}
+
+.program-activities article img {
+  height: 4vw;
+  z-index: 999;
+  margin-top: 35px;
+  margin-bottom: 15px;
 }
 
 .card-content {
@@ -423,6 +405,15 @@
   font-size: 0.8rem;
 }
 
+.program-activities article p {
+  color: #fff;
+  padding: 0 10px;
+  font-family: "lato", sans-serif;
+  line-height: 25px;
+  font-weight: 300;
+  font-size: 1.2vw;
+}
+
 .picture-back-png {
   position: absolute;
   top: -15px;
@@ -430,7 +421,6 @@
   left: -15px;
   z-index: -1;
 }
-
 
 .container-partner {
   background-color: #272a31;
@@ -447,6 +437,14 @@
   font-family: "lato", sans-serif;
   color: #d3d3d3;
   font-size: 2vw;
+}
+
+.program-activities article header h2 {
+  font-family: "lato", sans-serif;
+  font-size: 1.4vw;
+  font-weight: 600;
+  color: #ffca4c;
+  margin-bottom: 10px;
 }
 
 .container-partner span {
