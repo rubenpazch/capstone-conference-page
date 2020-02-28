@@ -22,7 +22,7 @@
 
 .nav-black-bar {
   background-color: #272a31;
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   font-weight: 500;
   font-size: 0.8rem;
   padding: 0 10vh;
@@ -117,7 +117,7 @@
 }
 
 .nav-bar-root ul li a {
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   text-decoration: none;
   color: inherit;
 }
@@ -148,7 +148,7 @@
 }
 
 .nav-bar-root ul li:last-child a {
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   text-decoration: none;
   color: inherit;
   font-weight: 700;
@@ -224,7 +224,7 @@
 }
 
 .container-program h2 {
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   color: #fff;
   font-size: 1.9vw;
 }
@@ -242,7 +242,7 @@
 .container-program h3 {
   text-transform: uppercase;
   font-size: 1.3vw;
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   padding-top: 3vw;
 }
 
@@ -289,7 +289,7 @@
 }
 
 .program-activities article header h2 {
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   font-size: 1.4vw;
   font-weight: 600;
   color: #ffca4c;
@@ -299,7 +299,7 @@
 .program-activities article p {
   color: #fff;
   padding: 0 10px;
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   line-height: 25px;
   font-weight: 300;
   font-size: 1.2vw;
@@ -450,7 +450,7 @@
 }
 
 .container-featured h2 {
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   color: black;
   font-size: 2vw;
 }
@@ -499,14 +499,14 @@
 }
 
 .card-content header h2 {
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   text-transform: capitalize;
   font-size: 1.8vw;
   font-weight: bolder;
 }
 
 .card-content h3 {
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   font-style: italic;
   color: #ec5242;
   line-height: 25px;
@@ -525,7 +525,7 @@
 
 .card-content p {
   line-height: 20px;
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   font-size: 0.8rem;
 }
 
@@ -592,7 +592,7 @@
 }
 
 .container-partner h2 {
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   color: #d3d3d3;
   font-size: 2vw;
 }
@@ -680,7 +680,7 @@
 
 .content-footer h2 {
   padding-bottom: 1vw;
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   font-weight: bold;
 }
 
@@ -716,7 +716,6 @@
   }
 
   .content-footer p {
-    padding: 0;
     text-align: center;
     padding: 0 6vw;
   }
@@ -733,7 +732,7 @@
 }
 
 @font-face {
-  font-family: "Cocogoose";
+  font-family: "Cocogoose", sans-serif;
   font-style: normal;
   font-weight: 500;
   src:
@@ -744,7 +743,7 @@
 }
 
 @font-face {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 500;
   src:
@@ -771,13 +770,13 @@
 
 .content-footer-dark h2 {
   padding-bottom: 1vw;
-  font-family: "lato";
+  font-family: "lato" ,sans-serif;
   font-weight: bold;
   color: #fff;
 }
 
 .content-footer-dark p {
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   line-height: 20px;
   color: #fff;
 }
@@ -809,7 +808,6 @@
   }
 
   .content-footer-dark p {
-    padding: 0;
     text-align: center;
     padding: 0 6vw;
   }
@@ -826,7 +824,7 @@
 }
 
 @font-face {
-  font-family: "Cocogoose";
+  font-family: "Cocogoose", sans-serif;
   font-style: normal;
   font-weight: 500;
   src:
@@ -1308,7 +1306,6 @@
 .step1 {
   display: flex;
   flex-flow: row;
-  border: 1px solid #000;
   border-radius: 25px;
   padding: 3vh 2vw;
   border: 1px solid #d3d3d3;
@@ -1338,7 +1335,6 @@
 .step2 {
   display: flex;
   flex-flow: row;
-  border: 1px solid #000;
   border-radius: 25px;
   padding: 3vh 2vw;
   margin-bottom: 7vh;
