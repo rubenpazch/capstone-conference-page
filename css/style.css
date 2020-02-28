@@ -2,20 +2,16 @@
   font-family: "Cocogoose";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"),
-    url("../fonts/Cocogoose.woff") format("woff"),
-    url("../fonts/Cocogoose.ttf") format("truetype"),
-    url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
 }
+
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"),
-    url("../fonts/lato-v16-latin-regular.woff") format("woff"),
-    url("../fonts/lato-v16-latin-regular.ttf") format("truetype"),
-    url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
 }
+
 .nav-black-bar {
   background-color: #272a31;
   font-family: "lato", sans-serif;
@@ -27,21 +23,25 @@
   flex-flow: row;
   justify-content: flex-end;
 }
+
 .nav-black-bar ul {
   display: flex;
   flex-flow: row;
   align-items: center;
 }
+
 .nav-black-bar ul li {
   display: inline;
   color: #fff;
   line-height: 20px;
   padding: 5px 10px 5px 10px;
 }
+
 .nav-black-bar ul li a {
   color: #fff;
   text-decoration: none;
 }
+
 .nav-black-bar ul li a i {
   width: 16px;
   height: 16px;
@@ -64,20 +64,24 @@
   box-shadow: 0 4px 4px 0 #efefef;
   z-index: 996;
 }
+
 .nav-white-bar ul li {
   display: inline;
   color: #fff;
   line-height: 30px;
   padding-right: 3.5vw;
 }
+
 .nav-white-bar ul li a {
   text-decoration: none;
   color: #272a31;
 }
+
 .nav-white-bar ul li:last-child {
   border: 4px solid #ec5242;
   padding: 10px 15px;
 }
+
 .nav-white-bar ul li:last-child a {
   color: #ec5242;
 }
@@ -92,46 +96,56 @@
   align-items: center;
   background-color: #fbfbfb;
 }
+
 .nav-bar-root ul {
   display: flex;
   flex-flow: row;
   align-items: center;
   padding: 3vh 0;
 }
+
 .nav-bar-root ul li {
   padding: 0 1vw;
 }
+
 .nav-bar-root ul li a {
   font-family: "lato", sans-serif;
   text-decoration: none;
   color: inherit;
 }
+
 .nav-bar-root ul li a i {
   font-size: 0.6rem;
   color: #ec5242;
   padding-right: 1vw;
 }
+
 .nav-bar-root ul li:first-child {
   padding: 0;
 }
+
 .nav-bar-root ul li:first-child a {
   text-decoration: none;
   color: inherit;
 }
+
 .nav-bar-root ul li:first-child a i {
   font-size: 1rem;
   color: #272a31;
   padding-right: 0;
 }
+
 .nav-bar-root ul li:last-child {
   padding-right: 1vw;
 }
+
 .nav-bar-root ul li:last-child a {
   font-family: "lato", sans-serif;
   text-decoration: none;
   color: inherit;
   font-weight: 700;
 }
+
 .nav-bar-root ul li:last-child a i {
   font-size: 0.6rem;
   color: #ec5242;
@@ -168,24 +182,21 @@
     display: inherit;
   }
 }
+
 @font-face {
   font-family: "Cocogoose";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"),
-    url("../fonts/Cocogoose.woff") format("woff"),
-    url("../fonts/Cocogoose.ttf") format("truetype"),
-    url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
 }
+
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"),
-    url("../fonts/lato-v16-latin-regular.woff") format("woff"),
-    url("../fonts/lato-v16-latin-regular.ttf") format("truetype"),
-    url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
 }
+
 .container-program {
   width: 100%;
   height: 85vh;
@@ -195,11 +206,13 @@
   justify-content: center;
   background-image: url(../img/bg-text.jpg);
 }
+
 .container-program h2 {
   font-family: "lato", sans-serif;
   color: #fff;
   font-size: 1.9vw;
 }
+
 .container-program span {
   height: 1px;
   padding: 1px;
@@ -209,15 +222,18 @@
   width: 5vw;
   margin: 2vw 0;
 }
+
 .container-program h3 {
   text-transform: uppercase;
   font-size: 1.3vw;
   font-family: "lato", sans-serif;
   padding-top: 3vw;
 }
+
 .container-program h3 a {
   color: #fff;
 }
+
 .container-program button {
   background-color: #ffca4c;
   padding: 3vh 4vw;
@@ -231,6 +247,7 @@
   display: flex;
   flex-flow: row;
 }
+
 .program-activities article {
   width: 16vw;
   height: 50vh;
@@ -243,15 +260,18 @@
   position: relative;
   text-align: center;
 }
+
 .program-activities article img {
   height: 4vw;
   z-index: 999;
   margin-top: 35px;
   margin-bottom: 15px;
 }
+
 .program-activities article header {
   padding: 0 0;
 }
+
 .program-activities article header h2 {
   font-family: "lato", sans-serif;
   font-size: 1.4vw;
@@ -259,6 +279,7 @@
   color: #ffca4c;
   margin-bottom: 10px;
 }
+
 .program-activities article p {
   color: #fff;
   padding: 0 10px;
@@ -267,6 +288,7 @@
   font-weight: 300;
   font-size: 1.2vw;
 }
+
 .program-activities article::after {
   background-color: #fff;
   opacity: 0.2;
@@ -278,6 +300,7 @@
   right: 0;
   content: "";
 }
+
 .program-activities article:hover {
   border: 3px solid #fff;
 }
@@ -295,17 +318,21 @@
     height: 100%;
     background-size: cover;
   }
+
   .container-program h2 {
     padding-top: 7vh;
     font-size: 3vw;
   }
+
   .container-program h3 {
     padding-bottom: 3vw;
   }
+
   .container-program span {
     width: 5vw;
     margin: 7vh 0;
   }
+
   .container-program button {
     margin-top: 5vh;
     margin-bottom: 8vh;
@@ -316,27 +343,32 @@
     flex-flow: column;
     align-items: center;
   }
+
   .program-activities article {
     width: 95vw;
     margin-top: 5px;
     height: 25vh;
     flex-flow: row;
   }
+
   .program-activities article img {
     height: 10vw;
     width: 15vw;
     padding: 0 3.5vw;
     margin-top: 15px;
   }
+
   .program-activities article header {
     padding: 0 2vw;
     min-width: 20vw;
   }
+
   .program-activities article header h2 {
     font-size: 3vw;
     text-align: left;
     line-height: 35px;
   }
+
   .program-activities article p {
     padding: 0 4vw;
     line-height: 25px;
@@ -352,31 +384,37 @@
     display: initial;
   }
 }
+
 @media (max-width: 576px) {
   .program-activities {
     display: flex;
     flex-flow: column;
   }
+
   .program-activities article {
     width: 95vw;
     margin-top: 10px;
     height: 32vh;
     flex-flow: row;
   }
+
   .program-activities article img {
     height: 10vw;
     width: 15vw;
     padding: 0 3.5vw;
   }
+
   .program-activities article header {
     padding: 0 2vw;
     min-width: 20vw;
   }
+
   .program-activities article header h2 {
     font-size: 3vw;
     text-align: left;
     line-height: 25px;
   }
+
   .program-activities article p {
     padding: 0 4vw;
     line-height: 25px;
@@ -384,6 +422,7 @@
     font-size: 2.5vw;
   }
 }
+
 .container-featured {
   width: 100%;
   height: 100%;
@@ -393,11 +432,13 @@
   justify-content: center;
   padding: 4vw 0;
 }
+
 .container-featured h2 {
   font-family: "lato", sans-serif;
   color: black;
   font-size: 2vw;
 }
+
 .container-featured span {
   height: 1px;
   padding: 1px;
@@ -413,6 +454,7 @@
   flex-flow: wrap;
   padding: 0 5vw;
 }
+
 .speaker-preview article {
   flex-grow: 1;
   width: 50%;
@@ -426,6 +468,7 @@
 .card-picture {
   position: relative;
 }
+
 .card-picture img {
   width: 10vw;
 }
@@ -438,12 +481,14 @@
   padding-left: 1.3vw;
   padding-right: 4.3vw;
 }
+
 .card-content header h2 {
   font-family: "lato", sans-serif;
   text-transform: capitalize;
   font-size: 1.8vw;
   font-weight: bolder;
 }
+
 .card-content h3 {
   font-family: "lato", sans-serif;
   font-style: italic;
@@ -451,6 +496,7 @@
   line-height: 25px;
   font-size: 0.9rem;
 }
+
 .card-content span {
   height: 1px;
   padding: 1px;
@@ -460,6 +506,7 @@
   width: 3vw;
   margin: 0.5vw 0;
 }
+
 .card-content p {
   line-height: 20px;
   font-family: "lato", sans-serif;
@@ -478,10 +525,12 @@
   .container-featured {
     padding: 4vh 0;
   }
+
   .container-featured h2 {
     font-size: 3.5vw;
     padding-top: 5vh;
   }
+
   .container-featured span {
     margin: 5vh 0;
   }
@@ -489,6 +538,7 @@
   .speaker-preview {
     flex-flow: column;
   }
+
   .speaker-preview article {
     width: 100%;
     padding-bottom: 9vw;
@@ -502,15 +552,18 @@
     padding-left: 3vw;
     padding-right: 1.5vw;
   }
+
   .card-content header h2 {
     font-size: 2.8vw;
     padding-bottom: 1vh;
   }
+
   .card-content span {
     padding: 1px;
     margin: 4px;
   }
 }
+
 .container-partner {
   background-color: #272a31;
   width: 100%;
@@ -521,11 +574,13 @@
   padding-top: 3vw;
   padding-bottom: 3vw;
 }
+
 .container-partner h2 {
   font-family: "lato", sans-serif;
   color: #d3d3d3;
   font-size: 2vw;
 }
+
 .container-partner span {
   height: 1px;
   padding: 1px;
@@ -544,6 +599,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .list-sponsor-logo img {
   width: 150px;
   margin: 5vh 3vw;
@@ -553,6 +609,7 @@
   .container-partner {
     height: 100%;
   }
+
   .container-partner h2 {
     font-size: 4vw;
     padding-top: 3vh;
@@ -561,29 +618,27 @@
   .list-sponsor-logo {
     flex-flow: wrap;
   }
+
   .list-sponsor-logo img {
     width: 150px;
     margin: 5vh 3vw;
   }
 }
+
 @font-face {
   font-family: "Cocogoose";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"),
-    url("../fonts/Cocogoose.woff") format("woff"),
-    url("../fonts/Cocogoose.ttf") format("truetype"),
-    url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
 }
+
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"),
-    url("../fonts/lato-v16-latin-regular.woff") format("woff"),
-    url("../fonts/lato-v16-latin-regular.ttf") format("truetype"),
-    url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
 }
+
 .footer-container {
   width: 100%;
   height: 40vh;
@@ -598,15 +653,18 @@
 .content-footer {
   padding-left: 4vw;
 }
+
 .content-footer h2 {
   padding-bottom: 1vw;
   font-family: "lato";
   font-weight: bold;
 }
+
 .content-footer p {
   font-family: "lato";
   line-height: 20px;
 }
+
 .content-footer p a {
   font-weight: bold;
   text-decoration: none;
@@ -626,15 +684,18 @@
   .content-footer {
     padding: 0;
   }
+
   .content-footer h2 {
     padding-top: 3vh;
     text-align: center;
     padding-bottom: 3vh;
   }
+
   .content-footer p {
     text-align: center;
     padding: 0 6vw;
   }
+
   .content-footer p a {
     font-weight: bold;
     text-decoration: none;
@@ -645,24 +706,21 @@
     width: 40vw;
   }
 }
+
 @font-face {
   font-family: "Cocogoose";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"),
-    url("../fonts/Cocogoose.woff") format("woff"),
-    url("../fonts/Cocogoose.ttf") format("truetype"),
-    url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
 }
+
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"),
-    url("../fonts/lato-v16-latin-regular.woff") format("woff"),
-    url("../fonts/lato-v16-latin-regular.ttf") format("truetype"),
-    url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
 }
+
 .footer-container-dark {
   width: 100%;
   height: 40vh;
@@ -677,17 +735,20 @@
 .content-footer-dark {
   padding-left: 4vw;
 }
+
 .content-footer-dark h2 {
   padding-bottom: 1vw;
   font-family: "lato", sans-serif;
   font-weight: bold;
   color: #fff;
 }
+
 .content-footer-dark p {
   font-family: "lato", sans-serif;
   line-height: 20px;
   color: #fff;
 }
+
 .content-footer-dark p a {
   font-weight: bold;
   text-decoration: none;
@@ -707,15 +768,18 @@
   .content-footer-dark {
     padding: 0;
   }
+
   .content-footer-dark h2 {
     padding-top: 3vh;
     text-align: center;
     padding-bottom: 3vh;
   }
+
   .content-footer-dark p {
     text-align: center;
     padding: 0 6vw;
   }
+
   .content-footer-dark p a {
     font-weight: bold;
     text-decoration: none;
@@ -726,24 +790,21 @@
     width: 40vw;
   }
 }
+
 @font-face {
   font-family: "Cocogoose";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"),
-    url("../fonts/Cocogoose.woff") format("woff"),
-    url("../fonts/Cocogoose.ttf") format("truetype"),
-    url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
 }
+
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"),
-    url("../fonts/lato-v16-latin-regular.woff") format("woff"),
-    url("../fonts/lato-v16-latin-regular.ttf") format("truetype"),
-    url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
 }
+
 .bg-cover-about {
   display: block;
   position: relative;
@@ -772,6 +833,7 @@
   align-items: center;
   justify-content: start;
 }
+
 .container-cover-about h1 {
   font-family: "Cocogoose", sans-serif;
   font-weight: 500;
@@ -786,6 +848,7 @@
   text-align: center;
   width: 50vw;
 }
+
 .container-cover-about span {
   height: 1px;
   padding: 1px;
@@ -795,6 +858,7 @@
   width: 5vw;
   margin-bottom: 2vw;
 }
+
 .container-cover-about h2 {
   font-family: "lato", sans-serif;
   font-weight: 100;
@@ -802,6 +866,7 @@
   color: #ec5242;
   padding-bottom: 4vh;
 }
+
 .container-cover-about p {
   background-color: #fff;
   border: 2px solid #fff;
@@ -816,6 +881,7 @@
   box-shadow: 0 0 8px 4px #efefef;
   text-align: center;
 }
+
 .container-cover-about h3 {
   font-family: "lato", sans-serif;
   color: #272a31;
@@ -824,6 +890,7 @@
   padding-top: 4vh;
   font-weight: 500;
 }
+
 .container-cover-about h4 {
   font-family: "lato", sans-serif;
   color: #272a31;
@@ -832,6 +899,7 @@
   padding-top: 4vh;
   font-weight: 700;
 }
+
 .container-cover-about h4 a {
   text-decoration: underline;
   color: inherit;
@@ -848,12 +916,14 @@
   padding: 6vw 0;
   border-top: 1px solid #d3d3d3;
 }
+
 .container-creative-comm h2 {
   font-family: "lato", sans-serif;
   color: black;
   font-size: 2vw;
   padding-bottom: 5vh;
 }
+
 .container-creative-comm span {
   height: 1px;
   padding: 1px;
@@ -863,6 +933,7 @@
   width: 3vw;
   margin-bottom: 3vh;
 }
+
 .container-creative-comm p {
   background-color: #fff;
   border: 2px solid #fff;
@@ -894,6 +965,7 @@
   padding: 6vw 0;
   border-top: 1px solid #d3d3d3;
 }
+
 .container-past-events h2 {
   font-family: "lato", sans-serif;
   color: #000;
@@ -901,12 +973,14 @@
   padding-bottom: 3vh;
   font-weight: bold;
 }
+
 .container-past-events h3 {
   font-family: 1.4vw;
   font-family: "lato", sans-serif;
   padding: 0 3vw;
   text-align: center;
 }
+
 .container-past-events span {
   height: 1px;
   padding: 1px;
@@ -916,6 +990,7 @@
   width: 3vw;
   margin-bottom: 3vh;
 }
+
 .container-past-events p {
   background-color: #fff;
   border: 2px solid #fff;
@@ -947,6 +1022,7 @@
   justify-content: center;
   margin-right: 1vw;
 }
+
 .past-event-1 a {
   display: block;
   background-color: #f00;
@@ -957,10 +1033,12 @@
   left: 0;
   bottom: 0;
 }
+
 .past-event-1 h2 {
   color: #fff;
   z-index: 998;
 }
+
 .past-event-1 h3 {
   color: #fff;
   z-index: 998;
@@ -978,6 +1056,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .past-event-2 a {
   display: block;
   background-color: #f00;
@@ -988,10 +1067,12 @@
   left: 0;
   bottom: 0;
 }
+
 .past-event-2 h2 {
   color: #fff;
   z-index: 998;
 }
+
 .past-event-2 h3 {
   color: #fff;
   z-index: 998;
@@ -1005,12 +1086,15 @@
   .container-cover-about {
     height: 100%;
   }
+
   .container-cover-about p {
     font-size: 1.4vw;
   }
+
   .container-cover-about h3 {
     font-size: 1.4vw;
   }
+
   .container-cover-about h4 {
     font-size: 1.6vw;
   }
@@ -1018,6 +1102,7 @@
   .container-creative-comm h2 {
     font-size: 2.4vw;
   }
+
   .container-creative-comm p {
     font-size: 1.4vw;
   }
@@ -1029,21 +1114,26 @@
   .container-past-events p {
     font-size: 1.4vw;
   }
+
   .container-past-events h2 {
     font-size: 2.4vw;
     padding-bottom: 3vh;
   }
 }
+
 @media (max-width: 767px) {
   .container-cover-about p {
     font-size: 1.7vw;
   }
+
   .container-cover-about h1 {
     font-size: 5.2vw;
   }
+
   .container-cover-about h3 {
     font-size: 1.7vw;
   }
+
   .container-cover-about h4 {
     font-size: 1.7vw;
   }
@@ -1072,19 +1162,24 @@
     display: initial;
   }
 }
+
 @media (max-width: 576px) {
   .container-cover-about h1 {
     font-size: 6.2vw;
   }
+
   .container-cover-about h2 {
     font-size: 3.5vw;
   }
+
   .container-cover-about h3 {
     font-size: 2.2vw;
   }
+
   .container-cover-about h4 {
     font-size: 2.4vw;
   }
+
   .container-cover-about p {
     font-size: 2.2vw;
   }
@@ -1092,6 +1187,7 @@
   .container-creative-comm h2 {
     font-size: 2.9vw;
   }
+
   .container-creative-comm p {
     font-size: 2.2vw;
   }
@@ -1099,28 +1195,26 @@
   .container-past-events h2 {
     font-size: 2.9vw;
   }
+
   .container-past-events p {
     font-size: 2.2vw;
   }
 }
+
 @font-face {
   font-family: "Cocogoose";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"),
-    url("../fonts/Cocogoose.woff") format("woff"),
-    url("../fonts/Cocogoose.ttf") format("truetype"),
-    url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
 }
+
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"),
-    url("../fonts/lato-v16-latin-regular.woff") format("woff"),
-    url("../fonts/lato-v16-latin-regular.ttf") format("truetype"),
-    url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
 }
+
 .container-tickets-main {
   width: 100%;
   height: 100%;
@@ -1131,12 +1225,14 @@
   padding: 6vw 0;
   background-color: #fbfbfb;
 }
+
 .container-tickets-main h2 {
   font-family: "lato", sans-serif;
   color: #000;
   font-size: 2vw;
   padding-bottom: 5vh;
 }
+
 .container-tickets-main span {
   height: 1px;
   padding: 1px;
@@ -1146,6 +1242,7 @@
   width: 3vw;
   margin-bottom: 3vh;
 }
+
 .container-tickets-main p {
   background-color: #fff;
   border: 2px solid #fff;
@@ -1165,6 +1262,7 @@
   padding: 3vh 2vw;
   border: 1px solid #d3d3d3;
 }
+
 .step1 h3 {
   color: #ec5242;
   font-weight: 600;
@@ -1173,12 +1271,14 @@
   padding-left: 1vw;
   font-size: 1vw;
 }
+
 .step1 h4 {
   color: #272a31;
   font-weight: 500;
   font-family: "lato", sans-serif;
   font-size: 1vw;
 }
+
 .step1 img {
   width: 0.8vw;
   padding-right: 0;
@@ -1192,6 +1292,7 @@
   margin-bottom: 7vh;
   border: 1px solid #d3d3d3;
 }
+
 .step2 h3 {
   color: #ec5242;
   font-weight: 600;
@@ -1200,12 +1301,14 @@
   padding-left: 1vw;
   font-size: 1vw;
 }
+
 .step2 h4 {
   color: #272a31;
   font-weight: 500;
   font-family: "lato", sans-serif;
   font-size: 1vw;
 }
+
 .step2 img {
   width: 0.8vw;
   padding-right: 0;
@@ -1218,11 +1321,13 @@
   line-height: 25px;
   width: 60vw;
 }
+
 .table-prices td {
   border: 1px solid #d3d3d3;
   padding: 1vw 1vh;
   background-color: #fff;
 }
+
 .table-prices th {
   border: 1px solid #d3d3d3;
   padding: 2vh 4vw;
@@ -1246,12 +1351,14 @@
   padding: 6vw 0;
   background-color: #fff;
 }
+
 .container-lunch-options h2 {
   font-family: "lato", sans-serif;
   color: #000;
   font-size: 2vw;
   padding-bottom: 5vh;
 }
+
 .container-lunch-options span {
   height: 1px;
   padding: 1px;
@@ -1261,6 +1368,7 @@
   width: 3vw;
   margin-bottom: 3vh;
 }
+
 .container-lunch-options p {
   background-color: #fff;
   border: 2px solid #fff;
@@ -1281,21 +1389,26 @@
   width: 70vw;
   margin-bottom: 5vh;
 }
+
 .table-lunch-options thead {
   background-color: #fbfbfb;
 }
+
 .table-lunch-options tbody {
   border: 1px solid #d3d3d3;
 }
+
 .table-lunch-options td {
   border: 1px solid #d3d3d3;
   padding: 1vw 1vh;
   background-color: #fff;
 }
+
 .table-lunch-options th {
   border: 1px solid #d3d3d3;
   padding: 2vh 4vw;
 }
+
 .table-lunch-options td {
   border: 0;
 }
@@ -1317,6 +1430,7 @@
   .step1 h4 {
     font-size: 1.4vw;
   }
+
   .step1 h3 {
     font-size: 1.4vw;
   }
@@ -1328,6 +1442,7 @@
   .step2 h4 {
     font-size: 1.4vw;
   }
+
   .step2 h3 {
     font-size: 1.4vw;
   }
@@ -1340,6 +1455,7 @@
     width: 80vw;
   }
 }
+
 @media (max-width: 767px) {
   .container-tickets-main h2 {
     font-size: 3.5vw;
@@ -1352,6 +1468,7 @@
   .step1 h4 {
     font-size: 1.7vw;
   }
+
   .step1 h3 {
     font-size: 1.7vw;
   }
@@ -1359,6 +1476,7 @@
   .step2 h4 {
     font-size: 1.7vw;
   }
+
   .step2 h3 {
     font-size: 1.7vw;
   }
@@ -1371,6 +1489,7 @@
     width: 90vw;
   }
 }
+
 @media (max-width: 576px) {
   .container-tickets-main h2 {
     font-size: 3.2vw;
@@ -1379,6 +1498,7 @@
   .step1 h4 {
     font-size: 2.2vw;
   }
+
   .step1 h3 {
     font-size: 2.2vw;
   }
@@ -1390,28 +1510,26 @@
   .step2 h4 {
     font-size: 2.2vw;
   }
+
   .step2 h3 {
     font-size: 2.2vw;
   }
 }
+
 @font-face {
   font-family: "Cocogoose";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"),
-    url("../fonts/Cocogoose.woff") format("woff"),
-    url("../fonts/Cocogoose.ttf") format("truetype"),
-    url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
 }
+
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"),
-    url("../fonts/lato-v16-latin-regular.woff") format("woff"),
-    url("../fonts/lato-v16-latin-regular.ttf") format("truetype"),
-    url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
 }
+
 .menuToggle {
   display: block;
   position: relative;
@@ -1420,6 +1538,7 @@
   z-index: 1;
   width: 90%;
 }
+
 .menuToggle span {
   display: block;
   width: 33px;
@@ -1430,11 +1549,13 @@
   border-radius: 3px;
   z-index: 1;
 }
+
 .menuToggle a {
   font-family: "lato", sans-serif;
   text-decoration: none;
   color: #ec5242;
 }
+
 .menuToggle input {
   display: block;
   width: 40px;
@@ -1444,10 +1565,9 @@
   left: -5px;
   cursor: pointer;
   opacity: 0;
-  /* hide this */
   z-index: 2;
-  /* and place it over the hamburger */
 }
+
 .menuToggle input:checked ~ ul {
   transform: none;
 }
@@ -1465,6 +1585,7 @@
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
 }
+
 .menu li {
   padding: 10px 0;
   font-size: 22px;
@@ -1513,6 +1634,7 @@ body {
   align-items: flex-start;
   justify-content: center;
 }
+
 .container-cover h1 {
   font-family: "Cocogoose", sans-serif;
   font-weight: 500;
@@ -1525,6 +1647,7 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
 .container-cover h2 {
   font-family: "lato", sans-serif;
   font-weight: 100;
@@ -1532,6 +1655,7 @@ body {
   color: #ec5242;
   padding-bottom: 4vh;
 }
+
 .container-cover p {
   border: 2px solid #d3d3d3;
   width: 50vw;
@@ -1542,6 +1666,7 @@ body {
   font-size: 1.2vw;
   background-color: #fff;
 }
+
 .container-cover h3 {
   font-family: "Cocogoose", sans-serif;
   color: #272a31;
@@ -1549,6 +1674,7 @@ body {
   text-transform: uppercase;
   padding-top: 4vh;
 }
+
 .container-cover h4 {
   font-family: "lato", sans-serif;
   font-weight: 500;
@@ -1561,57 +1687,68 @@ body {
     width: 60vw;
     font-size: 2vw;
   }
+
   .container-cover h3 {
     font-size: 3vw;
     padding-top: 4vh;
   }
+
   .container-cover h4 {
     font-size: 2.1vw;
     padding-top: 4vh;
   }
 }
+
 @media (max-width: 767px) {
   .container-cover {
     padding: 0 5vw;
   }
+
   .container-cover p {
     width: 90vw;
     font-size: 2.3vw;
     line-height: 20px;
   }
+
   .container-cover h1 {
     font-size: 8vw;
   }
+
   .container-cover h2 {
     font-size: 5vw;
   }
+
   .container-cover h3 {
     font-size: 5vw;
     padding-top: 4vh;
   }
+
   .container-cover h4 {
     font-size: 3vw;
     padding-top: 2vh;
   }
 }
+
 @media (max-width: 576px) {
   .container-cover p {
     font-size: 2.7vw;
   }
+
   .container-cover h1 {
     font-size: 7vw;
   }
+
   .container-cover h2 {
     font-size: 5vw;
   }
+
   .container-cover h3 {
     font-size: 5vw;
     padding-top: 4vh;
   }
+
   .container-cover h4 {
     font-size: 3vw;
     padding-top: 4vh;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
