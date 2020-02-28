@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Cocogoose";
+  font-family: "Cocogoose", sans-serif;
   font-style: normal;
   font-weight: 500;
   src:
@@ -192,7 +192,7 @@
 }
 
 @font-face {
-  font-family: "Cocogoose";
+  font-family: "Cocogoose", sans-serif;
   font-style: normal;
   font-weight: 500;
   src:
@@ -642,7 +642,7 @@
 }
 
 @font-face {
-  font-family: "Cocogoose";
+  font-family: "Cocogoose", sans-serif;
   font-style: normal;
   font-weight: 500;
   src:
@@ -875,7 +875,7 @@
 }
 
 .container-cover-about h1 {
-  font-family: "Cocogoose";
+  font-family: "Cocogoose", sans-serif;
   font-weight: 500;
   font-size: 4.3vw;
   color: #ec5242;
@@ -1242,7 +1242,7 @@
 }
 
 @font-face {
-  font-family: "Cocogoose";
+  font-family: "Cocogoose", sans-serif;
   font-style: normal;
   font-weight: 500;
   src:
@@ -1565,7 +1565,7 @@
 }
 
 @font-face {
-  font-family: "Cocogoose";
+  font-family: "Cocogoose", sans-serif;
   font-style: normal;
   font-weight: 500;
   src:
@@ -1690,7 +1690,7 @@ body {
 }
 
 .container-cover h1 {
-  font-family: "Cocogoose";
+  font-family: "Cocogoose", sans-serif;
   font-weight: 500;
   font-size: 5.3vw;
   color: #ec5242;
@@ -1722,7 +1722,7 @@ body {
 }
 
 .container-cover h3 {
-  font-family: "Cocogoose";
+  font-family: "Cocogoose", sans-serif;
   color: #272a31;
   font-size: 2.5vw;
   text-transform: uppercase;
