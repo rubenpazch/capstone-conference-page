@@ -442,7 +442,6 @@
   font-size: 1.2vw;
 }
 
-
 @media (max-width: 767px) {
   .container-featured {
     padding: 4vh 0;
@@ -522,16 +521,16 @@
   justify-content: center;
 }
 
-.list-sponsor-logo img {
-  width: 150px;
-  margin: 5vh 3vw;
-}
-
 .program-activities article img {
   height: 10vw;
   width: 15vw;
   padding: 0 3.5vw;
   margin-top: 15px;
+}
+
+.list-sponsor-logo img {
+  width: 150px;
+  margin: 5vh 3vw;
 }
 
 .card-content header h2 {
