@@ -71,9 +71,9 @@
     font-weight: 500;
     line-height: 30px;
     font-size: 1.1vw;
-    -webkit-box-shadow: 0px 0px 8px 4px #efefef;
-    -moz-box-shadow: 0px 0px 8px 4px #efefef;
-    box-shadow: 0px 0px 8px 4px #efefef;
+    -webkit-box-shadow: 0 0 8px 4px $color-gray-2;
+    -moz-box-shadow: 0 0 8px 4px $color-gray-2;
+    box-shadow: 0 0 8px 4px $color-gray-2;
     text-align: center;
   }
 
@@ -122,7 +122,7 @@
   span {
     height: 1px;
     padding: 1px;
-    background-color: orange;
+    background-color: $color-orange-light;
     content: "";
     display: block;
     width: 3vw;
@@ -146,9 +146,9 @@
   border: 1px solid $color-gray;
   margin-top: 4vh;
   padding: 4vh 6vw;
-  -webkit-box-shadow: 0px 0px 8px 4px #efefef;
-  -moz-box-shadow: 0px 0px 8px 4px #efefef;
-  box-shadow: 0px 0px 8px 4px #efefef;
+  -webkit-box-shadow: 0 0 8px 4px $color-gray-2;
+  -moz-box-shadow: 0 0 8px 4px $color-gray-2;
+  box-shadow: 0 0 8px 4px $color-gray-2;
 }
 
 .container-past-events {
@@ -163,15 +163,23 @@
 
   h2 {
     font-family: "lato";
-    color: black;
+    color: $color-black;
     font-size: 2vw;
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-family: 1.4vw;
+    font-family: "lato";
+    padding: 0 3vw;
+    text-align: center;
   }
 
   span {
     height: 1px;
     padding: 1px;
-    background-color: orange;
+    background-color: $color-orange-light;
     content: "";
     display: block;
     width: 3vw;
@@ -198,22 +206,22 @@
 }
 
 .past-event-1 {
-  margin-left: 1vw;
   background-image: url(../img/conf2018.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 28vw;
-  height: 32vh;
+  width: 35vw;
+  height: 30vh;
   display: flex;
   flex-flow: column;
   position: relative;
   align-items: center;
   justify-content: center;
+  margin-right: 1vw;
 
   a {
     display: block;
-    background-color: red;
-    opacity: 0.3;
+    background-color: $color-red;
+    opacity: 0.5;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -233,12 +241,11 @@
 }
 
 .past-event-2 {
-  margin-left: 1vw;
-  background-image: url(../img/conf2019.jpg);
-  background-size: contain;
+  background-image: url(../img/conf2018.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 28vw;
-  height: 32vh;
+  width: 35vw;
+  height: 30vh;
   display: flex;
   flex-flow: column;
   position: relative;
@@ -247,8 +254,8 @@
 
   a {
     display: block;
-    background-color: red;
-    opacity: 0.3;
+    background-color: $color-red;
+    opacity: 0.5;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -267,11 +274,72 @@
   }
 }
 
-@media (max-width: 991px) {
+#subtitle-about {
+  display: none;
+}
 
+@media (max-width: 991px) {
+  .container-cover-about {
+    height: 100%;
+
+    p {
+      font-size: 1.4vw;
+    }
+
+    h3 {
+      font-size: 1.4vw;
+    }
+
+    h4 {
+      font-size: 1.6vw;
+    }
+  }
+
+  .container-creative-comm {
+    h2 {
+      font-size: 2.4vw;
+    }
+
+    p {
+      font-size: 1.4vw;
+    }
+  }
+
+  .img-logo-creative {
+    padding: 4vh 8vw;
+  }
+
+  .container-past-events {
+    p {
+      font-size: 1.4vw;
+    }
+
+    h2 {
+      font-size: 2.4vw;
+      padding-bottom: 3vh;
+    }
+  }
 }
 
 @media (max-width: 767px) {
+  .container-cover-about {
+    p {
+      font-size: 1.7vw;
+    }
+
+    h1 {
+      font-size: 5.2vw;
+    }
+
+    h3 {
+      font-size: 1.7vw;
+    }
+
+    h4 {
+      font-size: 1.7vw;
+    }
+  }
+
   .list-past-pictures {
     flex-flow: column;
   }
@@ -287,8 +355,58 @@
     width: 80vw;
     height: 50vh;
   }
+
+  .container-creative-comm {
+    p {
+      font-size: 1.7vw;
+    }
+  }
+
+  #subtitle-about {
+    display: initial;
+  }
 }
 
 @media (max-width: 576px) {
-  
+  .container-cover-about {
+    h1 {
+      font-size: 6.2vw;
+    }
+
+    h2 {
+      font-size: 3.5vw;
+    }
+
+    h3 {
+      font-size: 2.2vw;
+    }
+
+    h4 {
+      font-size: 2.4vw;
+    }
+
+    p {
+      font-size: 2.2vw;;
+    }
+  }
+
+  .container-creative-comm {
+    h2 {
+      font-size: 2.9vw;
+    }
+
+    p {
+      font-size: 2.2vw;
+    }
+  }
+
+  .container-past-events {
+    h2 {
+      font-size: 2.9vw;
+    }
+
+    p {
+      font-size: 2.2vw;
+    }
+  }
 }

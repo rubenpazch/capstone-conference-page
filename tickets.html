@@ -22,13 +22,12 @@
         <li><a href="#">Logout</a></li>
       </ul>
     </nav>
-    <nav class="nav-white-bar">
-      <a href="index.html"><img src="./img/logo-cusco-solutions.svg" alt=""></a>  
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Program</a></li>
-        <li><a href="#">Speakers</a></li>
-        <li><a href="#">Sponsor</a></li>
+    <nav class="nav-white-bar" id="nav-sticky-element">
+      <a href="index.html"><img src="./img/logo-cusco-solutions.svg" alt=""></a>
+      <ul>        
+        <li><a href="index.html#programsection">Program</a></li>
+        <li><a href="index.html#speakersection">Speakers</a></li>
+        <li><a href="index.html#sponsorsection">Sponsor</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="tickets.html">Tickets</a></li>
       </ul>
@@ -42,15 +41,9 @@
       <span></span>
       <span></span>
       <ul class="menu">
-        <a href="index.html">
-          <li>Home</li>
-        </a>
-        <a href="about.html">
-          <li>About</li>
-        </a>
-        <a href="tickets.html">
-          <li>Tickets</li>
-        </a>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="tickets.html">Tickets</a></li>
       </ul>
     </div>
   </nav>
@@ -67,7 +60,7 @@
     <h2>Select Tickets</h2>
     <span></span>
     <div class="step1">
-      <i class="fas fa-diamond"></i>
+      <img src="./img/diamond-icon.svg" alt="">
       <h3>STEP 1</h3>
       <h4>Please select the day when you want to join Workshop E-Commerce </h4>
     </div>
@@ -91,27 +84,27 @@
           </tr>
           <tr>
             <td>Normal</td>
-            <td>S/.70.00 <br> <input type="radio" name="" id=""></td>
-            <td>S/.70.00 <br> <input type="radio" name="" id=""></td>
-            <td>S/.70.00 <br> <input type="radio" name="" id=""></td>
+            <td>S/.70.00 <br> <input type="radio" name="money" id="value1"></td>
+            <td>S/.70.00 <br> <input type="radio" name="money" id="value2"></td>
+            <td>S/.70.00 <br> <input type="radio" name="money" id="value3"></td>
           </tr>
           <tr>
             <td>Students</td>
-            <td>S/.30.00 <br> <input type="radio" name="" id=""></td>
-            <td>S/.30.00 <br> <input type="radio" name="" id=""></td>
-            <td>S/.30.00 <br> <input type="radio" name="" id=""></td>
+            <td>S/.30.00 <br> <input type="radio" name="money" id="value4"></td>
+            <td>S/.30.00 <br> <input type="radio" name="money" id="value5"></td>
+            <td>S/.30.00 <br> <input type="radio" name="money" id="value6"></td>
           </tr>
         </tbody>
       </table>
     </div>
   </section>
-
+  <div></div>
   <section class="container-lunch-options">
-    <h2>Select Tickets</h2>
+    <h2>Select Your Lunch</h2>
     <span></span>
     <div class="step2">
-      <i class="fas fa-diamond"></i>
-      <h3>STEP 1</h3>
+      <img src="./img/diamond-icon.svg" alt="">
+      <h3>STEP 2</h3>
       <h4>Please select the day when you want to join Workshop E-Commerce </h4>
     </div>
 
@@ -123,11 +116,11 @@
       </thead>
       <tbody>
         <tr>
-          <td>menu1 <input type="radio" name="" id=""></td>
-          <td>menu2 <input type="radio" name="" id=""></td>
-          <td>menu3 <input type="radio" name="" id=""></td>
-          <td>menu4 <input type="radio" name="" id=""></td>
-          <td>menu5 <input type="radio" name="" id=""></td>
+          <td>menu1 <input type="radio" name="money" id="value7"></td>
+          <td>menu2 <input type="radio" name="money" id="value8"></td>
+          <td>menu3 <input type="radio" name="money" id="value9"></td>
+          <td>menu4 <input type="radio" name="money" id="value10"></td>
+          <td>menu5 <input type="radio" name="money" id="value11"></td>
           
         </tr>
       </tbody>
@@ -136,34 +129,34 @@
     <table class="table-lunch-options">
       <thead>
         <tr>
-          <th colspan="5">Lunch</th>
+          <th colspan="5">Dinner</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>menu1 <input type="radio" name="" id=""></td>
-          <td>menu2 <input type="radio" name="" id=""></td>
-          <td>menu3 <input type="radio" name="" id=""></td>
-          <td>menu4 <input type="radio" name="" id=""></td>
-          <td>menu5 <input type="radio" name="" id=""></td>
+          <td>menu1 <input type="radio" name="money" id="value12"></td>
+          <td>menu2 <input type="radio" name="money" id="value13"></td>
+          <td>menu3 <input type="radio" name="money" id="value14"></td>
+          <td>menu4 <input type="radio" name="money" id="value15"></td>
+          <td>menu5 <input type="radio" name="money" id="value16"></td>
           
         </tr>
       </tbody>
     </table>
-
-    <button>Send my options</button>
+    
+    <a class="sendoptionsbtn" href="index.html">Send my options</a>
+    
   </section>
   <footer class="footer-container-dark">
     <img class="img-footer" src="./img/cc-logo-white.svg" alt="">
     <div class="content-footer-dark">
       <h2>2020 Creaative Commons Korea. Some Rights Reserved</h2>
-      <span></span>
       <p>
-        Except where otherwise noted, content on this site ( <a
-          href="https://creativecommons.org/">https://creativecommons.org/</a> ) is licensed under a Creative Commons
-        Attribution 4.0 International license. Icons by The Noun Project.
+        2020 Creaative Commos korea ( <a
+          href="https://creativecommons.org/">https://creativecommons.org/</a> ) Some Rights Reserved.
       </p>
     </div>
   </footer>
+  <script src="js/animation.js"></script>
 </body>
 </html>
