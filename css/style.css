@@ -10,7 +10,7 @@
   src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
 .nav-black-bar {
   background-color: #272a31;
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   font-weight: 500;
   font-size: 0.8rem;
   padding: 0 10vh;
@@ -39,7 +39,7 @@
   background-color: #fff;
   display: flex;
   flex-flow: row;
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   font-weight: 600;
   font-size: 0.9rem;
   justify-content: space-between;
@@ -81,7 +81,7 @@
     .nav-bar-root ul li {
       padding: 0 1vw; }
       .nav-bar-root ul li a {
-        font-family: "lato";
+        font-family: "lato", sans-serif;
         text-decoration: none;
         color: inherit; }
         .nav-bar-root ul li a i {
@@ -100,7 +100,7 @@
     .nav-bar-root ul li:last-child {
       padding-right: 1vw; }
       .nav-bar-root ul li:last-child a {
-        font-family: "lato";
+        font-family: "lato", sans-serif;
         text-decoration: none;
         color: inherit;
         font-weight: 700; }
@@ -151,7 +151,7 @@
   justify-content: center;
   background-image: url(../img/bg-text.jpg); }
   .container-program h2 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     color: #fff;
     font-size: 1.9vw; }
   .container-program span {
@@ -165,7 +165,7 @@
   .container-program h3 {
     text-transform: uppercase;
     font-size: 1.3vw;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     padding-top: 3vw; }
     .container-program h3 a {
       color: #fff; }
@@ -199,7 +199,7 @@
     .program-activities article header {
       padding: 0 0; }
       .program-activities article header h2 {
-        font-family: "lato";
+        font-family: "lato", sans-serif;
         font-size: 1.4vw;
         font-weight: 600;
         color: #ffca4c;
@@ -207,7 +207,7 @@
     .program-activities article p {
       color: #fff;
       padding: 0 10px;
-      font-family: "lato";
+      font-family: "lato", sans-serif;
       line-height: 25px;
       font-weight: 300;
       font-size: 1.2vw; }
@@ -312,7 +312,7 @@
   justify-content: center;
   padding: 4vw 0; }
   .container-featured h2 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     color: black;
     font-size: 2vw; }
   .container-featured span {
@@ -350,12 +350,12 @@
   padding-left: 1.3vw;
   padding-right: 4.3vw; }
   .card-content header h2 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     text-transform: capitalize;
     font-size: 1.8vw;
     font-weight: bolder; }
   .card-content h3 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-style: italic;
     color: #ec5242;
     line-height: 25px;
@@ -370,7 +370,7 @@
     margin: 0.5vw 0; }
   .card-content p {
     line-height: 20px;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-size: 0.8rem; }
 
 .picture-back-png {
@@ -417,7 +417,7 @@
   padding-top: 3vw;
   padding-bottom: 3vw; }
   .container-partner h2 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     color: #d3d3d3;
     font-size: 2vw; }
   .container-partner span {
@@ -501,7 +501,6 @@
       text-align: center;
       padding-bottom: 3vh; }
     .content-footer p {
-      padding: 0;
       text-align: center;
       padding: 0 6vw; }
       .content-footer p a {
@@ -535,11 +534,11 @@
   padding-left: 4vw; }
   .content-footer-dark h2 {
     padding-bottom: 1vw;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: bold;
     color: #fff; }
   .content-footer-dark p {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     line-height: 20px;
     color: #fff; }
     .content-footer-dark p a {
@@ -562,7 +561,6 @@
       text-align: center;
       padding-bottom: 3vh; }
     .content-footer-dark p {
-      padding: 0;
       text-align: center;
       padding: 0 6vw; }
       .content-footer-dark p a {
@@ -629,7 +627,7 @@
     width: 5vw;
     margin-bottom: 2vw; }
   .container-cover-about h2 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: 100;
     font-size: 3vw;
     color: #ec5242;
@@ -639,7 +637,7 @@
     border: 2px solid #fff;
     width: 70vw;
     padding: 3vh 3vw;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: 500;
     line-height: 30px;
     font-size: 1.1vw;
@@ -648,14 +646,14 @@
     box-shadow: 0 0 8px 4px #efefef;
     text-align: center; }
   .container-cover-about h3 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     color: #272a31;
     font-size: 1.1vw;
     text-transform: initial;
     padding-top: 4vh;
     font-weight: 500; }
   .container-cover-about h4 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     color: #272a31;
     font-size: 1.1vw;
     text-transform: initial;
@@ -676,7 +674,7 @@
   padding: 6vw 0;
   border-top: 1px solid #d3d3d3; }
   .container-creative-comm h2 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     color: black;
     font-size: 2vw;
     padding-bottom: 5vh; }
@@ -693,7 +691,7 @@
     border: 2px solid #fff;
     width: 70vw;
     padding: 3vh 3vw;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: 500;
     line-height: 30px;
     font-size: 1.1vw;
@@ -717,14 +715,14 @@
   padding: 6vw 0;
   border-top: 1px solid #d3d3d3; }
   .container-past-events h2 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     color: #000;
     font-size: 2vw;
     padding-bottom: 3vh;
     font-weight: bold; }
   .container-past-events h3 {
     font-family: 1.4vw;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     padding: 0 3vw;
     text-align: center; }
   .container-past-events span {
@@ -740,7 +738,7 @@
     border: 2px solid #fff;
     width: 70vw;
     padding: 0 3vw;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: 500;
     line-height: 30px;
     font-size: 1.1vw;
@@ -901,7 +899,7 @@
   padding: 6vw 0;
   background-color: #fbfbfb; }
   .container-tickets-main h2 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     color: #000;
     font-size: 2vw;
     padding-bottom: 5vh; }
@@ -918,7 +916,7 @@
     border: 2px solid #fff;
     width: 70vw;
     padding: 3vh 3vw;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: 500;
     line-height: 30px;
     font-size: 1.1vw;
@@ -927,21 +925,20 @@
 .step1 {
   display: flex;
   flex-flow: row;
-  border: 1px solid #000;
   border-radius: 25px;
   padding: 3vh 2vw;
   border: 1px solid #d3d3d3; }
   .step1 h3 {
     color: #ec5242;
     font-weight: 600;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     padding-right: 2vw;
     padding-left: 1vw;
     font-size: 1vw; }
   .step1 h4 {
     color: #272a31;
     font-weight: 500;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-size: 1vw; }
   .step1 img {
     width: 0.8vw;
@@ -950,7 +947,6 @@
 .step2 {
   display: flex;
   flex-flow: row;
-  border: 1px solid #000;
   border-radius: 25px;
   padding: 3vh 2vw;
   margin-bottom: 7vh;
@@ -958,14 +954,14 @@
   .step2 h3 {
     color: #ec5242;
     font-weight: 600;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     padding-right: 2vw;
     padding-left: 1vw;
     font-size: 1vw; }
   .step2 h4 {
     color: #272a31;
     font-weight: 500;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-size: 1vw; }
   .step2 img {
     width: 0.8vw;
@@ -973,7 +969,7 @@
 
 .table-prices {
   text-align: center;
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   font-size: 0.8rem;
   line-height: 25px;
   width: 60vw; }
@@ -1002,7 +998,7 @@
   padding: 6vw 0;
   background-color: #fff; }
   .container-lunch-options h2 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     color: #000;
     font-size: 2vw;
     padding-bottom: 5vh; }
@@ -1019,7 +1015,7 @@
     border: 2px solid #fff;
     width: 70vw;
     padding: 3vh 3vw;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: 500;
     line-height: 30px;
     font-size: 1.1vw;
@@ -1027,7 +1023,7 @@
 
 .table-lunch-options {
   text-align: center;
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   font-size: 0.8rem;
   line-height: 25px;
   width: 70vw;
@@ -1141,7 +1137,7 @@
     border-radius: 3px;
     z-index: 1; }
   .menuToggle a {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     text-decoration: none;
     color: #ec5242; }
   .menuToggle input {
@@ -1163,7 +1159,9 @@
   position: absolute;
   width: 200px;
   margin: -100px 0 0 -50px;
-  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
   padding-top: 125px;
   background: #ffece9;
   list-style-type: none;
@@ -1173,7 +1171,7 @@
     padding: 10px 0;
     font-size: 22px;
     font-size: 0.9rem;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: 900; }
 
 * {
@@ -1211,7 +1209,7 @@ body {
   align-items: flex-start;
   justify-content: center; }
   .container-cover h1 {
-    font-family: "Cocogoose";
+    font-family: "Cocogoose", sans-serif;
     font-weight: 500;
     font-size: 5.3vw;
     color: #ec5242;
@@ -1222,7 +1220,7 @@ body {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; }
   .container-cover h2 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: 100;
     font-size: 3vw;
     color: #ec5242;
@@ -1231,19 +1229,19 @@ body {
     border: 2px solid #d3d3d3;
     width: 50vw;
     padding: 3vh;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: 500;
     line-height: 30px;
     font-size: 1.2vw;
     background-color: #fff; }
   .container-cover h3 {
-    font-family: "Cocogoose";
+    font-family: "Cocogoose", sans-serif;
     color: #272a31;
     font-size: 2.5vw;
     text-transform: uppercase;
     padding-top: 4vh; }
   .container-cover h4 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: 500;
     font-size: 2vw;
     padding-top: 4vh; }

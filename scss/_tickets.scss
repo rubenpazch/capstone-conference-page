@@ -12,7 +12,7 @@
   background-color: $color-gray-1;
 
   h2 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     color: $color-black;
     font-size: 2vw;
     padding-bottom: 5vh;
@@ -33,7 +33,7 @@
     border: 2px solid $color-white;
     width: 70vw;
     padding: 3vh 3vw;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: 500;
     line-height: 30px;
     font-size: 1.1vw;
@@ -44,7 +44,6 @@
 .step1 {
   display: flex;
   flex-flow: row;
-  border: 1px solid $color-black;
   border-radius: 25px;
   padding: 3vh 2vw;
   border: 1px solid $color-gray;
@@ -52,7 +51,7 @@
   h3 {
     color: $color-orange;
     font-weight: 600;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     padding-right: 2vw;
     padding-left: 1vw;
     font-size: 1vw;
@@ -61,7 +60,7 @@
   h4 {
     color: $color-dark;
     font-weight: 500;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-size: 1vw;
   }
 
@@ -74,7 +73,6 @@
 .step2 {
   display: flex;
   flex-flow: row;
-  border: 1px solid $color-black;
   border-radius: 25px;
   padding: 3vh 2vw;
   margin-bottom: 7vh;
@@ -83,7 +81,7 @@
   h3 {
     color: $color-orange;
     font-weight: 600;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     padding-right: 2vw;
     padding-left: 1vw;
     font-size: 1vw;
@@ -92,7 +90,7 @@
   h4 {
     color: $color-dark;
     font-weight: 500;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-size: 1vw;
   }
 
@@ -104,7 +102,7 @@
 
 .table-prices {
   text-align: center;
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   font-size: 0.8rem;
   line-height: 25px;
   width: 60vw;
@@ -140,7 +138,7 @@
   background-color: $color-white;
 
   h2 {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     color: $color-black;
     font-size: 2vw;
     padding-bottom: 5vh;
@@ -161,7 +159,7 @@
     border: 2px solid $color-white;
     width: 70vw;
     padding: 3vh 3vw;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: 500;
     line-height: 30px;
     font-size: 1.1vw;
@@ -171,7 +169,7 @@
 
 .table-lunch-options {
   text-align: center;
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   font-size: 0.8rem;
   line-height: 25px;
   width: 70vw;

@@ -3,7 +3,7 @@
 
 .nav-black-bar {
   background-color: $color-dark;
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   font-weight: 500;
   font-size: 0.8rem;
   padding: 0 10vh;
@@ -41,7 +41,7 @@
   background-color: $color-white;
   display: flex;
   flex-flow: row;
-  font-family: "lato";
+  font-family: "lato", sans-serif;
   font-weight: 600;
   font-size: 0.9rem;
   justify-content: space-between;
@@ -97,7 +97,7 @@
       padding: 0 1vw;
 
       a {
-        font-family: "lato";
+        font-family: "lato", sans-serif;
         text-decoration: none;
         color: inherit;
 
@@ -128,7 +128,7 @@
       padding-right: 1vw;
 
       a {
-        font-family: "lato";
+        font-family: "lato", sans-serif;
         text-decoration: none;
         color: inherit;
         font-weight: 700;

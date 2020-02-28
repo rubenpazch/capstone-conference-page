@@ -17,13 +17,13 @@
 
   h2 {
     padding-bottom: 1vw;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: bold;
     color: $color-white;
   }
 
   p {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     line-height: 20px;
     color: $color-white;
 
@@ -54,8 +54,7 @@
       padding-bottom: 3vh;
     }
 
-    p {
-      padding: 0;
+    p {      
       text-align: center;
       padding: 0 6vw;
 

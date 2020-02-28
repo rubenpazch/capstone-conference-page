@@ -21,7 +21,7 @@
   }
 
   a {
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     text-decoration: none;
     color: $color-orange;
   }
@@ -47,7 +47,9 @@
   position: absolute;
   width: 200px;
   margin: -100px 0 0 -50px;
-  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
   padding-top: 125px;
   background: $color-orange-1;
   list-style-type: none;
@@ -58,7 +60,7 @@
     padding: 10px 0;
     font-size: 22px;
     font-size: 0.9rem;
-    font-family: "lato";
+    font-family: "lato", sans-serif;
     font-weight: 900;
   }
 }
