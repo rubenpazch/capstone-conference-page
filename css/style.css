@@ -121,12 +121,6 @@
   padding: 5px 10px 5px 10px;
 }
 
-.nav-black-bar ul li a i {
-  width: 16px;
-  height: 16px;
-  color: #fff;
-}
-
 .nav-white-bar {
   background-color: #fff;
   display: flex;
@@ -173,11 +167,6 @@
   padding: 0 1vw;
 }
 
-.nav-bar-root ul li a i {
-  font-size: 0.6rem;
-  color: #ec5242;
-  padding-right: 1vw;
-}
 
 #top-bar-1 {
   display: inherit;
@@ -231,10 +220,6 @@
   font-size: 1.3vw;
   font-family: "lato", sans-serif;
   padding-top: 3vw;
-}
-
-.container-program h3 a {
-  color: #fff;
 }
 
 .container-program button {
@@ -457,12 +442,6 @@
   line-height: 20px;
 }
 
-.content-footer p a {
-  font-weight: bold;
-  text-decoration: none;
-  color: #272a31;
-}
-
 .img-footer {
   width: 20vw;
 }
@@ -510,12 +489,6 @@
   color: #fff;
 }
 
-.content-footer-dark p a {
-  font-weight: bold;
-  text-decoration: none;
-  color: #fff;
-}
-
 .program-activities article p {
   color: #fff;
   padding: 0 10px;
@@ -537,11 +510,6 @@
 .nav-black-bar ul li a {
   color: #fff;
   text-decoration: none;
-}
-
-.nav-white-bar ul li a {
-  text-decoration: none;
-  color: #272a31;
 }
 
 .nav-bar-root ul li a {
@@ -1216,6 +1184,39 @@ body {
 }
 
 .nav-bar-root ul li:last-child a i {
+  font-size: 0.6rem;
+  color: #ec5242;
+  padding-right: 1vw;
+}
+
+.container-program h3 a {
+  color: #fff;
+}
+
+.content-footer p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #272a31;
+}
+
+.content-footer-dark p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-black-bar ul li a i {
+  width: 16px;
+  height: 16px;
+  color: #fff;
+}
+
+.nav-white-bar ul li a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.nav-bar-root ul li a i {
   font-size: 0.6rem;
   color: #ec5242;
   padding-right: 1vw;
