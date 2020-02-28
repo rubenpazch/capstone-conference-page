@@ -12,6 +12,90 @@
   src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
 }
 
+@font-face {
+  font-family: "Cocogoose";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
+}
+
+@font-face {
+  font-family: "Cocogoose";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
+}
+
+@font-face {
+  font-family: "Cocogoose";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
+}
+
+@font-face {
+  font-family: "Cocogoose";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
+}
+
+@font-face {
+  font-family: "Cocogoose";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
+}
+
+@font-face {
+  font-family: "Cocogoose";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
+}
+
 .nav-black-bar {
   background-color: #272a31;
   font-family: "lato", sans-serif;
@@ -173,30 +257,6 @@
   left: 20px;
 }
 
-@media (max-width: 767px) {
-  #top-bar-1 {
-    display: none;
-  }
-
-  #top-bar-2 {
-    display: inherit;
-  }
-}
-
-@font-face {
-  font-family: "Cocogoose";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
-}
-
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
-}
-
 .container-program {
   width: 100%;
   height: 85vh;
@@ -313,115 +373,6 @@
   display: none;
 }
 
-@media (max-width: 767px) {
-  .container-program {
-    height: 100%;
-    background-size: cover;
-  }
-
-  .container-program h2 {
-    padding-top: 7vh;
-    font-size: 3vw;
-  }
-
-  .container-program h3 {
-    padding-bottom: 3vw;
-  }
-
-  .container-program span {
-    width: 5vw;
-    margin: 7vh 0;
-  }
-
-  .container-program button {
-    margin-top: 5vh;
-    margin-bottom: 8vh;
-  }
-
-  .program-activities {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-  }
-
-  .program-activities article {
-    width: 95vw;
-    margin-top: 5px;
-    height: 25vh;
-    flex-flow: row;
-  }
-
-  .program-activities article img {
-    height: 10vw;
-    width: 15vw;
-    padding: 0 3.5vw;
-    margin-top: 15px;
-  }
-
-  .program-activities article header {
-    padding: 0 2vw;
-    min-width: 20vw;
-  }
-
-  .program-activities article header h2 {
-    font-size: 3vw;
-    text-align: left;
-    line-height: 35px;
-  }
-
-  .program-activities article p {
-    padding: 0 4vw;
-    line-height: 25px;
-    text-align: left;
-    font-size: 2vw;
-  }
-
-  #SeeWholeProgram {
-    display: none;
-  }
-
-  #btnJoinWorkshop {
-    display: initial;
-  }
-}
-
-@media (max-width: 576px) {
-  .program-activities {
-    display: flex;
-    flex-flow: column;
-  }
-
-  .program-activities article {
-    width: 95vw;
-    margin-top: 10px;
-    height: 32vh;
-    flex-flow: row;
-  }
-
-  .program-activities article img {
-    height: 10vw;
-    width: 15vw;
-    padding: 0 3.5vw;
-  }
-
-  .program-activities article header {
-    padding: 0 2vw;
-    min-width: 20vw;
-  }
-
-  .program-activities article header h2 {
-    font-size: 3vw;
-    text-align: left;
-    line-height: 25px;
-  }
-
-  .program-activities article p {
-    padding: 0 4vw;
-    line-height: 25px;
-    text-align: left;
-    font-size: 2.5vw;
-  }
-}
 
 .container-featured {
   width: 100%;
@@ -521,48 +472,6 @@
   z-index: -1;
 }
 
-@media (max-width: 767px) {
-  .container-featured {
-    padding: 4vh 0;
-  }
-
-  .container-featured h2 {
-    font-size: 3.5vw;
-    padding-top: 5vh;
-  }
-
-  .container-featured span {
-    margin: 5vh 0;
-  }
-
-  .speaker-preview {
-    flex-flow: column;
-  }
-
-  .speaker-preview article {
-    width: 100%;
-    padding-bottom: 9vw;
-  }
-
-  .card-picture img {
-    width: 20vw;
-  }
-
-  .card-content {
-    padding-left: 3vw;
-    padding-right: 1.5vw;
-  }
-
-  .card-content header h2 {
-    font-size: 2.8vw;
-    padding-bottom: 1vh;
-  }
-
-  .card-content span {
-    padding: 1px;
-    margin: 4px;
-  }
-}
 
 .container-partner {
   background-color: #272a31;
@@ -605,40 +514,6 @@
   margin: 5vh 3vw;
 }
 
-@media (max-width: 767px) {
-  .container-partner {
-    height: 100%;
-  }
-
-  .container-partner h2 {
-    font-size: 4vw;
-    padding-top: 3vh;
-  }
-
-  .list-sponsor-logo {
-    flex-flow: wrap;
-  }
-
-  .list-sponsor-logo img {
-    width: 150px;
-    margin: 5vh 3vw;
-  }
-}
-
-@font-face {
-  font-family: "Cocogoose";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
-}
-
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
-}
-
 .footer-container {
   width: 100%;
   height: 40vh;
@@ -673,52 +548,6 @@
 
 .img-footer {
   width: 20vw;
-}
-
-@media (max-width: 767px) {
-  .footer-container {
-    height: 100%;
-    padding: 10vh 5vw;
-  }
-
-  .content-footer {
-    padding: 0;
-  }
-
-  .content-footer h2 {
-    padding-top: 3vh;
-    text-align: center;
-    padding-bottom: 3vh;
-  }
-
-  .content-footer p {
-    text-align: center;
-    padding: 0 6vw;
-  }
-
-  .content-footer p a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #272a31;
-  }
-
-  .img-footer {
-    width: 40vw;
-  }
-}
-
-@font-face {
-  font-family: "Cocogoose";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
-}
-
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
 }
 
 .footer-container-dark {
@@ -757,52 +586,6 @@
 
 .img-footer {
   width: 20vw;
-}
-
-@media (max-width: 767px) {
-  .footer-container-dark {
-    height: 100%;
-    padding: 10vh 5vw;
-  }
-
-  .content-footer-dark {
-    padding: 0;
-  }
-
-  .content-footer-dark h2 {
-    padding-top: 3vh;
-    text-align: center;
-    padding-bottom: 3vh;
-  }
-
-  .content-footer-dark p {
-    text-align: center;
-    padding: 0 6vw;
-  }
-
-  .content-footer-dark p a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #fff;
-  }
-
-  .img-footer {
-    width: 40vw;
-  }
-}
-
-@font-face {
-  font-family: "Cocogoose";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
-}
-
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
 }
 
 .bg-cover-about {
@@ -1081,139 +864,6 @@
   display: none;
 }
 
-@media (max-width: 991px) {
-  .container-cover-about {
-    height: 100%;
-  }
-
-  .container-cover-about p {
-    font-size: 1.4vw;
-  }
-
-  .container-cover-about h3 {
-    font-size: 1.4vw;
-  }
-
-  .container-cover-about h4 {
-    font-size: 1.6vw;
-  }
-
-  .container-creative-comm h2 {
-    font-size: 2.4vw;
-  }
-
-  .container-creative-comm p {
-    font-size: 1.4vw;
-  }
-
-  .img-logo-creative {
-    padding: 4vh 8vw;
-  }
-
-  .container-past-events p {
-    font-size: 1.4vw;
-  }
-
-  .container-past-events h2 {
-    font-size: 2.4vw;
-    padding-bottom: 3vh;
-  }
-}
-
-@media (max-width: 767px) {
-  .container-cover-about p {
-    font-size: 1.7vw;
-  }
-
-  .container-cover-about h1 {
-    font-size: 5.2vw;
-  }
-
-  .container-cover-about h3 {
-    font-size: 1.7vw;
-  }
-
-  .container-cover-about h4 {
-    font-size: 1.7vw;
-  }
-
-  .list-past-pictures {
-    flex-flow: column;
-  }
-
-  .past-event-1 {
-    margin-top: 3vh;
-    width: 80vw;
-    height: 50vh;
-  }
-
-  .past-event-2 {
-    margin-top: 3vh;
-    width: 80vw;
-    height: 50vh;
-  }
-
-  .container-creative-comm p {
-    font-size: 1.7vw;
-  }
-
-  #subtitle-about {
-    display: initial;
-  }
-}
-
-@media (max-width: 576px) {
-  .container-cover-about h1 {
-    font-size: 6.2vw;
-  }
-
-  .container-cover-about h2 {
-    font-size: 3.5vw;
-  }
-
-  .container-cover-about h3 {
-    font-size: 2.2vw;
-  }
-
-  .container-cover-about h4 {
-    font-size: 2.4vw;
-  }
-
-  .container-cover-about p {
-    font-size: 2.2vw;
-  }
-
-  .container-creative-comm h2 {
-    font-size: 2.9vw;
-  }
-
-  .container-creative-comm p {
-    font-size: 2.2vw;
-  }
-
-  .container-past-events h2 {
-    font-size: 2.9vw;
-  }
-
-  .container-past-events p {
-    font-size: 2.2vw;
-  }
-}
-
-@font-face {
-  font-family: "Cocogoose";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
-}
-
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
-}
-
 .container-tickets-main {
   width: 100%;
   height: 100%;
@@ -1419,114 +1069,6 @@
   border: 0;
   color: #fff;
   text-decoration: none;
-}
-
-@media (max-width: 991px) {
-  .container-tickets-main h2 {
-    font-size: 2.3vw;
-  }
-
-  .step1 h4 {
-    font-size: 1.4vw;
-  }
-
-  .step1 h3 {
-    font-size: 1.4vw;
-  }
-
-  .container-lunch-options h2 {
-    font-size: 2.3vw;
-  }
-
-  .step2 h4 {
-    font-size: 1.4vw;
-  }
-
-  .step2 h3 {
-    font-size: 1.4vw;
-  }
-
-  .table-prices {
-    width: 80vw;
-  }
-
-  .table-lunch-options {
-    width: 80vw;
-  }
-}
-
-@media (max-width: 767px) {
-  .container-tickets-main h2 {
-    font-size: 3.5vw;
-  }
-
-  .container-lunch-options h2 {
-    font-size: 3.5vw;
-  }
-
-  .step1 h4 {
-    font-size: 1.7vw;
-  }
-
-  .step1 h3 {
-    font-size: 1.7vw;
-  }
-
-  .step2 h4 {
-    font-size: 1.7vw;
-  }
-
-  .step2 h3 {
-    font-size: 1.7vw;
-  }
-
-  .table-prices {
-    width: 90vw;
-  }
-
-  .table-lunch-options {
-    width: 90vw;
-  }
-}
-
-@media (max-width: 576px) {
-  .container-tickets-main h2 {
-    font-size: 3.2vw;
-  }
-
-  .step1 h4 {
-    font-size: 2.2vw;
-  }
-
-  .step1 h3 {
-    font-size: 2.2vw;
-  }
-
-  .container-lunch-options h2 {
-    font-size: 3.2vw;
-  }
-
-  .step2 h4 {
-    font-size: 2.2vw;
-  }
-
-  .step2 h3 {
-    font-size: 2.2vw;
-  }
-}
-
-@font-face {
-  font-family: "Cocogoose";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg");
-}
-
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
 }
 
 .menuToggle {
@@ -1749,5 +1291,465 @@ body {
   .container-cover h4 {
     font-size: 3vw;
     padding-top: 4vh;
+  }
+}
+
+@media (max-width: 767px) {
+  #top-bar-1 {
+    display: none;
+  }
+
+  #top-bar-2 {
+    display: inherit;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-program {
+    height: 100%;
+    background-size: cover;
+  }
+
+  .container-program h2 {
+    padding-top: 7vh;
+    font-size: 3vw;
+  }
+
+  .container-program h3 {
+    padding-bottom: 3vw;
+  }
+
+  .container-program span {
+    width: 5vw;
+    margin: 7vh 0;
+  }
+
+  .container-program button {
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+  }
+
+  .program-activities {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .program-activities article {
+    width: 95vw;
+    margin-top: 5px;
+    height: 25vh;
+    flex-flow: row;
+  }
+
+  .program-activities article img {
+    height: 10vw;
+    width: 15vw;
+    padding: 0 3.5vw;
+    margin-top: 15px;
+  }
+
+  .program-activities article header {
+    padding: 0 2vw;
+    min-width: 20vw;
+  }
+
+  .program-activities article header h2 {
+    font-size: 3vw;
+    text-align: left;
+    line-height: 35px;
+  }
+
+  .program-activities article p {
+    padding: 0 4vw;
+    line-height: 25px;
+    text-align: left;
+    font-size: 2vw;
+  }
+
+  #SeeWholeProgram {
+    display: none;
+  }
+
+  #btnJoinWorkshop {
+    display: initial;
+  }
+}
+
+@media (max-width: 576px) {
+  .program-activities {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .program-activities article {
+    width: 95vw;
+    margin-top: 10px;
+    height: 32vh;
+    flex-flow: row;
+  }
+
+  .program-activities article img {
+    height: 10vw;
+    width: 15vw;
+    padding: 0 3.5vw;
+  }
+
+  .program-activities article header {
+    padding: 0 2vw;
+    min-width: 20vw;
+  }
+
+  .program-activities article header h2 {
+    font-size: 3vw;
+    text-align: left;
+    line-height: 25px;
+  }
+
+  .program-activities article p {
+    padding: 0 4vw;
+    line-height: 25px;
+    text-align: left;
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-featured {
+    padding: 4vh 0;
+  }
+
+  .container-featured h2 {
+    font-size: 3.5vw;
+    padding-top: 5vh;
+  }
+
+  .container-featured span {
+    margin: 5vh 0;
+  }
+
+  .speaker-preview {
+    flex-flow: column;
+  }
+
+  .speaker-preview article {
+    width: 100%;
+    padding-bottom: 9vw;
+  }
+
+  .card-picture img {
+    width: 20vw;
+  }
+
+  .card-content {
+    padding-left: 3vw;
+    padding-right: 1.5vw;
+  }
+
+  .card-content header h2 {
+    font-size: 2.8vw;
+    padding-bottom: 1vh;
+  }
+
+  .card-content span {
+    padding: 1px;
+    margin: 4px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-partner {
+    height: 100%;
+  }
+
+  .container-partner h2 {
+    font-size: 4vw;
+    padding-top: 3vh;
+  }
+
+  .list-sponsor-logo {
+    flex-flow: wrap;
+  }
+
+  .list-sponsor-logo img {
+    width: 150px;
+    margin: 5vh 3vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-container {
+    height: 100%;
+    padding: 10vh 5vw;
+  }
+
+  .content-footer {
+    padding: 0;
+  }
+
+  .content-footer h2 {
+    padding-top: 3vh;
+    text-align: center;
+    padding-bottom: 3vh;
+  }
+
+  .content-footer p {
+    text-align: center;
+    padding: 0 6vw;
+  }
+
+  .content-footer p a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .img-footer {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-container-dark {
+    height: 100%;
+    padding: 10vh 5vw;
+  }
+
+  .content-footer-dark {
+    padding: 0;
+  }
+
+  .content-footer-dark h2 {
+    padding-top: 3vh;
+    text-align: center;
+    padding-bottom: 3vh;
+  }
+
+  .content-footer-dark p {
+    text-align: center;
+    padding: 0 6vw;
+  }
+
+  .content-footer-dark p a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .img-footer {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 991px) {
+  .container-cover-about {
+    height: 100%;
+  }
+
+  .container-cover-about p {
+    font-size: 1.4vw;
+  }
+
+  .container-cover-about h3 {
+    font-size: 1.4vw;
+  }
+
+  .container-cover-about h4 {
+    font-size: 1.6vw;
+  }
+
+  .container-creative-comm h2 {
+    font-size: 2.4vw;
+  }
+
+  .container-creative-comm p {
+    font-size: 1.4vw;
+  }
+
+  .img-logo-creative {
+    padding: 4vh 8vw;
+  }
+
+  .container-past-events p {
+    font-size: 1.4vw;
+  }
+
+  .container-past-events h2 {
+    font-size: 2.4vw;
+    padding-bottom: 3vh;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-cover-about p {
+    font-size: 1.7vw;
+  }
+
+  .container-cover-about h1 {
+    font-size: 5.2vw;
+  }
+
+  .container-cover-about h3 {
+    font-size: 1.7vw;
+  }
+
+  .container-cover-about h4 {
+    font-size: 1.7vw;
+  }
+
+  .list-past-pictures {
+    flex-flow: column;
+  }
+
+  .past-event-1 {
+    margin-top: 3vh;
+    width: 80vw;
+    height: 50vh;
+  }
+
+  .past-event-2 {
+    margin-top: 3vh;
+    width: 80vw;
+    height: 50vh;
+  }
+
+  .container-creative-comm p {
+    font-size: 1.7vw;
+  }
+
+  #subtitle-about {
+    display: initial;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-cover-about h1 {
+    font-size: 6.2vw;
+  }
+
+  .container-cover-about h2 {
+    font-size: 3.5vw;
+  }
+
+  .container-cover-about h3 {
+    font-size: 2.2vw;
+  }
+
+  .container-cover-about h4 {
+    font-size: 2.4vw;
+  }
+
+  .container-cover-about p {
+    font-size: 2.2vw;
+  }
+
+  .container-creative-comm h2 {
+    font-size: 2.9vw;
+  }
+
+  .container-creative-comm p {
+    font-size: 2.2vw;
+  }
+
+  .container-past-events h2 {
+    font-size: 2.9vw;
+  }
+
+  .container-past-events p {
+    font-size: 2.2vw;
+  }
+}
+
+@media (max-width: 991px) {
+  .container-tickets-main h2 {
+    font-size: 2.3vw;
+  }
+
+  .step1 h4 {
+    font-size: 1.4vw;
+  }
+
+  .step1 h3 {
+    font-size: 1.4vw;
+  }
+
+  .container-lunch-options h2 {
+    font-size: 2.3vw;
+  }
+
+  .step2 h4 {
+    font-size: 1.4vw;
+  }
+
+  .step2 h3 {
+    font-size: 1.4vw;
+  }
+
+  .table-prices {
+    width: 80vw;
+  }
+
+  .table-lunch-options {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-tickets-main h2 {
+    font-size: 3.5vw;
+  }
+
+  .container-lunch-options h2 {
+    font-size: 3.5vw;
+  }
+
+  .step1 h4 {
+    font-size: 1.7vw;
+  }
+
+  .step1 h3 {
+    font-size: 1.7vw;
+  }
+
+  .step2 h4 {
+    font-size: 1.7vw;
+  }
+
+  .step2 h3 {
+    font-size: 1.7vw;
+  }
+
+  .table-prices {
+    width: 90vw;
+  }
+
+  .table-lunch-options {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-tickets-main h2 {
+    font-size: 3.2vw;
+  }
+
+  .step1 h4 {
+    font-size: 2.2vw;
+  }
+
+  .step1 h3 {
+    font-size: 2.2vw;
+  }
+
+  .container-lunch-options h2 {
+    font-size: 3.2vw;
+  }
+
+  .step2 h4 {
+    font-size: 2.2vw;
+  }
+
+  .step2 h3 {
+    font-size: 2.2vw;
   }
 }
