@@ -37,6 +37,11 @@
   padding: 5px 10px 5px 10px;
 }
 
+.nav-black-bar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .nav-black-bar ul li a i {
   width: 16px;
   height: 16px;
@@ -67,6 +72,20 @@
   padding-right: 3.5vw;
 }
 
+.nav-white-bar ul li a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.nav-white-bar ul li:last-child {
+  border: 4px solid #ec5242;
+  padding: 10px 15px;
+}
+
+.nav-white-bar ul li:last-child a {
+  color: #ec5242;
+}
+
 .nav-bar-root {
   padding: 0 10vh;
   width: 100%;
@@ -89,7 +108,45 @@
   padding: 0 1vw;
 }
 
+.nav-bar-root ul li a {
+  font-family: "lato", sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
 .nav-bar-root ul li a i {
+  font-size: 0.6rem;
+  color: #ec5242;
+  padding-right: 1vw;
+}
+
+.nav-bar-root ul li:first-child {
+  padding: 0;
+}
+
+.nav-bar-root ul li:first-child a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-bar-root ul li:first-child a i {
+  font-size: 1rem;
+  color: #272a31;
+  padding-right: 0;
+}
+
+.nav-bar-root ul li:last-child {
+  padding-right: 1vw;
+}
+
+.nav-bar-root ul li:last-child a {
+  font-family: "lato", sans-serif;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+}
+
+.nav-bar-root ul li:last-child a i {
   font-size: 0.6rem;
   color: #ec5242;
   padding-right: 1vw;
@@ -177,22 +234,6 @@
   color: #fff;
 }
 
-.nav-black-bar ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav-white-bar ul li a {
-  text-decoration: none;
-  color: #272a31;
-}
-
-.nav-bar-root ul li a {
-  font-family: "lato", sans-serif;
-  text-decoration: none;
-  color: inherit;
-}
-
 .container-program button {
   background-color: #ffca4c;
   padding: 3vh 4vw;
@@ -229,6 +270,14 @@
 
 .program-activities article header {
   padding: 0 0;
+}
+
+.program-activities article header h2 {
+  font-family: "lato", sans-serif;
+  font-size: 1.4vw;
+  font-weight: 600;
+  color: #ffca4c;
+  margin-bottom: 10px;
 }
 
 .program-activities article p {
@@ -470,14 +519,6 @@
   bottom: 0;
   left: -15px;
   z-index: -1;
-}
-
-.program-activities article header h2 {
-  font-family: "lato", sans-serif;
-  font-size: 1.4vw;
-  font-weight: 600;
-  color: #ffca4c;
-  margin-bottom: 10px;
 }
 
 @media (max-width: 767px) {
@@ -996,7 +1037,6 @@
 
 .container-past-events h2 {
   font-family: "lato", sans-serif;
-  color: #000;
   font-size: 2vw;
   padding-bottom: 3vh;
   font-weight: bold;
@@ -1710,45 +1750,4 @@ body {
     font-size: 3vw;
     padding-top: 4vh;
   }
-}
-
-.nav-white-bar ul li:last-child {
-  border: 4px solid #ec5242;
-  padding: 10px 15px;
-}
-
-.nav-white-bar ul li:last-child a {
-  color: #ec5242;
-}
-
-.nav-bar-root ul li:first-child {
-  padding: 0;
-}
-
-.nav-bar-root ul li:first-child a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.nav-bar-root ul li:first-child a i {
-  font-size: 1rem;
-  color: #272a31;
-  padding-right: 0;
-}
-
-.nav-bar-root ul li:last-child {
-  padding-right: 1vw;
-}
-
-.nav-bar-root ul li:last-child a {
-  font-family: "lato", sans-serif;
-  text-decoration: none;
-  color: inherit;
-  font-weight: 700;
-}
-
-.nav-bar-root ul li:last-child a i {
-  font-size: 0.6rem;
-  color: #ec5242;
-  padding-right: 1vw;
 }
