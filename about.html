@@ -24,22 +24,32 @@
         <li><a href="#">Logout</a></li>
       </ul>
     </nav>
-    <nav class="nav-white-bar">
-      <a href="index.html"><img src="./img/logo-cusco-solutions.svg" alt=""></a>  
+    <nav class="nav-white-bar" id="nav-sticky-element">
+      <a href="#"><img src="./img/logo-cusco-solutions.svg" alt=""></a>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Program</a></li>
-        <li><a href="#">Speakers</a></li>
-        <li><a href="#">Sponsor</a></li>
-        <li><a href="about.html">About Us</a></li>
+        <li><a href="#top-bar-1">Home</a></li>
+        <li><a href="index.html#programsection">Program</a></li>
+        <li><a href="index.html#speakersection">Speakers</a></li>
+        <li><a href="index.html#sponsorsection">Sponsor</a></li>
+        <li><a href="#">About Us</a></li>
         <li><a href="tickets.html">Tickets</a></li>
       </ul>
     </nav>
   </header>
 
-  <header class="top-bar-md" id="top-bar-2">
-    <a class="ham-bars" href="#"><img src="./img/bars-solid.svg" alt=""></a>
-  </header>
+  <nav id="top-bar-2">
+    <div class="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="tickets.html">Tickets</a></li>
+      </ul>
+    </div>
+  </nav>
 
   <nav class="nav-bar-root">
     <ul>
@@ -51,12 +61,9 @@
 
   <div class="bg-cover-about">
     <section class="container-cover-about">
-      <h1>read more about Cusco Solutions</h1>
+      <h1>Build your <br> e-Commerce winter 2020</h1>
       <span></span>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, incidunt tenetur? Dolorum temporibus possimus
-        minus alias totam, nam voluptatem tempore velit sed iure aperiam quasi! Hic ad eligendi incidunt vero!Lorem
-        ipsum dolor sit, amet consectetur adipisicing elit. Nisi, incidunt tenetur? Dolorum temporibus possimus minus
-        alias totam, nam voluptatem tempore velit sed iure aperiam quasi! Hic ad eligendi incidunt vero!</p>
+      <p>We are an organization dedicated to providing computer services to small, medium and large companies, business ventures and others; Cusco Solutions was born as an initiative aimed at helping the success of business supported by technology, the globalized world forces businesses to innovate and optimize their business processes supported by technology as a strategic partner.</p>
       <h3>Please contact us per Email for any further questions about Cusco Soolutions 2020!</h3>
       <h4><a href="mailto:info@cuscosolutions.com">info@cuscosolutions.com</a></h4>
 
@@ -64,10 +71,9 @@
   </div>
 
   <section class="container-creative-comm">
-    <h2>Creative commons global Summit 2020 logo</h2>
+    <h2>Workshop E-Commerce 2020 - Logo </h2>
     <span></span>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto autem ex inventore nulla eum quia temporibus est
-      ullam odit voluptas quo exercitationem enim accusamus necessitatibus dolores illum, hic deleniti tempora?</p>
+    <p>We do what we think, we invite you to share your business idea with us and we will help you organize the best strategy. We believe that every detail is important for the success of your business.</p>
     <div class="img-logo-creative">
       <img src="./img/logo-cusco-solutions.svg" alt="">
     </div>
@@ -91,9 +97,22 @@
     </div>
   </section>
 
-  <footer class="footer-container-dark">
-    <img class="img-footer" src="./img/cc-logo-white.svg" alt="">
-    <div class="content-footer-dark">
+
+  <section class="container-partner" id="sponsorsection">
+    <h2>Partner</h2>
+    <span></span>
+    <div class="list-sponsor-logo">
+      <img src="./img/logo-turitika.svg" alt="">
+      <img src="./img/cusco-tours-logo.svg" alt="">
+      <img src="./img/culqui-logo.svg" alt="">
+      <img src="./img/microverse-logo.svg" alt="">
+      <img src="./img/cusco-gray-logo.svg" alt="">
+    </div>
+  </section>
+
+  <footer class="footer-container">
+    <img class="img-footer" src="./img/cc-logo-dark.svg" alt="">
+    <div class="content-footer">
       <h2>2020 Creaative Commons Korea. Some Rights Reserved</h2>
       <span></span>
       <p>
@@ -103,7 +122,7 @@
       </p>
     </div>
   </footer>
-
+  <script src="js/animation.js"></script>
 </body>
 
 </html>

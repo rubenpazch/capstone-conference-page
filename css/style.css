@@ -2,12 +2,12 @@
   font-family: "Cocogoose";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff2") format("woff2"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg"); }
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg"); }
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff2") format("woff2"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
 .nav-black-bar {
   background-color: #272a31;
   font-family: "lato";
@@ -48,7 +48,8 @@
   height: 12vh;
   -webkit-box-shadow: 0px 4px 4px 0px #efefef;
   -moz-box-shadow: 0px 4px 4px 0px #efefef;
-  box-shadow: 0px 4px 4px 0px #efefef; }
+  box-shadow: 0px 4px 4px 0px #efefef;
+  z-index: 996; }
   .nav-white-bar ul li {
     display: inline;
     color: #fff;
@@ -134,15 +135,15 @@
   font-family: "Cocogoose";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff2") format("woff2"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg"); }
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg"); }
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff2") format("woff2"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
 .container-program {
   width: 100%;
-  height: 80vh;
+  height: 85vh;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -150,56 +151,68 @@
   background-image: url(../img/bg-text.jpg); }
   .container-program h2 {
     font-family: "lato";
-    color: white;
-    font-size: 2vw; }
+    color: #fff;
+    font-size: 1.9vw; }
   .container-program span {
     height: 1px;
     padding: 1px;
-    background-color: yellow;
+    background-color: #ffca4c;
     content: "";
     display: block;
     width: 5vw;
     margin: 2vw 0; }
   .container-program h3 {
     text-transform: uppercase;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     font-family: "lato";
     padding-top: 3vw; }
     .container-program h3 a {
-      color: white; }
+      color: #fff; }
+  .container-program button {
+    background-color: #ffca4c;
+    padding: 3vh 4vw;
+    border-radius: 3px;
+    border: 0;
+    color: #272a31;
+    font-weight: 900; }
 
 .program-activities {
   display: flex;
   flex-flow: row; }
   .program-activities article {
-    width: 17vw;
-    height: 40vh;
+    width: 16vw;
+    height: 50vh;
     margin-right: 3px;
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     z-index: 1;
     position: relative;
     text-align: center; }
     .program-activities article img {
-      height: 50px;
-      z-index: 999; }
+      height: 4vw;
+      z-index: 999;
+      margin-top: 35px;
+      margin-bottom: 15px; }
     .program-activities article header {
-      padding: 15px 0; }
+      padding: 0 0; }
       .program-activities article header h2 {
         font-family: "lato";
-        font-weight: 900;
-        color: #ffca4c; }
+        font-size: 1.4vw;
+        font-weight: 600;
+        color: #ffca4c;
+        margin-bottom: 10px; }
     .program-activities article p {
-      color: white;
-      padding: 0 15px;
+      color: #fff;
+      padding: 0 10px;
       font-family: "lato";
       line-height: 25px;
-      font-weight: 600; }
+      font-weight: 300;
+      font-size: 1.2vw; }
   .program-activities article::after {
-    background-color: white;
-    opacity: 0.1;
+    background-color: #fff;
+    opacity: 0.2;
     z-index: -1;
     position: absolute;
     top: 0;
@@ -207,18 +220,64 @@
     bottom: 0;
     right: 0;
     content: ""; }
+  .program-activities article:hover {
+    border: 3px solid #fff; }
+
+#SeeWholeProgram {
+  display: initial; }
+
+#btnJoinWorkshop {
+  display: none; }
 
 @media (max-width: 767px) {
   .container-program {
     height: 100%;
     background-size: cover; }
     .container-program h2 {
-      padding-top: 5vh;
+      padding-top: 7vh;
       font-size: 3vw; }
+    .container-program h3 {
+      padding-bottom: 3vw; }
     .container-program span {
       width: 5vw;
       margin: 7vh 0; }
+    .container-program button {
+      margin-top: 5vh;
+      margin-bottom: 8vh; }
 
+  .program-activities {
+    display: flex;
+    flex-flow: column;
+    align-items: center; }
+    .program-activities article {
+      width: 95vw;
+      margin-top: 5px;
+      height: 25vh;
+      flex-flow: row; }
+      .program-activities article img {
+        height: 10vw;
+        width: 15vw;
+        padding: 0 3.5vw;
+        margin-top: 15px; }
+      .program-activities article header {
+        padding: 0 2vw;
+        min-width: 20vw; }
+        .program-activities article header h2 {
+          font-size: 3vw;
+          text-align: left;
+          line-height: 35px; }
+      .program-activities article p {
+        padding: 0 4vw;
+        line-height: 25px;
+        text-align: left;
+        font-size: 2vw; }
+
+  #SeeWholeProgram {
+    display: none; }
+
+  #btnJoinWorkshop {
+    display: initial; } }
+@media (max-width: 576px) {
   .program-activities {
     display: flex;
     flex-flow: column; }
@@ -228,15 +287,21 @@
       height: 32vh;
       flex-flow: row; }
       .program-activities article img {
-        height: 60px;
+        height: 10vw;
+        width: 15vw;
         padding: 0 3.5vw; }
       .program-activities article header {
         padding: 0 2vw;
         min-width: 20vw; }
+        .program-activities article header h2 {
+          font-size: 3vw;
+          text-align: left;
+          line-height: 25px; }
       .program-activities article p {
-        padding: 0 6vw;
+        padding: 0 4vw;
         line-height: 25px;
-        text-align: left; } }
+        text-align: left;
+        font-size: 2.5vw; } }
 .container-featured {
   width: 100%;
   height: 100%;
@@ -261,14 +326,15 @@
 .speaker-preview {
   display: flex;
   flex-flow: wrap;
-  padding: 0 10vh; }
+  padding: 0 5vw; }
   .speaker-preview article {
     flex-grow: 1;
     width: 50%;
     display: flex;
     flex-flow: row;
     align-items: center;
-    padding-bottom: 3vw; }
+    padding-bottom: 4vw;
+    padding-top: 3vw; }
 
 .card-picture {
   position: relative; }
@@ -317,14 +383,16 @@
   .container-featured {
     padding: 4vh 0; }
     .container-featured h2 {
-      font-size: 3.5vw; }
+      font-size: 3.5vw;
+      padding-top: 5vh; }
     .container-featured span {
       margin: 5vh 0; }
 
   .speaker-preview {
     flex-flow: column; }
     .speaker-preview article {
-      width: 100%; }
+      width: 100%;
+      padding-bottom: 9vw; }
 
   .card-picture img {
     width: 20vw; }
@@ -334,11 +402,14 @@
     padding-right: 1.5vw; }
     .card-content header h2 {
       font-size: 2.8vw;
-      padding-bottom: 1vh; } }
+      padding-bottom: 1vh; }
+    .card-content span {
+      padding: 1px;
+      margin: 4px; } }
 .container-partner {
   background-color: #272a31;
   width: 100%;
-  height: 40vh;
+  height: 100%;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -365,19 +436,31 @@
   align-items: center;
   justify-content: center; }
   .list-sponsor-logo img {
-    width: 130px;
-    margin: 0 3vw; }
+    width: 150px;
+    margin: 5vh 3vw; }
 
+@media (max-width: 767px) {
+  .container-partner {
+    height: 100%; }
+    .container-partner h2 {
+      font-size: 4vw;
+      padding-top: 3vh; }
+
+  .list-sponsor-logo {
+    flex-flow: wrap; }
+    .list-sponsor-logo img {
+      width: 150px;
+      margin: 5vh 3vw; } }
 @font-face {
   font-family: "Cocogoose";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff2") format("woff2"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg"); }
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg"); }
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff2") format("woff2"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
 .footer-container {
   width: 100%;
   height: 40vh;
@@ -403,18 +486,40 @@
       color: #272a31; }
 
 .img-footer {
-  width: 250px; }
+  width: 20vw; }
 
+@media (max-width: 767px) {
+  .footer-container {
+    height: 100%;
+    padding: 10vh 5vw; }
+
+  .content-footer {
+    padding: 0; }
+    .content-footer h2 {
+      padding-top: 3vh;
+      text-align: center;
+      padding-bottom: 3vh; }
+    .content-footer p {
+      padding: 0;
+      text-align: center;
+      padding: 0 6vw; }
+      .content-footer p a {
+        font-weight: bold;
+        text-decoration: none;
+        color: #272a31; }
+
+  .img-footer {
+    width: 40vw; } }
 @font-face {
   font-family: "Cocogoose";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff2") format("woff2"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg"); }
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg"); }
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff2") format("woff2"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
 .footer-container-dark {
   width: 100%;
   height: 40vh;
@@ -442,18 +547,18 @@
       color: #fff; }
 
 .img-footer {
-  width: 250px; }
+  width: 20vw; }
 
 @font-face {
   font-family: "Cocogoose";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff2") format("woff2"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg"); }
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg"); }
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff2") format("woff2"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
 .bg-cover-about {
   display: block;
   position: relative; }
@@ -574,7 +679,7 @@
 .img-logo-creative {
   border: 1px solid #d3d3d3;
   margin-top: 4vh;
-  padding: 3vh 3vw;
+  padding: 4vh 6vw;
   -webkit-box-shadow: 0px 0px 8px 4px #efefef;
   -moz-box-shadow: 0px 0px 8px 4px #efefef;
   box-shadow: 0px 0px 8px 4px #efefef; }
@@ -673,16 +778,29 @@
     color: #fff;
     z-index: 998; }
 
+@media (max-width: 767px) {
+  .list-past-pictures {
+    flex-flow: column; }
+
+  .past-event-1 {
+    margin-top: 3vh;
+    width: 80vw;
+    height: 50vh; }
+
+  .past-event-2 {
+    margin-top: 3vh;
+    width: 80vw;
+    height: 50vh; } }
 @font-face {
   font-family: "Cocogoose";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff2") format("woff2"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg"); }
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg"); }
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff2") format("woff2"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
 .container-tickets-main {
   width: 100%;
   height: 100%;
@@ -809,6 +927,68 @@
     border: 1px solid #d3d3d3;
     padding: 2vh 4vw; }
 
+@font-face {
+  font-family: "Cocogoose";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg"); }
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
+.menuToggle {
+  display: block;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  width: 90%; }
+  .menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #ec5242;
+    border-radius: 3px;
+    z-index: 1; }
+  .menuToggle a {
+    font-family: "lato";
+    text-decoration: none;
+    color: #ec5242; }
+  .menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0;
+    /* hide this */
+    z-index: 2;
+    /* and place it over the hamburger */ }
+  .menuToggle input:checked ~ ul {
+    transform: none; }
+
+.menu {
+  position: absolute;
+  width: 200px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ffece9;
+  list-style-type: none;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0); }
+  .menu li {
+    padding: 10px 0;
+    font-size: 22px;
+    font-size: 0.9rem;
+    font-family: "lato";
+    font-weight: 900; }
+
 * {
   box-sizing: border-box; }
 
@@ -892,23 +1072,34 @@ body {
     font-size: 2.1vw;
     padding-top: 4vh; } }
 @media (max-width: 767px) {
-  .container-cover p {
-    width: 85vw;
-    font-size: 2.3vw; }
-  .container-cover h3 {
-    font-size: 3vw;
-    padding-top: 4vh; }
-  .container-cover h4 {
-    font-size: 2.1vw;
-    padding-top: 4vh; } }
+  .container-cover {
+    padding: 0 5vw; }
+    .container-cover p {
+      width: 90vw;
+      font-size: 2.3vw;
+      line-height: 20px; }
+    .container-cover h1 {
+      font-size: 8vw; }
+    .container-cover h2 {
+      font-size: 5vw; }
+    .container-cover h3 {
+      font-size: 5vw;
+      padding-top: 4vh; }
+    .container-cover h4 {
+      font-size: 3vw;
+      padding-top: 2vh; } }
 @media (max-width: 576px) {
   .container-cover p {
-    font-size: 2.5vw; }
+    font-size: 2.7vw; }
+  .container-cover h1 {
+    font-size: 7vw; }
+  .container-cover h2 {
+    font-size: 5vw; }
   .container-cover h3 {
-    font-size: 3vw;
+    font-size: 5vw;
     padding-top: 4vh; }
   .container-cover h4 {
-    font-size: 2.1vw;
+    font-size: 3vw;
     padding-top: 4vh; } }
 
 /*# sourceMappingURL=style.css.map */

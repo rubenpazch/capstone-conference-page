@@ -145,7 +145,7 @@
 .img-logo-creative {
   border: 1px solid $color-gray;
   margin-top: 4vh;
-  padding: 3vh 3vw;
+  padding: 4vh 6vw;
   -webkit-box-shadow: 0px 0px 8px 4px #efefef;
   -moz-box-shadow: 0px 0px 8px 4px #efefef;
   box-shadow: 0px 0px 8px 4px #efefef;
@@ -265,4 +265,30 @@
     color: $color-white;
     z-index: 998;
   }
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+  .list-past-pictures {
+    flex-flow: column;
+  }
+
+  .past-event-1 {
+    margin-top: 3vh;
+    width: 80vw;
+    height: 50vh;
+  }
+
+  .past-event-2 {
+    margin-top: 3vh;
+    width: 80vw;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 576px) {
+  
 }

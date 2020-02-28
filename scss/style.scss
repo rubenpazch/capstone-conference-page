@@ -8,6 +8,7 @@
 @import '../scss/footer-dark.scss';
 @import '../scss/about.scss';
 @import '../scss/tickets.scss';
+@import '../scss/toglemenu.scss';
 
 * {
   box-sizing: border-box;
@@ -118,19 +119,30 @@ body {
 
 @media (max-width: 767px) {
   .container-cover {
+    padding: 0 5vw;
+
     p {
-      width: 85vw;
+      width: 90vw;
       font-size: 2.3vw;
+      line-height: 20px;
+    }
+
+    h1 {
+      font-size: 8vw;
+    }
+
+    h2 {
+      font-size: 5vw;
     }
 
     h3 {
-      font-size: 3vw;
+      font-size: 5vw;
       padding-top: 4vh;
     }
 
     h4 {
-      font-size: 2.1vw;
-      padding-top: 4vh;
+      font-size: 3vw;
+      padding-top: 2vh;
     }
   }
 }
@@ -138,16 +150,24 @@ body {
 @media (max-width: 576px) {
   .container-cover {
     p {
-      font-size: 2.5vw;
+      font-size: 2.7vw;
+    }
+
+    h1 {
+      font-size: 7vw;
+    }
+
+    h2 {
+      font-size: 5vw;
     }
 
     h3 {
-      font-size: 3vw;
+      font-size: 5vw;
       padding-top: 4vh;
     }
 
     h4 {
-      font-size: 2.1vw;
+      font-size: 3vw;
       padding-top: 4vh;
     }
   }

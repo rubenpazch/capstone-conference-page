@@ -1,0 +1,64 @@
+@import '../scss/colors.scss';
+@import '../scss/fonts.scss';
+
+.menuToggle {
+  display: block;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  width: 90%;
+
+  span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: $color-orange;
+    border-radius: 3px;
+    z-index: 1;
+  }
+
+  a {
+    font-family: "lato";
+    text-decoration: none;
+    color: $color-orange;
+  }
+
+  input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+  }
+
+  input:checked ~ ul {
+    transform: none;
+  }
+}
+
+.menu {
+  position: absolute;
+  width: 200px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: $color-orange-1;
+  list-style-type: none;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+
+  li {
+    padding: 10px 0;
+    font-size: 22px;
+    font-size: 0.9rem;
+    font-family: "lato";
+    font-weight: 900;
+  }
+}
