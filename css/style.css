@@ -114,13 +114,6 @@
   align-items: center;
 }
 
-.nav-black-bar ul li {
-  display: inline;
-  color: #fff;
-  line-height: 20px;
-  padding: 5px 10px 5px 10px;
-}
-
 .nav-white-bar {
   background-color: #fff;
   display: flex;
@@ -136,13 +129,6 @@
   -moz-box-shadow: 0 4px 4px 0 #efefef;
   box-shadow: 0 4px 4px 0 #efefef;
   z-index: 996;
-}
-
-.nav-white-bar ul li {
-  display: inline;
-  color: #fff;
-  line-height: 30px;
-  padding-right: 3.5vw;
 }
 
 .nav-bar-root {
@@ -161,10 +147,6 @@
   flex-flow: row;
   align-items: center;
   padding: 3vh 0;
-}
-
-.nav-bar-root ul li {
-  padding: 0 1vw;
 }
 
 #top-bar-1 {
@@ -408,13 +390,6 @@
   margin: 5vh 3vw;
 }
 
-.program-activities article img {
-  height: 4vw;
-  z-index: 999;
-  margin-top: 35px;
-  margin-bottom: 15px;
-}
-
 .footer-container {
   width: 100%;
   height: 40vh;
@@ -467,34 +442,10 @@
   color: #fff;
 }
 
-.card-content header h2 {
-  font-family: "lato", sans-serif;
-  text-transform: capitalize;
-  font-size: 1.8vw;
-  font-weight: bolder;
-}
-
-.program-activities article header h2 {
-  font-family: "lato", sans-serif;
-  font-size: 1.4vw;
-  font-weight: 600;
-  color: #ffca4c;
-  margin-bottom: 10px;
-}
-
 .content-footer-dark p {
   font-family: "lato", sans-serif;
   line-height: 20px;
   color: #fff;
-}
-
-.program-activities article p {
-  color: #fff;
-  padding: 0 10px;
-  font-family: "lato", sans-serif;
-  line-height: 25px;
-  font-weight: 300;
-  font-size: 1.2vw;
 }
 
 .img-footer {
@@ -504,17 +455,6 @@
 .bg-cover-about {
   display: block;
   position: relative;
-}
-
-.nav-black-bar ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav-bar-root ul li a {
-  font-family: "lato", sans-serif;
-  text-decoration: none;
-  color: inherit;
 }
 
 .bg-cover-about::after {
@@ -674,12 +614,6 @@
   text-transform: initial;
   padding-top: 4vh;
   font-weight: 700;
-}
-
-.container-cover-about h4 a {
-  text-decoration: underline;
-  color: inherit;
-  line-height: 20px;
 }
 
 .container-creative-comm {
@@ -1145,6 +1079,72 @@ body {
   font-weight: 500;
   font-size: 2vw;
   padding-top: 4vh;
+}
+
+.container-cover-about h4 a {
+  text-decoration: underline;
+  color: inherit;
+  line-height: 20px;
+}
+
+.nav-white-bar ul li {
+  display: inline;
+  color: #fff;
+  line-height: 30px;
+  padding-right: 3.5vw;
+}
+
+.nav-black-bar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-bar-root ul li a {
+  font-family: "lato", sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+.program-activities article p {
+  color: #fff;
+  padding: 0 10px;
+  font-family: "lato", sans-serif;
+  line-height: 25px;
+  font-weight: 300;
+  font-size: 1.2vw;
+}
+
+.program-activities article img {
+  height: 4vw;
+  z-index: 999;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.card-content header h2 {
+  font-family: "lato", sans-serif;
+  text-transform: capitalize;
+  font-size: 1.8vw;
+  font-weight: bolder;
+}
+
+.nav-bar-root ul li {
+  padding: 0 1vw;
+}
+
+.nav-black-bar ul li {
+  display: inline;
+  color: #fff;
+  line-height: 20px;
+  padding: 5px 10px 5px 10px;
+}
+
+.program-activities article header h2 {
+  font-family: "lato", sans-serif;
+  font-size: 1.4vw;
+  font-weight: 600;
+  color: #ffca4c;
+  margin-bottom: 10px;
 }
 
 .nav-white-bar ul li:last-child {
