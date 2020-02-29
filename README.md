@@ -16,7 +16,7 @@ The project you are going to build for the HTML & CSS Capstone Project is based 
 
 ## Live Demo
 
-[Preview](#)
+[Preview](https://heuristic-wiles-1caea6.netlify.com/)
 
 
 ## Authors
