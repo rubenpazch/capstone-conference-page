@@ -448,10 +448,6 @@
   color: #fff;
 }
 
-.img-footer {
-  width: 20vw;
-}
-
 .bg-cover-about {
   display: block;
   position: relative;
@@ -916,10 +912,6 @@
   padding: 2vh 4vw;
 }
 
-.table-lunch-options td {
-  border: 0;
-}
-
 .sendoptionsbtn {
   background-color: #ec5242;
   padding: 3vh 4vw;
@@ -1104,6 +1096,12 @@ body {
   color: #272a31;
 }
 
+.content-footer-dark p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
 .nav-black-bar ul li a {
   color: #fff;
   text-decoration: none;
@@ -1157,6 +1155,23 @@ body {
   margin-bottom: 10px;
 }
 
+.nav-black-bar ul li a i {
+  width: 16px;
+  height: 16px;
+  color: #fff;
+}
+
+.nav-white-bar ul li a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.nav-bar-root ul li a i {
+  font-size: 0.6rem;
+  color: #ec5242;
+  padding-right: 1vw;
+}
+
 .nav-white-bar ul li:last-child {
   border: 4px solid #ec5242;
   padding: 10px 15px;
@@ -1193,29 +1208,6 @@ body {
 }
 
 .nav-bar-root ul li:last-child a i {
-  font-size: 0.6rem;
-  color: #ec5242;
-  padding-right: 1vw;
-}
-
-.content-footer-dark p a {
-  font-weight: bold;
-  text-decoration: none;
-  color: #fff;
-}
-
-.nav-black-bar ul li a i {
-  width: 16px;
-  height: 16px;
-  color: #fff;
-}
-
-.nav-white-bar ul li a {
-  text-decoration: none;
-  color: #272a31;
-}
-
-.nav-bar-root ul li a i {
   font-size: 0.6rem;
   color: #ec5242;
   padding-right: 1vw;
