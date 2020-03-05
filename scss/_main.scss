@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cocogoose", sans-serif;
+}
+
+.bg-cover {
+  display: block;
+  position: relative;
+}
+
+.bg-cover::after {
+  background-image: url(../img/bg-main.png);
+  background-size: cover;
+  opacity: 0.1;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+}
+
+.container-cover {
+  z-index: 5;
+  width: 100%;
+  height: 100vh;
+  padding: 0 10vh;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  h1 {
+    font-family: "Cocogoose", sans-serif;
+    font-weight: 500;
+    font-size: 5.3vw;
+    color: $color-orange;
+    text-transform: uppercase;
+    padding-bottom: 4vh;
+    background-image: url(../img/bg-text.jpg);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  h2 {
+    font-family: "lato", sans-serif;
+    font-weight: 100;
+    font-size: 3vw;
+    color: $color-orange;
+    padding-bottom: 4vh;
+  }
+
+  p {
+    border: 2px solid $color-gray;
+    width: 50vw;
+    padding: 3vh;
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 1.2vw;
+    background-color: $color-white;
+  }
+
+  h3 {
+    font-family: "Cocogoose", sans-serif;
+    color: $color-dark;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    padding-top: 4vh;
+  }
+
+  h4 {
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    font-size: 2vw;
+    padding-top: 4vh;
+  }
+}

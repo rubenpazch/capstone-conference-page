@@ -1,0 +1,314 @@
+@media (max-width: 767px) {
+  .container-cover {
+    padding: 0 5vw;
+
+    p {
+      width: 90vw;
+      font-size: 2.3vw;
+      line-height: 20px;
+    }
+
+    h1 {
+      font-size: 8vw;
+    }
+
+    h2 {
+      font-size: 5vw;
+    }
+
+    h3 {
+      font-size: 5vw;
+      padding-top: 4vh;
+    }
+
+    h4 {
+      font-size: 3vw;
+      padding-top: 2vh;
+    }
+  }
+
+  .container-cover-about {
+    p {
+      font-size: 1.7vw;
+    }
+
+    h1 {
+      font-size: 5.2vw;
+    }
+
+    h3 {
+      font-size: 1.7vw;
+    }
+
+    h4 {
+      font-size: 1.7vw;
+    }
+  }
+
+  .list-past-pictures {
+    flex-flow: column;
+  }
+
+  .past-event-1 {
+    margin-top: 3vh;
+    width: 80vw;
+    height: 50vh;
+  }
+
+  .past-event-2 {
+    margin-top: 3vh;
+    width: 80vw;
+    height: 50vh;
+  }
+
+  .container-creative-comm {
+    p {
+      font-size: 1.7vw;
+    }
+  }
+
+  #subtitle-about {
+    display: initial;
+  }
+
+  #top-bar-1 {
+    display: none;
+  }
+
+  #top-bar-2 {
+    display: inherit;
+  }
+
+  .container-featured {
+    padding: 4vh 0;
+
+    h2 {
+      font-size: 3.5vw;
+      padding-top: 5vh;
+    }
+
+    span {
+      margin: 5vh 0;
+    }
+  }
+
+  .speaker-preview {
+    flex-flow: column;
+
+    article {
+      width: 100%;
+      padding-bottom: 9vw;
+    }
+  }
+
+  .card-picture {
+    img {
+      width: 20vw;
+    }
+  }
+
+  .card-content {
+    padding-left: 3vw;
+    padding-right: 1.5vw;
+
+    header {
+      h2 {
+        font-size: 2.8vw;
+        padding-bottom: 1vh;
+      }
+    }
+
+    span {
+      padding: 1px;
+      margin: 4px;
+    }
+  }
+
+  .footer-container-dark {
+    height: 100%;
+    padding: 10vh 5vw;
+  }
+
+  .content-footer-dark {
+    padding: 0;
+
+    h2 {
+      padding-top: 3vh;
+      text-align: center;
+      padding-bottom: 3vh;
+    }
+
+    p {
+      text-align: center;
+      padding: 0 6vw;
+
+      a {
+        font-weight: bold;
+        text-decoration: none;
+        color: $color-white;
+      }
+    }
+  }
+
+  .img-footer {
+    width: 40vw;
+  }
+
+  .footer-container {
+    height: 100%;
+    padding: 10vh 5vw;
+  }
+
+  .content-footer {
+    padding: 0;
+
+    h2 {
+      padding-top: 3vh;
+      text-align: center;
+      padding-bottom: 3vh;
+    }
+
+    p {
+      text-align: center;
+      padding: 0 6vw;
+
+      a {
+        font-weight: bold;
+        text-decoration: none;
+        color: $color-dark;
+      }
+    }
+  }
+
+  .img-footer {
+    width: 40vw;
+  }
+
+  .container-program {
+    height: 100%;
+    background-size: cover;
+
+    h2 {
+      padding-top: 7vh;
+      font-size: 3vw;
+    }
+
+    h3 {
+      padding-bottom: 3vw;
+    }
+
+    span {
+      width: 5vw;
+      margin: 7vh 0;
+    }
+
+    button {
+      margin-top: 5vh;
+      margin-bottom: 8vh;
+    }
+  }
+
+  .program-activities {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    article {
+      width: 95vw;
+      margin-top: 5px;
+      height: 25vh;
+      flex-flow: row;
+
+      img {
+        height: 10vw;
+        width: 15vw;
+        padding: 0 3.5vw;
+        margin-top: 15px;
+      }
+
+      header {
+        padding: 0 2vw;
+        min-width: 20vw;
+
+        h2 {
+          font-size: 3vw;
+          text-align: left;
+          line-height: 35px;
+        }
+      }
+
+      p {
+        padding: 0 4vw;
+        line-height: 25px;
+        text-align: left;
+        font-size: 2vw;
+      }
+    }
+  }
+
+  #SeeWholeProgram {
+    display: none;
+  }
+
+  #btnJoinWorkshop {
+    display: initial;
+  }
+
+  .container-partner {
+    height: 100%;
+
+    h2 {
+      font-size: 4vw;
+      padding-top: 3vh;
+    }
+  }
+
+  .list-sponsor-logo {
+    flex-flow: wrap;
+
+    img {
+      width: 150px;
+      margin: 5vh 3vw;
+    }
+  }
+
+  .container-tickets-main {
+    h2 {
+      font-size: 3.5vw;
+    }
+  }
+
+  .container-lunch-options {
+    h2 {
+      font-size: 3.5vw;
+    }
+  }
+
+  .step1 {
+    h4 {
+      font-size: 1.7vw;
+    }
+
+    h3 {
+      font-size: 1.7vw;
+    }
+  }
+
+  .step2 {
+    h4 {
+      font-size: 1.7vw;
+    }
+
+    h3 {
+      font-size: 1.7vw;
+    }
+  }
+
+  .table-prices {
+    width: 90vw;
+  }
+
+  .table-lunch-options {
+    width: 90vw;
+  }
+}
