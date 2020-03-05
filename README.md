@@ -14,7 +14,6 @@ You can see the video presentation on the next link [here](https://www.youtube.c
 
 ![video](./img/video-presentation.png)
 
-![video](https://www.youtube.com/watch?v=4a5Yf33ODfQ)
 
 ## Link to assignment
 
