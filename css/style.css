@@ -382,7 +382,7 @@ body {
   z-index: 5;
   width: 100%;
   height: 85vh;
-  padding: 5vh 10vh;
+  padding: 5vh 3vw;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -404,10 +404,6 @@ body {
     width: 5vw;
     margin-bottom: 2vw; }
   .container-cover-about h2 {
-    font-family: "lato", sans-serif;
-    font-weight: 100;
-    font-size: 3vw;
-    color: #ec5242;
     padding-bottom: 4vh; }
   .container-cover-about p {
     background-color: #fff;
@@ -1187,9 +1183,9 @@ body {
     padding-bottom: 1vh; } }
 @media (max-width: 576px) {
   .container-cover-about h1 {
-    font-size: 6.2vw; }
-  .container-cover-about h2 {
-    font-size: 3.5vw; }
+    width: 90vw; }
+  .container-cover-about p {
+    width: 85vw; }
   .container-cover-about h3 {
     font-size: 2.2vw; }
   .container-cover-about h4 {
@@ -1278,7 +1274,7 @@ body {
     font-size: 2.4vw;
     line-height: 30px;
     color: #272a31; } }
-@media (max-width: 330px) {
+@media (max-width: 370px) {
   .container-cover h2 {
     margin-top: 0; }
 
