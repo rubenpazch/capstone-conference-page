@@ -1,0 +1,136 @@
+
+@media (max-width: 576px) {
+  .container-cover-about {
+    h1 {
+      font-size: 6.2vw;
+    }
+
+    h2 {
+      font-size: 3.5vw;
+    }
+
+    h3 {
+      font-size: 2.2vw;
+    }
+
+    h4 {
+      font-size: 2.4vw;
+    }
+
+    p {
+      font-size: 2.2vw;
+    }
+  }
+
+  .container-creative-comm {
+    h2 {
+      font-size: 2.9vw;
+    }
+
+    p {
+      font-size: 2.2vw;
+    }
+  }
+
+  .container-past-events {
+    h2 {
+      font-size: 2.9vw;
+    }
+
+    p {
+      font-size: 2.2vw;
+    }
+  }
+
+  .container-cover {
+    p {
+      font-size: 2.7vw;
+    }
+
+    h1 {
+      font-size: 7vw;
+    }
+
+    h2 {
+      font-size: 5vw;
+    }
+
+    h3 {
+      font-size: 5vw;
+      padding-top: 4vh;
+    }
+
+    h4 {
+      font-size: 3vw;
+      padding-top: 4vh;
+    }
+  }
+
+  .program-activities {
+    display: flex;
+    flex-flow: column;
+
+    article {
+      width: 95vw;
+      margin-top: 10px;
+      height: 32vh;
+      flex-flow: row;
+
+      img {
+        height: 10vw;
+        width: 15vw;
+        padding: 0 3.5vw;
+      }
+
+      header {
+        padding: 0 2vw;
+        min-width: 20vw;
+
+        h2 {
+          font-size: 3vw;
+          text-align: left;
+          line-height: 25px;
+        }
+      }
+
+      p {
+        padding: 0 4vw;
+        line-height: 25px;
+        text-align: left;
+        font-size: 2.5vw;
+      }
+    }
+  }
+
+  .container-tickets-main {
+    h2 {
+      font-size: 3.2vw;
+    }
+  }
+
+  .step1 {
+    h4 {
+      font-size: 2.2vw;
+    }
+
+    h3 {
+      font-size: 2.2vw;
+    }
+  }
+
+  .container-lunch-options {
+    h2 {
+      font-size: 3.2vw;
+    }
+  }
+
+  .step2 {
+    h4 {
+      font-size: 2.2vw;
+    }
+
+    h3 {
+      font-size: 2.2vw;
+    }
+  }
+}
