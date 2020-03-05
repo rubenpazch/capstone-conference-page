@@ -11,12 +11,10 @@
     }
 
     h3 {
-      font-size: 5vw;
       padding-top: 4vh;
     }
 
     h4 {
-      font-size: 3vw;
       padding-top: 2vh;
     }
   }
@@ -45,12 +43,6 @@
     margin-top: 3vh;
     width: 80vw;
     height: 50vh;
-  }
-
-  .container-creative-comm {
-    p {
-      font-size: 1.7vw;
-    }
   }
 
   #subtitle-about {
@@ -321,6 +313,19 @@
     font-size: 1.9vw;
     line-height: 30px;
     color: $color-dark;
+  }
+
+  .f-md-goose-3-0-600 {
+    font-family: "Cocogoose", sans-serif;
+    color: $color-dark;
+    font-size: 3vw;
+    text-transform: uppercase;
+  }
+
+  .f-md-lato-2-1-500 {
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    font-size: 2.1vw;
   }
 
   .pb-md-1vw {
