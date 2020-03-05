@@ -27,11 +27,6 @@
   justify-content: start;
 
   h1 {
-    font-family: "Cocogoose", sans-serif;
-    font-weight: 500;
-    font-size: 4.3vw;
-    color: $color-orange;
-    text-transform: uppercase;
     padding-bottom: 3vh;
     background-image: url(../img/bg-text.jpg);
     background-size: cover;
@@ -64,10 +59,6 @@
     border: 2px solid $color-white;
     width: 70vw;
     padding: 3vh 3vw;
-    font-family: "lato", sans-serif;
-    font-weight: 500;
-    line-height: 30px;
-    font-size: 1.1vw;
     -webkit-box-shadow: 0 0 8px 4px $color-gray-2;
     -moz-box-shadow: 0 0 8px 4px $color-gray-2;
     box-shadow: 0 0 8px 4px $color-gray-2;

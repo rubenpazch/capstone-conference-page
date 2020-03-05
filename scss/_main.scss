@@ -54,7 +54,6 @@ body {
     border: 2px solid $color-gray;
     width: 50vw;
     padding: 3vh;
-    line-height: 30px;
     background-color: $color-white;
   }
 
@@ -73,4 +72,8 @@ body {
 
 #btnJoinWorkshop {
   display: none;
+}
+
+#text-footer-aditional {
+  display: inherit;
 }
