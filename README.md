@@ -23,6 +23,9 @@ the assignment can be found  [here](https://www.notion.so/HTML-CSS-capstone-proj
 - CSS Formatter
 - Stylelint
 
+[![Alt text](https://www.youtube.com/watch?v=4a5Yf33ODfQ)](https://www.youtube.com/watch?v=4a5Yf33ODfQ)
+
+
 ## Screenshot
 
 ![screenshot](./img/screnshot-site.gif)
