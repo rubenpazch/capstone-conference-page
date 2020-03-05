@@ -8,6 +8,14 @@ The project HTML & CSS Capstone Project is based on an online website for a conf
 
 For this project I personalize the content for a Workshop E-commerce, it is about building your own site eCommerce and is oriented to entrepreneurs or people with business, this conference will be located on the city of Cusco in Peru and will be organized by Cusco Solutions that is a Peruvian company.    
 
+## Video Presentation of the project
+
+You can see the video presentation on the next link [here](https://www.youtube.com/watch?v=4a5Yf33ODfQ).
+
+![video](./img/video-presentation.png)
+
+![video](https://www.youtube.com/watch?v=4a5Yf33ODfQ)
+
 ## Link to assignment
 
 the assignment can be found  [here](https://www.notion.so/HTML-CSS-capstone-project-Conference-page-ed3efca4b9824484a9df7f9f24067ff7).
@@ -23,7 +31,6 @@ the assignment can be found  [here](https://www.notion.so/HTML-CSS-capstone-proj
 - CSS Formatter
 - Stylelint
 
-https://www.youtube.com/watch?v=4a5Yf33ODfQ
 
 
 ## Screenshot
