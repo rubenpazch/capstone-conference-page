@@ -231,7 +231,12 @@
   border-top: 1px solid $color-gray;
 
   h2 {
+<<<<<<< HEAD
     font-family: "lato", sans-serif;
+=======
+    font-family: "lato";
+    color: $color-black;
+>>>>>>> feature
     font-size: 2vw;
     padding-bottom: 3vh;
     font-weight: bold;
@@ -239,7 +244,11 @@
 
   h3 {
     font-family: 1.4vw;
+<<<<<<< HEAD
     font-family: "lato", sans-serif;
+=======
+    font-family: "lato";
+>>>>>>> feature
     padding: 0 3vw;
     text-align: center;
   }
@@ -273,6 +282,119 @@
   flex-flow: row;
 }
 
+<<<<<<< HEAD
+#subtitle-about {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .container-cover-about {
+=======
+.past-event-1 {
+  background-image: url(../img/conf2018.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35vw;
+  height: 30vh;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1vw;
+
+  a {
+    display: block;
+    background-color: $color-red;
+    opacity: 0.5;
+    width: 100%;
+>>>>>>> feature
+    height: 100%;
+
+    p {
+      font-size: 1.4vw;
+    }
+
+    h3 {
+      font-size: 1.4vw;
+    }
+
+    h4 {
+      font-size: 1.6vw;
+    }
+  }
+
+<<<<<<< HEAD
+  .container-creative-comm {
+    h2 {
+      font-size: 2.4vw;
+    }
+
+    p {
+      font-size: 1.4vw;
+    }
+=======
+.past-event-2 {
+  background-image: url(../img/conf2018.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35vw;
+  height: 30vh;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    display: block;
+    background-color: $color-red;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+>>>>>>> feature
+  }
+
+  .img-logo-creative {
+    padding: 4vh 8vw;
+  }
+
+  .container-past-events {
+    p {
+      font-size: 1.4vw;
+    }
+
+    h2 {
+      font-size: 2.4vw;
+      padding-bottom: 3vh;
+    }
+  }
+}
+
+<<<<<<< HEAD
+@media (max-width: 767px) {
+  .container-cover-about {
+    p {
+      font-size: 1.7vw;
+    }
+
+    h1 {
+      font-size: 5.2vw;
+    }
+
+    h3 {
+      font-size: 1.7vw;
+    }
+
+    h4 {
+      font-size: 1.7vw;
+    }
+  }
+
+=======
 #subtitle-about {
   display: none;
 }
@@ -339,6 +461,7 @@
     }
   }
 
+>>>>>>> feature
   .list-past-pictures {
     flex-flow: column;
   }
@@ -385,7 +508,11 @@
     }
 
     p {
+<<<<<<< HEAD
       font-size: 2.2vw;
+=======
+      font-size: 2.2vw;;
+>>>>>>> feature
     }
   }
 

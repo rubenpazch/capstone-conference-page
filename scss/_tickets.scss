@@ -12,7 +12,11 @@
   background-color: $color-gray-1;
 
   h2 {
+<<<<<<< HEAD
     font-family: "lato", sans-serif;
+=======
+    font-family: "lato";
+>>>>>>> feature
     color: $color-black;
     font-size: 2vw;
     padding-bottom: 5vh;
@@ -44,6 +48,10 @@
 .step1 {
   display: flex;
   flex-flow: row;
+<<<<<<< HEAD
+=======
+  border: 1px solid $color-black;
+>>>>>>> feature
   border-radius: 25px;
   padding: 3vh 2vw;
   border: 1px solid $color-gray;
@@ -51,7 +59,11 @@
   h3 {
     color: $color-orange;
     font-weight: 600;
+<<<<<<< HEAD
     font-family: "lato", sans-serif;
+=======
+    font-family: "lato";
+>>>>>>> feature
     padding-right: 2vw;
     padding-left: 1vw;
     font-size: 1vw;
@@ -60,7 +72,11 @@
   h4 {
     color: $color-dark;
     font-weight: 500;
+<<<<<<< HEAD
     font-family: "lato", sans-serif;
+=======
+    font-family: "lato";
+>>>>>>> feature
     font-size: 1vw;
   }
 
@@ -73,6 +89,10 @@
 .step2 {
   display: flex;
   flex-flow: row;
+<<<<<<< HEAD
+=======
+  border: 1px solid $color-black;
+>>>>>>> feature
   border-radius: 25px;
   padding: 3vh 2vw;
   margin-bottom: 7vh;
@@ -81,7 +101,11 @@
   h3 {
     color: $color-orange;
     font-weight: 600;
+<<<<<<< HEAD
     font-family: "lato", sans-serif;
+=======
+    font-family: "lato";
+>>>>>>> feature
     padding-right: 2vw;
     padding-left: 1vw;
     font-size: 1vw;
@@ -90,7 +114,11 @@
   h4 {
     color: $color-dark;
     font-weight: 500;
+<<<<<<< HEAD
     font-family: "lato", sans-serif;
+=======
+    font-family: "lato";
+>>>>>>> feature
     font-size: 1vw;
   }
 
@@ -138,7 +166,11 @@
   background-color: $color-white;
 
   h2 {
+<<<<<<< HEAD
     font-family: "lato", sans-serif;
+=======
+    font-family: "lato";
+>>>>>>> feature
     color: $color-black;
     font-size: 2vw;
     padding-bottom: 5vh;
@@ -192,6 +224,137 @@
   th {
     border: 1px solid $color-gray;
     padding: 2vh 4vw;
+  }
+
+  td {
+    border: 0;
+  }
+}
+
+.sendoptionsbtn {
+  background-color: $color-orange;
+  padding: 3vh 4vw;
+  border-radius: 3px;
+  border: 0;
+  color: $color-white;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .container-tickets-main {
+    h2 {
+      font-size: 2.3vw;
+    }
+  }
+
+  .step1 {
+    h4 {
+      font-size: 1.4vw;
+    }
+
+    h3 {
+      font-size: 1.4vw;
+    }
+  }
+
+  .container-lunch-options {
+    h2 {
+      font-size: 2.3vw;
+    }
+  }
+
+  .step2 {
+    h4 {
+      font-size: 1.4vw;
+    }
+
+    h3 {
+      font-size: 1.4vw;
+    }
+  }
+
+  .table-prices {
+    width: 80vw;
+  }
+
+  .table-lunch-options {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-tickets-main {
+    h2 {
+      font-size: 3.5vw;
+    }
+  }
+
+  .container-lunch-options {
+    h2 {
+      font-size: 3.5vw;
+    }
+  }
+
+  .step1 {
+    h4 {
+      font-size: 1.7vw;
+    }
+
+    h3 {
+      font-size: 1.7vw;
+    }
+  }
+
+  .step2 {
+    h4 {
+      font-size: 1.7vw;
+    }
+
+    h3 {
+      font-size: 1.7vw;
+    }
+  }
+
+  .table-prices {
+    width: 90vw;
+  }
+
+  .table-lunch-options {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-tickets-main {
+    h2 {
+      font-size: 3.2vw;
+    }
+  }
+
+  .step1 {
+    h4 {
+      font-size: 2.2vw;
+    }
+
+    h3 {
+      font-size: 2.2vw;
+    }
+  }
+
+  .container-lunch-options {
+    h2 {
+      font-size: 3.2vw;
+    }
+  }
+
+  .step2 {
+    h4 {
+      font-size: 2.2vw;
+    }
+
+    h3 {
+      font-size: 2.2vw;
+    }
   }
 }
 
