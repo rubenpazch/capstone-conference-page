@@ -8,12 +8,8 @@
       line-height: 20px;
     }
 
-    h1 {
-      font-size: 8vw;
-    }
-
     h2 {
-      font-size: 5vw;
+      margin-top: 6vh;
     }
 
     h3 {
@@ -305,6 +301,28 @@
     font-size: 1.9vw;
     color: $color-white;
     line-height: 25px;
+  }
+
+  .f-md-lato-0-9-900 {
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+    font-size: 0.9rem;
+    color: $color-dark;
+  }
+
+  .f-md-lato-5-0-100 {
+    font-family: "lato", sans-serif;
+    font-weight: 100;
+    font-size: 5vw;
+    color: $color-orange;
+  }
+
+  .f-md-goose-7-3-500 {
+    font-family: "Cocogoose", sans-serif;
+    font-weight: 500;
+    font-size: 7.3vw;
+    color: $color-orange;
+    text-transform: uppercase;
   }
 
   .pb-md-1vw {

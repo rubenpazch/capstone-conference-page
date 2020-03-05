@@ -1,0 +1,30 @@
+
+@media (max-width: 330px) {
+  .container-cover {
+    h2 {
+      margin-top: 0;
+    }
+  }
+
+  .f-sx-lato-0-7-900 {
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+    font-size: 0.75rem;
+    color: $color-dark;
+  }
+
+  .f-sx-lato-7-0-100 {
+    font-family: "lato", sans-serif;
+    font-weight: 100;
+    font-size: 7vw;
+    color: $color-orange;
+  }
+
+  .f-sx-goose-10-0-500 {
+    font-family: "Cocogoose", sans-serif;
+    font-weight: 500;
+    font-size: 10vw;
+    color: $color-orange;
+    text-transform: uppercase;
+  }
+}

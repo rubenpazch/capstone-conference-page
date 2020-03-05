@@ -75,6 +75,13 @@
   font-size: 0.9rem;
   color: #272a31; }
 
+.f-lg-lato-0-9-900 {
+  font-family: "lato", sans-serif;
+  font-weight: 900;
+  font-size: 0.9rem;
+  color: #272a31;
+  line-height: 20px; }
+
 .f-lg-lato-0-8-600 {
   font-family: "lato", sans-serif;
   font-weight: 600;
@@ -324,9 +331,7 @@ body {
 .content-footer-white {
   padding-left: 4vw; }
   .content-footer-white h2 {
-    padding-bottom: 1vw;
-    font-family: "lato", sans-serif;
-    font-weight: bold; }
+    padding-bottom: 1vw; }
   .content-footer-white p {
     font-family: "lato", sans-serif;
     line-height: 20px; }
@@ -970,10 +975,8 @@ body {
       width: 90vw;
       font-size: 2.3vw;
       line-height: 20px; }
-    .container-cover h1 {
-      font-size: 8vw; }
     .container-cover h2 {
-      font-size: 5vw; }
+      margin-top: 6vh; }
     .container-cover h3 {
       font-size: 5vw;
       padding-top: 4vh; }
@@ -1168,6 +1171,25 @@ body {
     color: #fff;
     line-height: 25px; }
 
+  .f-md-lato-0-9-900 {
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+    font-size: 0.9rem;
+    color: #272a31; }
+
+  .f-md-lato-5-0-100 {
+    font-family: "lato", sans-serif;
+    font-weight: 100;
+    font-size: 5vw;
+    color: #ec5242; }
+
+  .f-md-goose-7-3-500 {
+    font-family: "Cocogoose", sans-serif;
+    font-weight: 500;
+    font-size: 7.3vw;
+    color: #ec5242;
+    text-transform: uppercase; }
+
   .pb-md-1vw {
     padding-bottom: 1vh; } }
 @media (max-width: 576px) {
@@ -1194,10 +1216,6 @@ body {
 
   .container-cover p {
     font-size: 2.7vw; }
-  .container-cover h1 {
-    font-size: 7vw; }
-  .container-cover h2 {
-    font-size: 5vw; }
   .container-cover h3 {
     font-size: 5vw;
     padding-top: 4vh; }
@@ -1244,7 +1262,48 @@ body {
   .step1 h4 {
     font-size: 2.2vw; }
   .step1 h3 {
-    font-size: 2.2vw; } }
+    font-size: 2.2vw; }
+
+  .f-sm-lato-0-9-900 {
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+    font-size: 0.9rem;
+    color: #272a31; }
+
+  .f-sm-lato-6-0-100 {
+    font-family: "lato", sans-serif;
+    font-weight: 100;
+    font-size: 6vw;
+    color: #ec5242; }
+
+  .f-sm-goose-7-3-500 {
+    font-family: "Cocogoose", sans-serif;
+    font-weight: 500;
+    font-size: 7.3vw;
+    color: #ec5242;
+    text-transform: uppercase; } }
+@media (max-width: 330px) {
+  .container-cover h2 {
+    margin-top: 0; }
+
+  .f-sx-lato-0-7-900 {
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+    font-size: 0.75rem;
+    color: #272a31; }
+
+  .f-sx-lato-7-0-100 {
+    font-family: "lato", sans-serif;
+    font-weight: 100;
+    font-size: 7vw;
+    color: #ec5242; }
+
+  .f-sx-goose-10-0-500 {
+    font-family: "Cocogoose", sans-serif;
+    font-weight: 500;
+    font-size: 10vw;
+    color: #ec5242;
+    text-transform: uppercase; } }
 .icons-top-bar {
   width: 16px;
   height: 16px;

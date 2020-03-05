@@ -47,14 +47,6 @@
       font-size: 2.7vw;
     }
 
-    h1 {
-      font-size: 7vw;
-    }
-
-    h2 {
-      font-size: 5vw;
-    }
-
     h3 {
       font-size: 5vw;
       padding-top: 4vh;
@@ -132,5 +124,27 @@
     h3 {
       font-size: 2.2vw;
     }
+  }
+
+  .f-sm-lato-0-9-900 {
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+    font-size: 0.9rem;
+    color: $color-dark;
+  }
+
+  .f-sm-lato-6-0-100 {
+    font-family: "lato", sans-serif;
+    font-weight: 100;
+    font-size: 6vw;
+    color: $color-orange;
+  }
+
+  .f-sm-goose-7-3-500 {
+    font-family: "Cocogoose", sans-serif;
+    font-weight: 500;
+    font-size: 7.3vw;
+    color: $color-orange;
+    text-transform: uppercase;
   }
 }
