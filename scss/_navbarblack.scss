@@ -1,0 +1,20 @@
+.nav-black-bar {
+  background-color: $color-dark;
+  padding: 0 10vh;
+  height: 6vh;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+
+.nav-black-list {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+
+  li {
+    display: inline;
+    line-height: 20px;
+    padding: 5px 10px 5px 10px;
+  }
+}

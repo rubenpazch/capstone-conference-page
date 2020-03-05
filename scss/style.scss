@@ -1,0 +1,47 @@
+@import '../scss/fonts.scss';
+@import '../scss/fontsclasses.scss';
+@import '../scss/colors.scss';
+@import '../scss/main.scss';
+@import '../scss/mainprogram.scss';
+@import '../scss/mainfeaturedspeakers.scss';
+@import '../scss/mainpartner.scss';
+@import '../scss/footer.scss';
+@import '../scss/footer-white.scss';
+@import '../scss/footer-dark.scss';
+@import '../scss/aboutcover.scss';
+@import '../scss/aboutcreativecomm.scss';
+@import '../scss/aboutpastevents.scss';
+@import '../scss/tickets.scss';
+@import '../scss/toglemenu.scss';
+@import '../scss/navbar.scss';
+@import '../scss/navbarblack.scss';
+@import '../scss/navbarroot.scss';
+@import '../scss/navbarwhite.scss';
+@import '../scss/links.scss';
+@import '../scss/hover.scss';
+@import '../scss/childs.scss';
+@import '../scss/mq991.scss';
+@import '../scss/mq767.scss';
+@import '../scss/mq576.scss';
+
+.icons-top-bar {
+  width: 16px;
+  height: 16px;
+  color: $color-white;
+}
+
+.icons-nav-root {
+  font-size: 0.6rem;
+  color: $color-orange;
+  padding-right: 1vw;
+}
+
+.icons-nav-root-first-child {
+  font-size: 1rem;
+  color: $color-dark;
+  padding-right: 0;
+}
+
+.pb-1vw {
+  padding-bottom: 1vh;
+}

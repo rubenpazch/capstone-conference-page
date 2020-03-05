@@ -1,23 +1,51 @@
-# Building a catstone project for a conference page
+# Building a catstone project for a conference page as a part of HTML & CSS path
 
 ## Project specifications
 
-Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum sections. Building this project is very important for you because:
+Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum sections.
 
-+ It's a real-world-like project, built with business specifications that will look really nice in your portfolio; and
-+ You will get feedback about the achievement of technical and soft skills gained during this section of the program.
+The project HTML & CSS Capstone Project is based on an online website for a conference. You should follow the given design of the website, but you must personalise the content.
 
-The project you are going to build for the HTML & CSS Capstone Project is based on an online website for a conference. You should follow the given design of the website, but you must personalise the content, i.e., instead of a conference you can build a website for a concert or for a web development course. It's very important the you personalise your project, so that you have something unique in your portfolio to share with potential employers during your job search.
+For this project I personalize the content for a Workshop E-commerce, it is about building your own site eCommerce and is oriented to entrepreneurs or people with business, this conference will be located on the city of Cusco in Peru and will be organized by Cusco Solutions that is a Peruvian company.    
+
+## Link to assignment
+
+the assignment can be found  [here](https://www.notion.so/HTML-CSS-capstone-project-Conference-page-ed3efca4b9824484a9df7f9f24067ff7).
 
 ## Built With
 
 - HTML
 - CSS
+- SASS 
+- Javascript
+- Stickler CI
+- Visual Studio Code
+- CSS Formatter
+- Stylelint
+
+## Screenshot
+
+![screenshot](./img/screnshot-site.gif)
 
 ## Live Demo
 
-[Preview](#)
+You can see the [live preview](https://heuristic-wiles-1caea6.netlify.com/)
 
+## SASS  structure 
+
+For this project, I use SASS for managing CSS behavior and have the next structure.
+
+* CSS
+* fonts
+* img
+* js
+* scss
+
+For making changes to this project you should run SASS with this command
+
+1. Go to the file where your project is located C:/www/project_root
+2. sass --watch scss:css
+3. Change files located on SCSS folder
 
 ## Authors
 

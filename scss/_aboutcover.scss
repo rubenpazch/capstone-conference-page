@@ -1,0 +1,98 @@
+.bg-cover-about {
+  display: block;
+  position: relative;
+}
+
+.bg-cover-about::after {
+  background-image: url(../img/bg-main.png);
+  background-size: cover;
+  opacity: 0.1;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+}
+
+.container-cover-about {
+  z-index: 5;
+  width: 100%;
+  height: 85vh;
+  padding: 5vh 10vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: start;
+
+  h1 {
+    font-family: "Cocogoose", sans-serif;
+    font-weight: 500;
+    font-size: 4.3vw;
+    color: $color-orange;
+    text-transform: uppercase;
+    padding-bottom: 3vh;
+    background-image: url(../img/bg-text.jpg);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    width: 50vw;
+  }
+
+  span {
+    height: 1px;
+    padding: 1px;
+    background-color: $color-orange;
+    content: "";
+    display: block;
+    width: 5vw;
+    margin-bottom: 2vw;
+  }
+
+  h2 {
+    font-family: "lato", sans-serif;
+    font-weight: 100;
+    font-size: 3vw;
+    color: $color-orange;
+    padding-bottom: 4vh;
+  }
+
+  p {
+    background-color: $color-white;
+    border: 2px solid $color-white;
+    width: 70vw;
+    padding: 3vh 3vw;
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 1.1vw;
+    -webkit-box-shadow: 0 0 8px 4px $color-gray-2;
+    -moz-box-shadow: 0 0 8px 4px $color-gray-2;
+    box-shadow: 0 0 8px 4px $color-gray-2;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: "lato", sans-serif;
+    color: $color-dark;
+    font-size: 1.1vw;
+    text-transform: initial;
+    padding-top: 4vh;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-family: "lato", sans-serif;
+    color: $color-dark;
+    font-size: 1.1vw;
+    text-transform: initial;
+    padding-top: 4vh;
+    font-weight: 700;
+  }
+}
+
+#subtitle-about {
+  display: none;
+}

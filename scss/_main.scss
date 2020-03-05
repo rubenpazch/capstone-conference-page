@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cocogoose", sans-serif;
+}
+
+.bg-cover {
+  display: block;
+  position: relative;
+}
+
+.bg-cover::after {
+  background-image: url(../img/bg-main.png);
+  background-size: cover;
+  opacity: 0.1;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+}
+
+.container-cover {
+  z-index: 5;
+  width: 100%;
+  height: 100vh;
+  padding: 0 10vh;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  h1 {
+    padding-bottom: 4vh;
+    background-image: url(../img/bg-text.jpg);
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  h2 {
+    padding-bottom: 4vh;
+  }
+
+  p {
+    border: 2px solid $color-gray;
+    width: 50vw;
+    padding: 3vh;
+    line-height: 30px;
+    background-color: $color-white;
+  }
+
+  h3 {
+    padding-top: 4vh;
+  }
+
+  h4 {
+    padding-top: 4vh;
+  }
+}
+
+#SeeWholeProgram {
+  display: initial;
+}
+
+#btnJoinWorkshop {
+  display: none;
+}

@@ -1,0 +1,74 @@
+.container-program {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/bg-text.jpg);
+
+  h2 {
+    font-family: "lato", sans-serif;
+    color: $color-white;
+    font-size: 1.9vw;
+  }
+
+  span {
+    height: 1px;
+    padding: 1px;
+    background-color: $color-orange-light;
+    content: "";
+    display: block;
+    width: 5vw;
+    margin: 2vw 0;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-size: 1.3vw;
+    font-family: "lato", sans-serif;
+    padding-top: 3vw;
+  }
+
+  button {
+    background-color: $color-orange-light;
+    padding: 3vh 4vw;
+    border-radius: 3px;
+    border: 0;
+    color: $color-dark;
+    font-weight: 900;
+  }
+}
+
+.program-activities {
+  display: flex;
+  flex-flow: row;
+}
+
+.item-activitie {
+  width: 16vw;
+  height: 50vh;
+  margin-right: 3px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: start;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+
+  img {
+    height: 4vw;
+    z-index: 999;
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  header {
+    padding: 0 0;
+  }
+
+  p {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,35 @@
+.link-mainprogram {
+  color: $color-white;
+}
+
+.link-container-cover-about {
+  text-decoration: underline;
+  color: inherit;
+  line-height: 20px;
+}
+
+.link-nav-root-bar {
+  font-family: "lato", sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-nav-root-bar-inherit {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-nav-white-bar {
+  text-decoration: none;
+  color: $color-dark;
+}
+
+.link-nav-white-bar-orange {
+  text-decoration: none;
+  color: $color-orange;
+}
+
+.link-nav-black-bar-white {
+  text-decoration: none;
+  color: $color-white;
+}

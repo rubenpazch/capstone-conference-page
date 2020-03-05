@@ -1,0 +1,16 @@
+.list-nav-bar {
+  li:last-child {
+    border: 4px solid $color-orange;
+    padding: 10px 15px;
+  }
+}
+
+.list-root-bar {
+  li:first-child {
+    padding: 0;
+  }
+
+  li:last-child {
+    padding-right: 1vw;
+  }
+}

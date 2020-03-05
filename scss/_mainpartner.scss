@@ -1,0 +1,40 @@
+.container-partner {
+  background-color: $color-dark;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+
+  h2 {
+    font-family: "lato", sans-serif;
+    color: $color-gray;
+    font-size: 2vw;
+  }
+
+  span {
+    height: 1px;
+    padding: 1px;
+    background-color: orange;
+    content: "";
+    display: block;
+    width: 5vw;
+    margin: 2vw 0;
+  }
+}
+
+.list-sponsor-logo {
+  padding-bottom: 3vw;
+  padding-top: 2vw;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 150px;
+    margin: 5vh 3vw;
+  }
+}
