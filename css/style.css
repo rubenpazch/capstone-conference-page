@@ -8,13 +8,6 @@
   font-style: normal;
   font-weight: 500;
   src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
-.f-lg-goose-5-3-500 {
-  font-family: "Cocogoose", sans-serif;
-  font-weight: 500;
-  font-size: 5.3vw;
-  color: #ec5242;
-  text-transform: uppercase; }
-
 .f-lg-goose-2-5-600 {
   font-family: "Cocogoose", sans-serif;
   color: #272a31;
@@ -38,26 +31,12 @@
   font-size: 1.8vw;
   font-weight: bolder; }
 
-.f-lg-lato-1-4-600 {
-  font-family: "lato", sans-serif;
-  font-size: 1.4vw;
-  font-weight: 600;
-  color: #ffca4c;
-  margin-bottom: 10px; }
-
 .f-lg-lato-1-2-500 {
   font-family: "lato", sans-serif;
   font-weight: 500;
   font-size: 1.2vw;
   line-height: 30px;
   color: #272a31; }
-
-.f-lg-lato-1-2-300 {
-  font-family: "lato", sans-serif;
-  font-weight: 300;
-  font-size: 1.2vw;
-  line-height: 25px;
-  color: #fff; }
 
 .f-lg-lato-0-9-400 {
   font-family: "lato", sans-serif;
@@ -94,6 +73,45 @@
   font-weight: 500;
   font-size: 0.8rem;
   color: #fff; }
+
+.f-section-title {
+  font-family: "lato", sans-serif;
+  color: #fff;
+  font-size: 2.2vw; }
+
+.f-title-activitie {
+  font-family: "lato", sans-serif;
+  font-size: 1.4vw;
+  font-weight: 600;
+  color: #ffca4c;
+  margin-bottom: 10px; }
+
+.f-paragraph-activities {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.2vw;
+  line-height: 25px;
+  color: #fff; }
+
+.f-cover-big-title {
+  font-family: "Cocogoose", sans-serif;
+  font-weight: 500;
+  font-size: 5.3vw;
+  color: #ec5242;
+  text-transform: uppercase; }
+
+.f-title-email {
+  font-family: "lato", sans-serif;
+  color: #272a31;
+  font-size: 1.5vw;
+  text-transform: initial;
+  font-weight: 700; }
+
+.f-title-logo-ecommerce {
+  font-family: "lato", sans-serif;
+  color: black;
+  font-size: 2vw;
+  font-weight: 900; }
 
 * {
   box-sizing: border-box; }
@@ -158,16 +176,12 @@ body {
 
 .container-program {
   width: 100%;
-  height: 85vh;
+  height: 100vh;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
   background-image: url(../img/bg-text.jpg); }
-  .container-program h2 {
-    font-family: "lato", sans-serif;
-    color: #fff;
-    font-size: 1.9vw; }
   .container-program span {
     height: 1px;
     padding: 1px;
@@ -176,6 +190,8 @@ body {
     display: block;
     width: 5vw;
     margin: 2vw 0; }
+  .container-program h2 {
+    padding: 5vh 0 1vh 0; }
   .container-program h3 {
     text-transform: uppercase;
     font-size: 1.3vw;
@@ -207,8 +223,8 @@ body {
   .item-activitie img {
     height: 4vw;
     z-index: 999;
-    margin-top: 35px;
-    margin-bottom: 15px; }
+    margin-top: 20px;
+    margin-bottom: 0px; }
   .item-activitie header {
     padding: 0 0; }
   .item-activitie p {
@@ -381,7 +397,7 @@ body {
 .container-cover-about {
   z-index: 5;
   width: 100%;
-  height: 85vh;
+  height: 95vh;
   padding: 5vh 3vw;
   display: flex;
   flex-flow: column;
@@ -419,12 +435,7 @@ body {
     text-transform: initial;
     padding-top: 4vh; }
   .container-cover-about h4 {
-    font-family: "lato", sans-serif;
-    color: #272a31;
-    font-size: 1.1vw;
-    text-transform: initial;
-    padding-top: 4vh;
-    font-weight: 700; }
+    padding-top: 4vh; }
 
 #subtitle-about {
   display: none; }
@@ -439,9 +450,6 @@ body {
   padding: 6vw 0;
   border-top: 1px solid #d3d3d3; }
   .container-creative-comm h2 {
-    font-family: "lato", sans-serif;
-    color: black;
-    font-size: 2vw;
     padding-bottom: 5vh; }
   .container-creative-comm span {
     height: 1px;
@@ -476,10 +484,7 @@ body {
   padding: 6vw 0;
   border-top: 1px solid #d3d3d3; }
   .container-past-events h2 {
-    font-family: "lato", sans-serif;
-    font-size: 2vw;
-    padding-bottom: 3vh;
-    font-weight: bold; }
+    padding-bottom: 5vh; }
   .container-past-events h3 {
     font-family: 1.4vw;
     font-family: "lato", sans-serif;
@@ -574,9 +579,6 @@ body {
   padding: 6vw 0;
   background-color: #fbfbfb; }
   .container-tickets-main h2 {
-    font-family: "lato", sans-serif;
-    color: #000;
-    font-size: 2vw;
     padding-bottom: 5vh; }
   .container-tickets-main span {
     height: 1px;
@@ -673,9 +675,6 @@ body {
   padding: 6vw 0;
   background-color: #fff; }
   .container-lunch-options h2 {
-    font-family: "lato", sans-serif;
-    color: #000;
-    font-size: 2vw;
     padding-bottom: 5vh; }
   .container-lunch-options span {
     height: 1px;
@@ -907,11 +906,10 @@ body {
 
   .container-cover-about {
     height: 100%; }
+    .container-cover-about h1 {
+      width: 70vw; }
     .container-cover-about h4 {
       font-size: 1.6vw; }
-
-  .container-creative-comm h2 {
-    font-size: 2.4vw; }
 
   .img-logo-creative {
     padding: 4vh 8vw; }
@@ -919,19 +917,12 @@ body {
   .container-past-events p {
     font-size: 1.4vw; }
   .container-past-events h2 {
-    font-size: 2.4vw;
-    padding-bottom: 3vh; }
-
-  .container-tickets-main h2 {
-    font-size: 2.3vw; }
+    padding-bottom: 5vh; }
 
   .step1 h4 {
     font-size: 1.4vw; }
   .step1 h3 {
     font-size: 1.4vw; }
-
-  .container-lunch-options h2 {
-    font-size: 2.3vw; }
 
   .step2 h4 {
     font-size: 1.4vw; }
@@ -942,7 +933,26 @@ body {
     width: 80vw; }
 
   .table-lunch-options {
-    width: 80vw; } }
+    width: 80vw; }
+
+  .f-section-title {
+    font-size: 2.5vw; }
+
+  .f-title-activitie {
+    font-size: 1.6vw; }
+
+  .f-paragraph-activities {
+    font-size: 1.5vw;
+    line-height: 20px; }
+
+  .f-cover-big-title {
+    font-size: 7.3vw; }
+
+  .f-title-email {
+    font-size: 1.7vw; }
+
+  .f-title-logo-ecommerce {
+    font-size: 2vw; } }
 @media (max-width: 767px) {
   .container-cover {
     padding: 0 5vw; }
@@ -1043,8 +1053,7 @@ body {
     height: 100%;
     background-size: cover; }
     .container-program h2 {
-      padding-top: 7vh;
-      font-size: 3vw; }
+      padding-top: 7vh; }
     .container-program h3 {
       padding-bottom: 3vw; }
     .container-program span {
@@ -1093,12 +1102,6 @@ body {
       width: 150px;
       margin: 5vh 3vw; }
 
-  .container-tickets-main h2 {
-    font-size: 3.5vw; }
-
-  .container-lunch-options h2 {
-    font-size: 3.5vw; }
-
   .step1 h4 {
     font-size: 1.7vw; }
   .step1 h3 {
@@ -1115,23 +1118,11 @@ body {
   .table-lunch-options {
     width: 90vw; }
 
-  .f-md-lato-3-0-100-l {
-    font-family: "lato", sans-serif;
-    text-align: left;
-    line-height: 35px; }
-
   .f-md-lato-2-8-bolder {
     font-family: "lato", sans-serif;
     text-transform: capitalize;
     font-size: 2.8vw;
     font-weight: bolder; }
-
-  .f-md-lato-1-9-300 {
-    font-family: "lato", sans-serif;
-    font-weight: 300;
-    font-size: 1.9vw;
-    color: #fff;
-    line-height: 25px; }
 
   .f-md-lato-0-9-900 {
     font-family: "lato", sans-serif;
@@ -1144,13 +1135,6 @@ body {
     font-weight: 100;
     font-size: 5vw;
     color: #ec5242; }
-
-  .f-md-goose-7-3-500 {
-    font-family: "Cocogoose", sans-serif;
-    font-weight: 500;
-    font-size: 7.3vw;
-    color: #ec5242;
-    text-transform: uppercase; }
 
   .f-md-lato-1-9-500 {
     font-family: "lato", sans-serif;
@@ -1170,6 +1154,24 @@ body {
     font-weight: 500;
     font-size: 2.1vw; }
 
+  .f-section-title {
+    font-size: 3.1vw; }
+
+  .f-title-activitie {
+    font-size: 2.1vw; }
+
+  .f-paragraph-activities {
+    font-size: 1.9vw; }
+
+  .f-cover-big-title {
+    font-size: 7.3vw; }
+
+  .f-title-email {
+    font-size: 1.9vw; }
+
+  .f-title-logo-ecommerce {
+    font-size: 2.6vw; }
+
   .pb-md-1vw {
     padding-bottom: 1vh; } }
 @media (max-width: 576px) {
@@ -1184,11 +1186,6 @@ body {
   .container-cover-about h4 {
     font-size: 2.4vw; }
 
-  .container-creative-comm h2 {
-    font-size: 2.9vw; }
-
-  .container-past-events h2 {
-    font-size: 2.9vw; }
   .container-past-events p {
     font-size: 2.2vw; }
 
@@ -1196,12 +1193,6 @@ body {
     padding-top: 4vh; }
   .container-cover h4 {
     padding-top: 4vh; }
-
-  .container-tickets-main h2 {
-    font-size: 3.2vw; }
-
-  .container-lunch-options h2 {
-    font-size: 3.2vw; }
 
   .step2 h4 {
     font-size: 2.2vw; }
@@ -1224,14 +1215,11 @@ body {
         padding: 0 2vw;
         min-width: 20vw; }
         .program-activities article header h2 {
-          font-size: 3vw;
           text-align: left;
           line-height: 25px; }
       .program-activities article p {
         padding: 0 4vw;
-        line-height: 25px;
-        text-align: left;
-        font-size: 2.5vw; }
+        text-align: left; }
 
   .step1 h4 {
     font-size: 2.2vw; }
@@ -1250,13 +1238,6 @@ body {
     font-size: 6vw;
     color: #ec5242; }
 
-  .f-sm-goose-7-3-500 {
-    font-family: "Cocogoose", sans-serif;
-    font-weight: 500;
-    font-size: 7.3vw;
-    color: #ec5242;
-    text-transform: uppercase; }
-
   .f-sm-lato-2-4-500 {
     font-family: "lato", sans-serif;
     font-weight: 500;
@@ -1273,7 +1254,25 @@ body {
   .f-sm-lato-2-9-500 {
     font-family: "lato", sans-serif;
     font-weight: 500;
-    font-size: 2.9vw; } }
+    font-size: 2.9vw; }
+
+  .f-section-title {
+    font-size: 4.5vw; }
+
+  .f-title-activitie {
+    font-size: 2.9vw; }
+
+  .f-paragraph-activities {
+    font-size: 2.5vw; }
+
+  .f-cover-big-title {
+    font-size: 7.3vw; }
+
+  .f-title-email {
+    font-size: 2.6vw; }
+
+  .f-title-logo-ecommerce {
+    font-size: 3.1vw; } }
 @media (max-width: 370px) {
   .container-cover h2 {
     margin-top: 0; }
@@ -1289,13 +1288,6 @@ body {
     font-weight: 100;
     font-size: 7vw;
     color: #ec5242; }
-
-  .f-sx-goose-10-0-500 {
-    font-family: "Cocogoose", sans-serif;
-    font-weight: 500;
-    font-size: 10vw;
-    color: #ec5242;
-    text-transform: uppercase; }
 
   .f-sx-lato-3-9-500 {
     font-family: "lato", sans-serif;
@@ -1316,8 +1308,26 @@ body {
     font-size: 4vw;
     line-height: 20px; }
 
+  .f-section-title {
+    font-size: 5.5vw; }
+
+  .f-title-activitie {
+    font-size: 3.6vw; }
+
+  .f-paragraph-activities {
+    font-size: 3.9vw; }
+
+  .f-cover-big-title {
+    font-size: 10vw; }
+
   #text-footer-aditional {
-    display: none; } }
+    display: none; }
+
+  .f-title-email {
+    font-size: 3.6vw; }
+
+  .f-title-logo-ecommerce {
+    font-size: 4.1vw; } }
 .icons-top-bar {
   width: 16px;
   height: 16px;

@@ -17,14 +17,12 @@
   .container-cover-about {
     height: 100%;
 
+    h1 {
+      width: 70vw;
+    }
+
     h4 {
       font-size: 1.6vw;
-    }
-  }
-
-  .container-creative-comm {
-    h2 {
-      font-size: 2.4vw;
     }
   }
 
@@ -38,14 +36,7 @@
     }
 
     h2 {
-      font-size: 2.4vw;
-      padding-bottom: 3vh;
-    }
-  }
-
-  .container-tickets-main {
-    h2 {
-      font-size: 2.3vw;
+      padding-bottom: 5vh;
     }
   }
 
@@ -56,12 +47,6 @@
 
     h3 {
       font-size: 1.4vw;
-    }
-  }
-
-  .container-lunch-options {
-    h2 {
-      font-size: 2.3vw;
     }
   }
 
@@ -81,5 +66,30 @@
 
   .table-lunch-options {
     width: 80vw;
+  }
+
+  .f-section-title {
+    font-size: 2.5vw;
+  }
+
+  .f-title-activitie {
+    font-size: 1.6vw;
+  }
+
+  .f-paragraph-activities {
+    font-size: 1.5vw;
+    line-height: 20px;
+  }
+
+  .f-cover-big-title {
+    font-size: 7.3vw;
+  }
+
+  .f-title-email {
+    font-size: 1.7vw;
+  }
+
+  .f-title-logo-ecommerce {
+    font-size: 2vw;
   }
 }

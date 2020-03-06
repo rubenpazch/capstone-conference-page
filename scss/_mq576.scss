@@ -20,17 +20,7 @@
     }
   }
 
-  .container-creative-comm {
-    h2 {
-      font-size: 2.9vw;
-    }
-  }
-
   .container-past-events {
-    h2 {
-      font-size: 2.9vw;
-    }
-
     p {
       font-size: 2.2vw;
     }
@@ -43,18 +33,6 @@
 
     h4 {
       padding-top: 4vh;
-    }
-  }
-
-  .container-tickets-main {
-    h2 {
-      font-size: 3.2vw;
-    }
-  }
-
-  .container-lunch-options {
-    h2 {
-      font-size: 3.2vw;
     }
   }
 
@@ -89,7 +67,6 @@
         min-width: 20vw;
 
         h2 {
-          font-size: 3vw;
           text-align: left;
           line-height: 25px;
         }
@@ -97,9 +74,7 @@
 
       p {
         padding: 0 4vw;
-        line-height: 25px;
         text-align: left;
-        font-size: 2.5vw;
       }
     }
   }
@@ -128,14 +103,6 @@
     color: $color-orange;
   }
 
-  .f-sm-goose-7-3-500 {
-    font-family: "Cocogoose", sans-serif;
-    font-weight: 500;
-    font-size: 7.3vw;
-    color: $color-orange;
-    text-transform: uppercase;
-  }
-
   .f-sm-lato-2-4-500 {
     font-family: "lato", sans-serif;
     font-weight: 500;
@@ -155,5 +122,29 @@
     font-family: "lato", sans-serif;
     font-weight: 500;
     font-size: 2.9vw;
+  }
+
+  .f-section-title {
+    font-size: 4.5vw;
+  }
+
+  .f-title-activitie {
+    font-size: 2.9vw;
+  }
+
+  .f-paragraph-activities {
+    font-size: 2.5vw;
+  }
+
+  .f-cover-big-title {
+    font-size: 7.3vw;
+  }
+
+  .f-title-email {
+    font-size: 2.6vw;
+  }
+
+  .f-title-logo-ecommerce {
+    font-size: 3.1vw;
   }
 }

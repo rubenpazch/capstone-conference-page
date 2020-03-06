@@ -1,13 +1,5 @@
 @import '../scss/colors.scss';
 
-.f-lg-goose-5-3-500 {
-  font-family: "Cocogoose", sans-serif;
-  font-weight: 500;
-  font-size: 5.3vw;
-  color: $color-orange;
-  text-transform: uppercase;
-}
-
 .f-lg-goose-2-5-600 {
   font-family: "Cocogoose", sans-serif;
   color: $color-dark;
@@ -35,28 +27,12 @@
   font-weight: bolder;
 }
 
-.f-lg-lato-1-4-600 {
-  font-family: "lato", sans-serif;
-  font-size: 1.4vw;
-  font-weight: 600;
-  color: $color-orange-light;
-  margin-bottom: 10px;
-}
-
 .f-lg-lato-1-2-500 {
   font-family: "lato", sans-serif;
   font-weight: 500;
   font-size: 1.2vw;
   line-height: 30px;
   color: $color-dark;
-}
-
-.f-lg-lato-1-2-300 {
-  font-family: "lato", sans-serif;
-  font-weight: 300;
-  font-size: 1.2vw;
-  line-height: 25px;
-  color: $color-white;
 }
 
 .f-lg-lato-0-9-400 {
@@ -99,4 +75,49 @@
   font-weight: 500;
   font-size: 0.8rem;
   color: $color-white;
+}
+
+.f-section-title {
+  font-family: "lato", sans-serif;
+  color: $color-white;
+  font-size: 2.2vw;
+}
+
+.f-title-activitie {
+  font-family: "lato", sans-serif;
+  font-size: 1.4vw;
+  font-weight: 600;
+  color: $color-orange-light;
+  margin-bottom: 10px;
+}
+
+.f-paragraph-activities {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.2vw;
+  line-height: 25px;
+  color: $color-white;
+}
+
+.f-cover-big-title {
+  font-family: "Cocogoose", sans-serif;
+  font-weight: 500;
+  font-size: 5.3vw;
+  color: $color-orange;
+  text-transform: uppercase;
+}
+
+.f-title-email {
+  font-family: "lato", sans-serif;
+  color: $color-dark;
+  font-size: 1.5vw;
+  text-transform: initial;
+  font-weight: 700;
+}
+
+.f-title-logo-ecommerce {
+  font-family: "lato", sans-serif;
+  color: black;
+  font-size: 2vw;
+  font-weight: 900;
 }

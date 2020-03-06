@@ -147,7 +147,6 @@
 
     h2 {
       padding-top: 7vh;
-      font-size: 3vw;
     }
 
     h3 {
@@ -220,18 +219,6 @@
     }
   }
 
-  .container-tickets-main {
-    h2 {
-      font-size: 3.5vw;
-    }
-  }
-
-  .container-lunch-options {
-    h2 {
-      font-size: 3.5vw;
-    }
-  }
-
   .step1 {
     h4 {
       font-size: 1.7vw;
@@ -260,25 +247,11 @@
     width: 90vw;
   }
 
-  .f-md-lato-3-0-100-l {
-    font-family: "lato", sans-serif;
-    text-align: left;
-    line-height: 35px;
-  }
-
   .f-md-lato-2-8-bolder {
     font-family: "lato", sans-serif;
     text-transform: capitalize;
     font-size: 2.8vw;
     font-weight: bolder;
-  }
-
-  .f-md-lato-1-9-300 {
-    font-family: "lato", sans-serif;
-    font-weight: 300;
-    font-size: 1.9vw;
-    color: $color-white;
-    line-height: 25px;
   }
 
   .f-md-lato-0-9-900 {
@@ -293,14 +266,6 @@
     font-weight: 100;
     font-size: 5vw;
     color: $color-orange;
-  }
-
-  .f-md-goose-7-3-500 {
-    font-family: "Cocogoose", sans-serif;
-    font-weight: 500;
-    font-size: 7.3vw;
-    color: $color-orange;
-    text-transform: uppercase;
   }
 
   .f-md-lato-1-9-500 {
@@ -322,6 +287,30 @@
     font-family: "lato", sans-serif;
     font-weight: 500;
     font-size: 2.1vw;
+  }
+
+  .f-section-title {
+    font-size: 3.1vw;
+  }
+
+  .f-title-activitie {
+    font-size: 2.1vw;
+  }
+
+  .f-paragraph-activities {
+    font-size: 1.9vw;
+  }
+
+  .f-cover-big-title {
+    font-size: 7.3vw;
+  }
+
+  .f-title-email {
+    font-size: 1.9vw;
+  }
+
+  .f-title-logo-ecommerce {
+    font-size: 2.6vw;
   }
 
   .pb-md-1vw {
