@@ -510,10 +510,6 @@ body {
     border: 2px solid #fff;
     width: 70vw;
     padding: 0 3vw;
-    font-family: "lato", sans-serif;
-    font-weight: 500;
-    line-height: 30px;
-    font-size: 1.1vw;
     text-align: center; }
 
 .past-event-1 {
@@ -914,8 +910,6 @@ body {
   .img-logo-creative {
     padding: 4vh 8vw; }
 
-  .container-past-events p {
-    font-size: 1.4vw; }
   .container-past-events h2 {
     padding-bottom: 5vh; }
 
@@ -1193,9 +1187,6 @@ body {
     line-height: 25px; }
   .container-cover-about h4 {
     font-size: 2.4vw; }
-
-  .container-past-events p {
-    font-size: 2.2vw; }
 
   .container-cover h3 {
     padding-top: 4vh; }
