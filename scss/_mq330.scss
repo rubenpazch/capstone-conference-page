@@ -42,6 +42,30 @@
     line-height: 20px;
   }
 
+  .step1 {
+    h3 {
+      min-width: 44px;
+      font-size: 2.9vw;
+      line-height: 40px;
+    }
+
+    img {
+      width: 2vw;
+    }
+  }
+
+  .step2 {
+    h3 {
+      min-width: 44px;
+      font-size: 2.9vw;
+      line-height: 40px;
+    }
+
+    img {
+      width: 2vw;
+    }
+  }
+
   .f-section-title {
     font-size: 5.5vw;
   }
@@ -68,5 +92,10 @@
 
   .f-title-logo-ecommerce {
     font-size: 4.1vw;
+  }
+
+  .f-paragraph-info {
+    font-size: 3.2vw;
+    line-height: 20px;
   }
 }

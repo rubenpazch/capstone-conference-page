@@ -39,8 +39,9 @@
   display: flex;
   flex-flow: row;
   border-radius: 25px;
-  padding: 3vh 2vw;
+  padding: 3vh 3vw;
   border: 1px solid $color-gray;
+  width: 50vw;
 
   h3 {
     color: $color-orange;
@@ -49,13 +50,7 @@
     padding-right: 2vw;
     padding-left: 1vw;
     font-size: 1vw;
-  }
-
-  h4 {
-    color: $color-dark;
-    font-weight: 500;
-    font-family: "lato", sans-serif;
-    font-size: 1vw;
+    line-height: 30px;
   }
 
   img {
@@ -79,13 +74,7 @@
     padding-right: 2vw;
     padding-left: 1vw;
     font-size: 1vw;
-  }
-
-  h4 {
-    color: $color-dark;
-    font-weight: 500;
-    font-family: "lato", sans-serif;
-    font-size: 1vw;
+    line-height: 30px;
   }
 
   img {

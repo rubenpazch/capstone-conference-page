@@ -36,16 +36,6 @@
     }
   }
 
-  .step2 {
-    h4 {
-      font-size: 2.2vw;
-    }
-
-    h3 {
-      font-size: 2.2vw;
-    }
-  }
-
   .program-activities {
     display: flex;
     flex-flow: column;
@@ -80,9 +70,15 @@
   }
 
   .step1 {
-    h4 {
+    width: 90vw;
+
+    h3 {
       font-size: 2.2vw;
     }
+  }
+
+  .step2 {
+    width: 90vw;
 
     h3 {
       font-size: 2.2vw;
@@ -146,5 +142,9 @@
 
   .f-title-logo-ecommerce {
     font-size: 3.1vw;
+  }
+
+  .f-paragraph-info {
+    font-size: 2.2vw;
   }
 }

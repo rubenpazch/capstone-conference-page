@@ -220,9 +220,7 @@
   }
 
   .step1 {
-    h4 {
-      font-size: 1.7vw;
-    }
+    width: 80vw;
 
     h3 {
       font-size: 1.7vw;
@@ -230,9 +228,7 @@
   }
 
   .step2 {
-    h4 {
-      font-size: 1.7vw;
-    }
+    width: 80vw;
 
     h3 {
       font-size: 1.7vw;
@@ -315,5 +311,9 @@
 
   .pb-md-1vw {
     padding-bottom: 1vh;
+  }
+
+  .f-paragraph-info {
+    font-size: 1.9vw;
   }
 }

@@ -113,6 +113,13 @@
   font-size: 2vw;
   font-weight: 900; }
 
+.f-paragraph-info {
+  font-family: "lato", sans-serif;
+  font-weight: 500;
+  font-size: 1.2vw;
+  line-height: 30px;
+  color: #272a31; }
+
 * {
   box-sizing: border-box; }
 
@@ -603,20 +610,17 @@ body {
   display: flex;
   flex-flow: row;
   border-radius: 25px;
-  padding: 3vh 2vw;
-  border: 1px solid #d3d3d3; }
+  padding: 3vh 3vw;
+  border: 1px solid #d3d3d3;
+  width: 50vw; }
   .step1 h3 {
     color: #ec5242;
     font-weight: 600;
     font-family: "lato", sans-serif;
     padding-right: 2vw;
     padding-left: 1vw;
-    font-size: 1vw; }
-  .step1 h4 {
-    color: #272a31;
-    font-weight: 500;
-    font-family: "lato", sans-serif;
-    font-size: 1vw; }
+    font-size: 1vw;
+    line-height: 30px; }
   .step1 img {
     width: 0.8vw;
     padding-right: 0; }
@@ -634,12 +638,8 @@ body {
     font-family: "lato", sans-serif;
     padding-right: 2vw;
     padding-left: 1vw;
-    font-size: 1vw; }
-  .step2 h4 {
-    color: #272a31;
-    font-weight: 500;
-    font-family: "lato", sans-serif;
-    font-size: 1vw; }
+    font-size: 1vw;
+    line-height: 30px; }
   .step2 img {
     width: 0.8vw;
     padding-right: 0; }
@@ -919,15 +919,17 @@ body {
   .container-past-events h2 {
     padding-bottom: 5vh; }
 
-  .step1 h4 {
-    font-size: 1.4vw; }
-  .step1 h3 {
-    font-size: 1.4vw; }
+  .step1 {
+    padding: 3vh 7vw;
+    width: 70vw; }
+    .step1 h3 {
+      font-size: 1.5vw; }
 
-  .step2 h4 {
-    font-size: 1.4vw; }
-  .step2 h3 {
-    font-size: 1.4vw; }
+  .step2 {
+    padding: 3vh 7vw;
+    width: 70vw; }
+    .step2 h3 {
+      font-size: 1.5vw; }
 
   .table-prices {
     width: 80vw; }
@@ -952,7 +954,10 @@ body {
     font-size: 1.7vw; }
 
   .f-title-logo-ecommerce {
-    font-size: 2vw; } }
+    font-size: 2vw; }
+
+  .f-paragraph-info {
+    font-size: 1.5vw; } }
 @media (max-width: 767px) {
   .container-cover {
     padding: 0 5vw; }
@@ -1102,15 +1107,15 @@ body {
       width: 150px;
       margin: 5vh 3vw; }
 
-  .step1 h4 {
-    font-size: 1.7vw; }
-  .step1 h3 {
-    font-size: 1.7vw; }
+  .step1 {
+    width: 80vw; }
+    .step1 h3 {
+      font-size: 1.7vw; }
 
-  .step2 h4 {
-    font-size: 1.7vw; }
-  .step2 h3 {
-    font-size: 1.7vw; }
+  .step2 {
+    width: 80vw; }
+    .step2 h3 {
+      font-size: 1.7vw; }
 
   .table-prices {
     width: 90vw; }
@@ -1173,7 +1178,10 @@ body {
     font-size: 2.6vw; }
 
   .pb-md-1vw {
-    padding-bottom: 1vh; } }
+    padding-bottom: 1vh; }
+
+  .f-paragraph-info {
+    font-size: 1.9vw; } }
 @media (max-width: 576px) {
   .container-cover-about h1 {
     width: 90vw; }
@@ -1193,11 +1201,6 @@ body {
     padding-top: 4vh; }
   .container-cover h4 {
     padding-top: 4vh; }
-
-  .step2 h4 {
-    font-size: 2.2vw; }
-  .step2 h3 {
-    font-size: 2.2vw; }
 
   .program-activities {
     display: flex;
@@ -1221,10 +1224,15 @@ body {
         padding: 0 4vw;
         text-align: left; }
 
-  .step1 h4 {
-    font-size: 2.2vw; }
-  .step1 h3 {
-    font-size: 2.2vw; }
+  .step1 {
+    width: 90vw; }
+    .step1 h3 {
+      font-size: 2.2vw; }
+
+  .step2 {
+    width: 90vw; }
+    .step2 h3 {
+      font-size: 2.2vw; }
 
   .f-sm-lato-0-9-900 {
     font-family: "lato", sans-serif;
@@ -1272,7 +1280,10 @@ body {
     font-size: 2.6vw; }
 
   .f-title-logo-ecommerce {
-    font-size: 3.1vw; } }
+    font-size: 3.1vw; }
+
+  .f-paragraph-info {
+    font-size: 2.2vw; } }
 @media (max-width: 370px) {
   .container-cover h2 {
     margin-top: 0; }
@@ -1308,6 +1319,20 @@ body {
     font-size: 4vw;
     line-height: 20px; }
 
+  .step1 h3 {
+    min-width: 44px;
+    font-size: 2.9vw;
+    line-height: 40px; }
+  .step1 img {
+    width: 2vw; }
+
+  .step2 h3 {
+    min-width: 44px;
+    font-size: 2.9vw;
+    line-height: 40px; }
+  .step2 img {
+    width: 2vw; }
+
   .f-section-title {
     font-size: 5.5vw; }
 
@@ -1327,7 +1352,11 @@ body {
     font-size: 3.6vw; }
 
   .f-title-logo-ecommerce {
-    font-size: 4.1vw; } }
+    font-size: 4.1vw; }
+
+  .f-paragraph-info {
+    font-size: 3.2vw;
+    line-height: 20px; } }
 .icons-top-bar {
   width: 16px;
   height: 16px;
