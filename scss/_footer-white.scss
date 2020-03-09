@@ -1,0 +1,23 @@
+.footer-container-white {
+  width: 100%;
+  height: 40vh;
+  background-color: $color-white;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10vw;
+}
+
+.content-footer-white {
+  padding-left: 4vw;
+
+  h2 {
+    padding-bottom: 1vw;
+  }
+
+  p {
+    font-family: "lato", sans-serif;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,144 @@
+
+@media (max-width: 576px) {
+  .container-cover-about {
+    h1 {
+      width: 90vw;
+    }
+
+    p {
+      width: 85vw;
+    }
+
+    h3 {
+      padding: 4vh 0 0 4vw;
+      text-align: center;
+      line-height: 25px;
+    }
+
+    h4 {
+      font-size: 2.4vw;
+    }
+  }
+
+  .container-cover {
+    h3 {
+      padding-top: 4vh;
+    }
+
+    h4 {
+      padding-top: 4vh;
+    }
+  }
+
+  .program-activities {
+    display: flex;
+    flex-flow: column;
+
+    article {
+      width: 95vw;
+      margin-top: 10px;
+      height: 32vh;
+      flex-flow: row;
+
+      img {
+        height: 10vw;
+        width: 15vw;
+        padding: 0 3.5vw;
+      }
+
+      header {
+        padding: 0 2vw;
+        min-width: 20vw;
+
+        h2 {
+          text-align: left;
+          line-height: 25px;
+        }
+      }
+
+      p {
+        padding: 0 4vw;
+        text-align: left;
+      }
+    }
+  }
+
+  .step1 {
+    width: 90vw;
+
+    h3 {
+      font-size: 2.2vw;
+    }
+  }
+
+  .step2 {
+    width: 90vw;
+
+    h3 {
+      font-size: 2.2vw;
+    }
+  }
+
+  .f-sm-lato-0-9-900 {
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+    font-size: 0.9rem;
+    color: $color-dark;
+  }
+
+  .f-sm-lato-6-0-100 {
+    font-family: "lato", sans-serif;
+    font-weight: 100;
+    font-size: 6vw;
+    color: $color-orange;
+  }
+
+  .f-sm-lato-2-4-500 {
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    font-size: 2.4vw;
+    line-height: 30px;
+    color: $color-dark;
+  }
+
+  .f-sm-goose-5-0-600 {
+    font-family: "Cocogoose", sans-serif;
+    color: $color-dark;
+    font-size: 5vw;
+    text-transform: uppercase;
+  }
+
+  .f-sm-lato-2-9-500 {
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    font-size: 2.9vw;
+  }
+
+  .f-section-title {
+    font-size: 4.5vw;
+  }
+
+  .f-title-activitie {
+    font-size: 2.9vw;
+  }
+
+  .f-paragraph-activities {
+    font-size: 2.5vw;
+  }
+
+  .f-cover-big-title {
+    font-size: 7.3vw;
+  }
+
+  .f-title-email {
+    font-size: 2.6vw;
+  }
+
+  .f-title-logo-ecommerce {
+    font-size: 3.1vw;
+  }
+
+  .f-paragraph-info {
+    font-size: 2.2vw;
+  }
+}

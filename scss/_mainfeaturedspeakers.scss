@@ -1,0 +1,90 @@
+.container-featured {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4vw 0;
+
+  h2 {
+    font-family: "lato", sans-serif;
+    color: black;
+    font-size: 2vw;
+  }
+
+  span {
+    height: 1px;
+    padding: 1px;
+    background-color: orange;
+    content: "";
+    display: block;
+    width: 5vw;
+    margin: 2vw 0;
+  }
+}
+
+.speaker-preview {
+  display: flex;
+  flex-flow: wrap;
+  padding: 0 5vw;
+
+  article {
+    flex-grow: 1;
+    width: 50%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding-bottom: 4vw;
+    padding-top: 3vw;
+  }
+}
+
+.card-picture {
+  position: relative;
+
+  img {
+    width: 10vw;
+  }
+}
+
+.card-content {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: start;
+  padding-left: 1.3vw;
+  padding-right: 4.3vw;
+
+  h3 {
+    font-family: "lato", sans-serif;
+    font-style: italic;
+    color: $color-orange;
+    line-height: 25px;
+    font-size: 0.9rem;
+  }
+
+  span {
+    height: 1px;
+    padding: 1px;
+    background-color: $color-gray;
+    content: "";
+    display: block;
+    width: 3vw;
+    margin: 0.5vw 0;
+  }
+
+  p {
+    line-height: 20px;
+    font-family: "lato", sans-serif;
+    font-size: 0.8rem;
+  }
+}
+
+.picture-back-png {
+  position: absolute;
+  top: -15px;
+  bottom: 0;
+  left: -15px;
+  z-index: -1;
+}

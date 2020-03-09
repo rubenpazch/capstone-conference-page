@@ -1,0 +1,21 @@
+.nav-bar-root {
+  padding: 0 10vh;
+  width: 100%;
+  color: $color-dark;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: $color-gray-1;
+}
+
+.list-root-bar {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding: 3vh 0;
+
+  li {
+    padding: 0 1vw;
+  }
+}

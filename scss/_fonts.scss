@@ -1,0 +1,4 @@
+@import '../scss/mixins.scss';
+
+@include font-face("Cocogoose", '../fonts/Cocogoose', 500, normal);
+@include font-face("Lato", '../fonts/lato-v16-latin-regular', 500, normal);

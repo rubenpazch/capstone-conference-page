@@ -1,0 +1,22 @@
+.nav-white-bar {
+  background-color: $color-white;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vh;
+  height: 12vh;
+  -webkit-box-shadow: 0 4px 4px 0 $color-gray-2;
+  -moz-box-shadow: 0 4px 4px 0 $color-gray-2;
+  box-shadow: 0 4px 4px 0 $color-gray-2;
+  z-index: 996;
+}
+
+.list-nav-bar {
+  li {
+    display: inline;
+    color: $color-white;
+    line-height: 30px;
+    padding-right: 3.5vw;
+  }
+}

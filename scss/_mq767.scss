@@ -1,0 +1,319 @@
+@media (max-width: 767px) {
+  .container-cover {
+    padding: 0 5vw;
+
+    p {
+      width: 90vw;
+    }
+
+    h2 {
+      margin-top: 6vh;
+    }
+
+    h3 {
+      padding-top: 4vh;
+    }
+
+    h4 {
+      padding-top: 2vh;
+    }
+  }
+
+  .container-cover-about {
+    h4 {
+      font-size: 1.7vw;
+    }
+  }
+
+  .list-past-pictures {
+    flex-flow: column;
+  }
+
+  .past-event-1 {
+    margin-top: 3vh;
+    width: 80vw;
+    height: 50vh;
+  }
+
+  .past-event-2 {
+    margin-top: 3vh;
+    width: 80vw;
+    height: 50vh;
+  }
+
+  #subtitle-about {
+    display: initial;
+  }
+
+  #top-bar-1 {
+    display: none;
+  }
+
+  #top-bar-2 {
+    display: inherit;
+  }
+
+  .container-featured {
+    padding: 4vh 0;
+
+    h2 {
+      font-size: 3.5vw;
+      padding-top: 5vh;
+    }
+
+    span {
+      margin: 5vh 0;
+    }
+  }
+
+  .speaker-preview {
+    flex-flow: column;
+
+    article {
+      width: 100%;
+      padding-bottom: 9vw;
+    }
+  }
+
+  .card-picture {
+    img {
+      width: 20vw;
+    }
+  }
+
+  .content-footer-dark {
+    padding: 0;
+
+    h2 {
+      padding-top: 3vh;
+      text-align: center;
+      padding-bottom: 3vh;
+    }
+
+    p {
+      text-align: center;
+      padding: 0 6vw;
+
+      a {
+        font-weight: bold;
+        text-decoration: none;
+        color: $color-white;
+      }
+    }
+  }
+
+  .card-content {
+    padding-left: 3vw;
+    padding-right: 1.5vw;
+
+    span {
+      padding: 1px;
+      margin: 4px;
+    }
+  }
+
+  .footer-container-dark {
+    height: 100%;
+    padding: 10vh 5vw;
+  }
+
+  .img-footer {
+    width: 40vw;
+  }
+
+  .footer-container {
+    height: 100%;
+    padding: 10vh 5vw;
+  }
+
+  .content-footer {
+    padding: 0;
+
+    h2 {
+      padding-top: 3vh;
+      text-align: center;
+      padding-bottom: 3vh;
+    }
+
+    p {
+      text-align: center;
+      padding: 0 6vw;
+    }
+  }
+
+  .container-program {
+    height: 100%;
+    background-size: cover;
+
+    h2 {
+      padding-top: 7vh;
+    }
+
+    h3 {
+      padding-bottom: 3vw;
+    }
+
+    span {
+      width: 5vw;
+      margin: 7vh 0;
+    }
+
+    button {
+      margin-top: 5vh;
+      margin-bottom: 8vh;
+    }
+  }
+
+  .program-activities {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .item-activitie {
+    width: 95vw;
+    margin-top: 5px;
+    height: 25vh;
+    flex-flow: row;
+
+    img {
+      height: 10vw;
+      width: 15vw;
+      padding: 0 3.5vw;
+      margin-top: 15px;
+    }
+
+    header {
+      padding: 0 2vw;
+      min-width: 20vw;
+    }
+
+    p {
+      padding: 0 5vw;
+    }
+  }
+
+  #SeeWholeProgram {
+    display: none;
+  }
+
+  #btnJoinWorkshop {
+    display: initial;
+  }
+
+  .container-partner {
+    height: 100%;
+
+    h2 {
+      font-size: 4vw;
+      padding-top: 3vh;
+    }
+  }
+
+  .list-sponsor-logo {
+    flex-flow: wrap;
+
+    img {
+      width: 150px;
+      margin: 5vh 3vw;
+    }
+  }
+
+  .step1 {
+    width: 80vw;
+
+    h3 {
+      font-size: 1.7vw;
+    }
+  }
+
+  .step2 {
+    width: 80vw;
+
+    h3 {
+      font-size: 1.7vw;
+    }
+  }
+
+  .table-prices {
+    width: 90vw;
+  }
+
+  .table-lunch-options {
+    width: 90vw;
+  }
+
+  .f-md-lato-2-8-bolder {
+    font-family: "lato", sans-serif;
+    text-transform: capitalize;
+    font-size: 2.8vw;
+    font-weight: bolder;
+  }
+
+  .f-md-lato-0-9-900 {
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+    font-size: 0.9rem;
+    color: $color-dark;
+  }
+
+  .f-md-lato-5-0-100 {
+    font-family: "lato", sans-serif;
+    font-weight: 100;
+    font-size: 5vw;
+    color: $color-orange;
+  }
+
+  .f-md-lato-1-9-500 {
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    font-size: 1.9vw;
+    line-height: 30px;
+    color: $color-dark;
+  }
+
+  .f-md-goose-3-0-600 {
+    font-family: "Cocogoose", sans-serif;
+    color: $color-dark;
+    font-size: 3vw;
+    text-transform: uppercase;
+  }
+
+  .f-md-lato-2-1-500 {
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    font-size: 2.1vw;
+  }
+
+  .f-section-title {
+    font-size: 3.1vw;
+  }
+
+  .f-title-activitie {
+    font-size: 2.1vw;
+  }
+
+  .f-paragraph-activities {
+    font-size: 1.9vw;
+  }
+
+  .f-cover-big-title {
+    font-size: 7.3vw;
+  }
+
+  .f-title-email {
+    font-size: 1.9vw;
+  }
+
+  .f-title-logo-ecommerce {
+    font-size: 2.6vw;
+  }
+
+  .pb-md-1vw {
+    padding-bottom: 1vh;
+  }
+
+  .f-paragraph-info {
+    font-size: 1.9vw;
+  }
+}

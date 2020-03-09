@@ -1,0 +1,101 @@
+
+@media (max-width: 370px) {
+  .container-cover {
+    h2 {
+      margin-top: 0;
+    }
+  }
+
+  .f-sx-lato-0-7-900 {
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+    font-size: 0.75rem;
+    color: $color-dark;
+  }
+
+  .f-sx-lato-7-0-100 {
+    font-family: "lato", sans-serif;
+    font-weight: 100;
+    font-size: 7vw;
+    color: $color-orange;
+  }
+
+  .f-sx-lato-3-9-500 {
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    font-size: 3.9vw;
+    line-height: 20px;
+    color: $color-dark;
+  }
+
+  .f-sx-goose-5-0-600 {
+    font-family: "Cocogoose", sans-serif;
+    color: $color-dark;
+    font-size: 5vw;
+    text-transform: uppercase;
+  }
+
+  .f-sx-lato-4-0-500 {
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    font-size: 4vw;
+    line-height: 20px;
+  }
+
+  .step1 {
+    h3 {
+      min-width: 44px;
+      font-size: 2.9vw;
+      line-height: 40px;
+    }
+
+    img {
+      width: 2vw;
+    }
+  }
+
+  .step2 {
+    h3 {
+      min-width: 44px;
+      font-size: 2.9vw;
+      line-height: 40px;
+    }
+
+    img {
+      width: 2vw;
+    }
+  }
+
+  .f-section-title {
+    font-size: 5.5vw;
+  }
+
+  .f-title-activitie {
+    font-size: 3.6vw;
+  }
+
+  .f-paragraph-activities {
+    font-size: 3.9vw;
+  }
+
+  .f-cover-big-title {
+    font-size: 10vw;
+  }
+
+  #text-footer-aditional {
+    display: none;
+  }
+
+  .f-title-email {
+    font-size: 3.6vw;
+  }
+
+  .f-title-logo-ecommerce {
+    font-size: 4.1vw;
+  }
+
+  .f-paragraph-info {
+    font-size: 3.5vw;
+    line-height: 20px;
+  }
+}
