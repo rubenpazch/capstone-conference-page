@@ -176,7 +176,7 @@ the assignment can be found  [here](https://www.notion.so/HTML-CSS-capstone-proj
 
 
 
-### Video Presentation of the project
+## Video Presentation of the project
 
 You can see the video presentation on the next link [here](https://www.youtube.com/watch?v=4a5Yf33ODfQ).
 
