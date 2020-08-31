@@ -39,8 +39,10 @@
     <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;
     <a href="#Extra-Feature">Extra Feature</a> &#10023;
     <a href="#Screenshots-of-the-App">Screenshots of the App</a> &#10023;
+    <a href="#Video-Presentation-of-the-project">Video Presentation of the project</a> &#10023;
     <a href="#Authors">Author</a> &#10023;
     
+     
   </p>
 
 
@@ -58,6 +60,88 @@ Conference Page is a static site developed using <b>HTML, CSS, Javascript, SASS,
 ## Getting Started
 
 This project was built using HTML, CSS, Flexbox, Javascript, it is a web application and for running on your local environment you should follow these guidelines.
+
+
+### Prerequisites
+
+- FontAwesome
+- SASS
+
+
+## Built With
+
+Concepts used on this project
+
+- HTML
+- CSS
+- SASS
+- Javascript
+- font-awesome
+
+
+
+### Setup
+
+The project repository can be found in [GitHub link](https://github.com/rubenpazch/capstone-conference-page) or just clone the project using this command. 
+
+
+
+```
+Using SSH 
+
+# git clone  https://github.com/rubenpazch/capstone-conference-page.git
+
+Using HTTPS
+
+# git clone  git@github.com:rubenpazch/capstone-conference-page.git
+
+```
+
++ Open terminal on your workspace with
+
+```
+cd /home/workspace/capstone-conference-page
+```
+
+
+## Install
+
+
+To get started with the app, clone the repo, and to change the css style run:
+
+```
+# sass --watch css:scss
+```
+
+Change files located on SCSS folder
+
+### Usage
+
+To watch the local version of this project check on your browser the  index file
+
+
+
+
+
+## SASS structure
+
+For this project, I use SASS for managing CSS behavior and have the next structure.
+
+* CSS
+* fonts
+* img
+* js
+* scss
+
+
+### Tools used on this project
+
+- Stickler CI
+- Visual Studio Code
+- CSS Formatter
+- Stylelint
+
+
 
 
 ## Whats is included on this project
@@ -81,57 +165,26 @@ This project includes the next parts:
   + Select your lunch
   + Footer
 
+
+
 ## Link to assignment
 
 the assignment can be found  [here](https://www.notion.so/HTML-CSS-capstone-project-Conference-page-ed3efca4b9824484a9df7f9f24067ff7).
 
-## Built With
-
-Concepts used on this project
-
-- HTML
-- CSS
-- SASS
-- Javascript
-- font-awesome
-
-Tools used on this project
-
-- Stickler CI
-- Visual Studio Code
-- CSS Formatter
-- Stylelint
 
 
-## Screenshot
 
-![screenshot](./img/screnshot-site.gif)
 
-## Live Demo
 
-You can see the [live preview](https://compassionate-nightingale-93193a.netlify.com/)
 
-## SASS structure
-
-For this project, I use SASS for managing CSS behavior and have the next structure.
-
-* CSS
-* fonts
-* img
-* js
-* scss
-
-For making changes to this project you should run SASS with this command
-
-1. Go to the file where your project is located C:/www/project_root
-2. sass --watch scss:css
-3. Change files located on SCSS folder
-
-## Video Presentation of the project
+### Video Presentation of the project
 
 You can see the video presentation on the next link [here](https://www.youtube.com/watch?v=4a5Yf33ODfQ).
 
 ![video](./img/video-presentation.png)
+
+
+
 
 ## Authors
 
