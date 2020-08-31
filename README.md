@@ -15,29 +15,29 @@
 <p align="center">
     <a href="https://img.shields.io/badge/Microverse-blueviolet" alt="Contributors">
         <img src="https://img.shields.io/badge/Microverse-blueviolet" /></a>
-    <a href="https://ruby-doc.org/core-2.7.0/Array.html" alt="Ruby">
-        <img src="https://img.shields.io/badge/Ruby-2.6.5-blue" /></a>
-    <a href="https://rubyonrails.org/" alt="Rails">
-        <img src="https://img.shields.io/badge/Rails-6.0.3-blue" /></a>
-    <a href="https://www.rubydoc.info/gems/bootstrap-sass/3.3.6" alt="Bootstrap-sass">
-        <img src="https://img.shields.io/badge/Bootstrap--sass-3.4.1-lightgrey" /></a>
-    <a href="https://rspec.info/documentation/" alt="Rspec-rails">
-        <img src="https://img.shields.io/badge/Rspec--rails-4.0.0-orange" /></a>
-    <a href="https://rubygems.org/gems/pg/versions/0.18.4?locale=es" alt="Postgresql">
-        <img src="https://img.shields.io/badge/Postgresql-2.0-yellow" /></a>
-    <a href="https://www.heroku.com/" alt="Heroku">
-        <img src="https://img.shields.io/badge/Heroku-published-lightgrey" /></a>
+    <a href="https://developer.mozilla.org/es/docs/HTML/HTML5" alt="HTML">
+        <img src="https://img.shields.io/badge/HTML-5-red" /></a>
+    <a href="https://www.w3schools.com/css/" alt="CSS">
+        <img src="https://img.shields.io/badge/CSS-3-green" /></a>
+    <a href="https://www.w3schools.com/css/css3_flexbox.asp" alt="FlexBox">
+        <img src="https://img.shields.io/badge/FlexBox-HTML-orange" /></a>
+    <a href="https://www.w3schools.com/html/html_responsive.asp" alt="Responsive">
+        <img src="https://img.shields.io/badge/Responsive-True-yellow" /></a>
+    <a href="https://fontawesome.com/" alt="FontAwesome">
+        <img src="https://img.shields.io/badge/Font--awesome-5.1.0-lightgrey" /></a>
+    <a href="https://sass-lang.com/" alt="SASS">
+        <img src="https://img.shields.io/badge/SASS-true-yellowgreen" /></a>
 </p>
 
   <p align="center">    
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore this project »</strong></a>
+    <a href="https://github.com/rubenpazch/capstone-conference-page"><strong>Explore this project »</strong></a>
     <br />
     <br />&#10023;
-    <a href="https://morning-taiga-75196.herokuapp.com/">View Demo</a>   &#10023;  
-    <a href="https://github.com/rubenpazch/Group-our-transactions/issues">Report Bug</a>    &#10023;
+    <a href="https://compassionate-nightingale-93193a.netlify.com//">View Demo</a>   &#10023;  
+    <a href="https://github.com/rubenpazch/capstone-conference-page/issues">Report Bug</a>    &#10023;
     <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;
-    <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Extra-Feature">Extra Feature</a> &#10023;
+    <a href="#Extra-Feature">Extra Feature</a> &#10023;
     <a href="#Screenshots-of-the-App">Screenshots of the App</a> &#10023;
     <a href="#Authors">Author</a> &#10023;
     
@@ -47,15 +47,7 @@
 
 <br/>
 
-
-
-
-Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum sections.
-
-The project HTML & CSS Capstone Project is based on an online website for a conference. You should follow the given design of the website, but you must personalize the content.
-
-For this project I personalize the content for a Workshop E-commerce, it is about building your own site eCommerce and is oriented to entrepreneurs or people with business, this conference will be located on the city of Cusco in Peru and will be organized by Cusco Solutions that is a Peruvian company.    
-
+Conference Page is a static site developed using <b>HTML, CSS, Javascript, SASS, Font Awesome</b>,  it was used <b>FlexBox</b> to build the layout from the entire website. To build this site it was given an initial design and some basic specifications from the client, the content of this project were personalized for a Workshop E-commerce if a company wants to promote an event for a conference, congress or any activity related with education, they can use this site, there is a section to show information some general information,  show all program information, featured speakers, partners, tickers.
 <br/>
 
 <img src="./img/screnshot-site.gif" width="100%"/>
