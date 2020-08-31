@@ -36,12 +36,11 @@
     <br />&#10023;
     <a href="https://compassionate-nightingale-93193a.netlify.com//">View Demo</a>   &#10023;  
     <a href="https://github.com/rubenpazch/capstone-conference-page/issues">Report Bug</a>    &#10023;
-    <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;
-    <a href="#Extra-Feature">Extra Feature</a> &#10023;
-    <a href="#Screenshots-of-the-App">Screenshots of the App</a> &#10023;
+    <a href="#Getting-Started">Getting Started</a> &#10023; <a href="#Install">Installing</a> &#10023;        
+    <a href="#Whats-is-included-on-this-project">Whats is included on this project</a> &#10023;        
     <a href="#Video-Presentation-of-the-project">Video Presentation of the project</a> &#10023;
     <a href="#Authors">Author</a> &#10023;
-    
+     
      
   </p>
 
@@ -68,7 +67,7 @@ This project was built using HTML, CSS, Flexbox, Javascript, it is a web applica
 - SASS
 
 
-## Built With
+### Built With
 
 Concepts used on this project
 
@@ -123,7 +122,7 @@ To watch the local version of this project check on your browser the  index file
 
 
 
-## SASS structure
+### SASS structure
 
 For this project, I use SASS for managing CSS behavior and have the next structure.
 
