@@ -195,9 +195,7 @@ You can see the video presentation on the next link [here](https://www.youtube.c
 
 ## Contributing
 
-This is an education project as a part of the Microverse so contributing is not accepted.
-
-Contributions, issues and feature requests are welcome!
+This project was created for educational purposes as part of the Microverse web development curriculum; contributing is not accepted.
 
 Feel free to check the [issues](https://github.com/rubenpazch/capstone-conference-page/issues).
 
